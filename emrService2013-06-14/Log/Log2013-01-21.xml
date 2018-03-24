@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventLogs>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 对象 名称 'System.Data.SqlClient.SqlConnection.hospital.dbo.TDJKZ' 包含的前缀超出了最大限值。最多只能有 3 个。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 16:38:33</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: '.' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 16:37:04</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: '.' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 16:31:10</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: '.' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 16:26:55</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 由于数据库 'hospital' 离线，无法打开该数据库。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 15:21:59</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 由于数据库 'hospital' 离线，无法打开该数据库。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 15:11:49</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 由于数据库 'hospital' 离线，无法打开该数据库。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 15:10:40</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 由于数据库 'hospital' 离线，无法打开该数据库。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(String sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2013-1-21 15:10:26</RecordTime>
+  </Log>
+</EventLogs>

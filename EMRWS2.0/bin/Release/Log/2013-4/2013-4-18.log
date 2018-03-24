@@ -1,0 +1,49 @@
+16:46:52	[日志记录开始] 123456789
+16:48:58	[EX756987457752] 未将对象引用设置到对象的实例。>>System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EMR.ThisAddIn.xmlPatternWriter()
+   在 EMR.ThisAddIn.CreateLocalStorage(Boolean refresh)
+   在 EMR.ThisAddIn.CreateWorkFolders(CreateWorkFolderMode buildMode)
+   在 EMR.Welcome.LoadData()
+16:52:18	[日志记录开始] 123456789
+16:52:22	[EX756987457752] 未将对象引用设置到对象的实例。>>System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EMR.ThisAddIn.xmlPatternWriter()
+   在 EMR.ThisAddIn.CreateLocalStorage(Boolean refresh)
+   在 EMR.ThisAddIn.CreateWorkFolders(CreateWorkFolderMode buildMode)
+   在 EMR.Welcome.LoadData()
+16:53:43	[日志记录开始] 123456789
+17:15:10	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+17:16:24	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+17:16:24	[现在时间] 12013-04-18 17:14
+17:16:24	[现在时间] 22013-04-18 17:14
+17:16:24	[现在时间] 4:2013-04-18 17:14
+17:16:24	[现在时间] 5:OK
+17:16:24	[现在时间] 12013-04-18 17:14
+17:16:24	[现在时间] 22013-04-18 17:14
+17:16:24	[现在时间] 4:2013-04-18 17:14
+17:16:24	[现在时间] 5:OK
+17:16:24	[EX9134474991] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+17:16:24	[EX9134474999] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+17:16:24	[EX9134474979] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+17:16:25	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+17:16:36	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)

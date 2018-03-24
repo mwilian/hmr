@@ -1,0 +1,28 @@
+09:20:28	[日志记录开始] 123456789
+09:20:38	[EX756987457750] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.Exception: in web.config do not discover config:"hisDBBA"
+   在 AboutConfig.ConfigClass.GetConfigString(String SectionName, String key) 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\ConfigClass.cs:行号 66
+   在 emrPatients..ctor() 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\emrPatients.cs:行号 41
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.Exception: in web.config do not discover config:"hisDBBA"
+   在 AboutConfig.ConfigClass.GetConfigString(String SectionName, String key) 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\ConfigClass.cs:行号 66
+   在 emrPatients..ctor() 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\emrPatients.cs:行号 41
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ConnectHisdb() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 4130
+   在 EMR.ThisAddIn.CheckOffline() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1380
+   在 EMR.Welcome.LoadData() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Welcome.cs:行号 214
+09:24:57	[日志记录开始] 123456789
+09:25:01	[EX756987457750] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.Exception: in web.config do not discover config:"hisDBBA"
+   在 AboutConfig.ConfigClass.GetConfigString(String SectionName, String key) 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\ConfigClass.cs:行号 66
+   在 emrPatients..ctor() 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\emrPatients.cs:行号 41
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.Exception: in web.config do not discover config:"hisDBBA"
+   在 AboutConfig.ConfigClass.GetConfigString(String SectionName, String key) 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\ConfigClass.cs:行号 66
+   在 emrPatients..ctor() 位置 e:\other\20150129 程序\emr 静海\emrService2013-06-14\App_Code\emrPatients.cs:行号 41
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ConnectHisdb() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 4130
+   在 EMR.ThisAddIn.CheckOffline() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1380
+   在 EMR.Welcome.LoadData() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Welcome.cs:行号 214
+09:29:19	[日志记录开始] 123456789
+09:35:31	[日志记录开始] 123456789

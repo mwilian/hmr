@@ -1,0 +1,3551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://shoujia.org/emrorders/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://shoujia.org/emrorders/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://shoujia.org/emrorders/">
+      <s:element name="OutpatientBeenSeeing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="rstatus" type="tns:RegState" />
+            <s:element minOccurs="1" maxOccurs="1" name="callQueue" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="RegState">
+        <s:restriction base="s:string">
+          <s:enumeration value="Normal" />
+          <s:enumeration value="Seeing" />
+          <s:enumeration value="Reserve1" />
+          <s:enumeration value="Transfered" />
+          <s:enumeration value="Reaseve2" />
+          <s:enumeration value="Reaseve3" />
+          <s:enumeration value="Reaseve4" />
+          <s:enumeration value="Reaseve5" />
+          <s:enumeration value="Expired" />
+          <s:enumeration value="Finished" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="OutpatientBeenSeeingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OutpatientBeenSeeingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImageExamTypes">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImageExamTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImageExamTypesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImageExamItems">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImageExamItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImageExamItemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImageExamStyles">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImageExamStylesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImageExamStylesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImageExamFeeIndexes">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImageExamFeeIndexesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImageExamFeeIndexesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImageExamInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImageExamInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImageExamInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PhysicalExamTypes">
+        <s:complexType />
+      </s:element>
+      <s:element name="PhysicalExamTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PhysicalExamTypesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PhysicalExamItems">
+        <s:complexType />
+      </s:element>
+      <s:element name="PhysicalExamItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PhysicalExamItemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestTypes">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestTypesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestItems">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestItemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestItemsDepartments">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestItemsDepartmentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestItemsDepartmentsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestSubitems">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestSubitemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestSubitemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExamTestInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="ExamTestInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExamTestInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TreatClass">
+        <s:complexType />
+      </s:element>
+      <s:element name="TreatClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TreatClassResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TreatSubitems">
+        <s:complexType />
+      </s:element>
+      <s:element name="TreatSubitemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TreatSubitemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TreatOrder">
+        <s:complexType />
+      </s:element>
+      <s:element name="TreatOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TreatOrderResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TreatOrderDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="orderSequence" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TreatOrderDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TreatOrderDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TreatInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="TreatInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TreatInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExamTestFeeItems">
+        <s:complexType />
+      </s:element>
+      <s:element name="ExamTestFeeItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExamTestFeeItemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExamTestPriceList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExamTestPriceListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExamTestPriceListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExamTestChargeInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExamTestChargeInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExamTestChargeInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRegistryIDByCardNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="department" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="regDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRegistryIDByCardNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRegistryIDByCardNumResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClinicalInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="department" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="limitInDays" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClinicalInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetClinicalInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrescriptionForOutPatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrescriptionForOutPatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPrescriptionForOutPatientResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrescriptionForOneNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="prescriptionNum" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPrescriptionForOneNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPrescriptionForOneNumberResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatForOutPatientByRegistryID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatForOutPatientByRegistryIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTreatForOutPatientByRegistryIDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatForOutPatientByBill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="billNum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatForOutPatientByBillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTreatForOutPatientByBillResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTestResultForOneRequisition">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="requisitionNum" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTestResultForOneRequisitionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTestResultForOneRequisitionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPoorPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dayLimit" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPoorPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPoorPatientsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHistoryRegistryInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="archiveNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHistoryRegistryInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHistoryRegistryInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatForOutPatientByCardNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNum" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dayStart" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatForOutPatientByCardNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTreatForOutPatientByCardNumResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientsForArchiveNumByName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientsForArchiveNumByNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientsForArchiveNumByNameResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRegistryIDsForOneCardNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRegistryIDsForOneCardNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRegistryIDsForOneCardNumResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCardTypeByCardNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCardTypeByCardNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCardTypeByCardNumResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeposit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDepositResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDepositResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRegistryInfoByCardNumForCallBack">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="department" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dayStart" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="cardNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRegistryInfoByCardNumForCallBackResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRegistryInfoByCardNumForCallBackResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfoByRegistryIDForQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderInfoByRegistryIDForQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderInfoByRegistryIDForQueryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDepartmentsForRegistry">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDepartmentsForRegistryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDepartmentsForRegistryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOutPatientTreatFeeForOneOperator">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="opcode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dayFrom" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dayTo" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOutPatientTreatFeeForOneOperatorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOutPatientTreatFeeForOneOperatorResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatFeeForOneOutPatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="opcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreatFeeForOneOutPatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTreatFeeForOneOutPatientResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Icd10">
+        <s:complexType />
+      </s:element>
+      <s:element name="Icd10Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Icd10Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemsForBeInpatient">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetItemsForBeInpatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetItemsForBeInpatientResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Rooms">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="areaCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RoomsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DrugListForOnePharmacy">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pharmacyCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DrugListForOnePharmacyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrugListForOnePharmacyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AnaesthesiaDrugList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pharmacyCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AnaesthesiaDrugListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AnaesthesiaDrugListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DrugWayList">
+        <s:complexType />
+      </s:element>
+      <s:element name="DrugWayListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrugWayListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChineseDrugWayList">
+        <s:complexType />
+      </s:element>
+      <s:element name="ChineseDrugWayListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChineseDrugWayListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChineseDrugHowList">
+        <s:complexType />
+      </s:element>
+      <s:element name="ChineseDrugHowListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChineseDrugHowListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DrugTimeList">
+        <s:complexType />
+      </s:element>
+      <s:element name="DrugTimeListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrugTimeListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PharmacyList">
+        <s:complexType />
+      </s:element>
+      <s:element name="PharmacyListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PharmacyListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DrugKindList">
+        <s:complexType />
+      </s:element>
+      <s:element name="DrugKindListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrugKindListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CombineConflict">
+        <s:complexType />
+      </s:element>
+      <s:element name="CombineConflictResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CombineConflictResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DrugListEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pharmacyCodes" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pharmacyCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DrugListExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DrugListExResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedOrderForDoctor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedOrderForDoctorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PredefinedOrderForDoctorResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedOrderForDepartment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedOrderForDepartmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PredefinedOrderForDepartmentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedItemsForDoctor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedItemsForDoctorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PredefinedItemsForDoctorResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedItemsForDepartment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedItemsForDepartmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PredefinedItemsForDepartmentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrivateDrugList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PrivateDrugListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PrivateDrugListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPrivateDrug">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="drugCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="drugKindCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPrivateDrugResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddPrivateDrugResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedFull">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredefinedFullResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PredefinedFullResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPredefinedFull">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="predefined">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="orderPk" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPredefinedFullResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddPredefinedFullResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="orderPk" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePredefinedFull">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="departmentCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="predefined">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="oldOrderPk" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="newOrderPk" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePredefinedFullResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdatePredefinedFullResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="newOrderPk" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePredefinedFull">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="oldOrderPk" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePredefinedFullResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeletePredefinedFullResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewOutOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsOrder">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="errors">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewOutOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewOutOrderResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="errors">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OldOutOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsOrder">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="errors">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OldOutOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OldOutOrderResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="errors">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RemoveOutOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sequence" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="error" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RemoveOutOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RemoveOutOrderResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="error" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayReturn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="total" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="billNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayReturnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PayReturnResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FinishOutPatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="callQueue" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FinishOutPatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FinishOutPatientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecallOutPatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="opcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="reason" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="doctorID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecallOutPatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecallOutPatientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OutTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="department" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="oldDepartment" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="callQueue" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OutTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OutTransferResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnSeePatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registryID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="registryType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="callQueue" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnSeePatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UnSeePatientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BeInpatient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsInfo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="callQueue" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BeInpatientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BeInpatientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="OutpatientBeenSeeingSoapIn">
+    <wsdl:part name="parameters" element="tns:OutpatientBeenSeeing" />
+  </wsdl:message>
+  <wsdl:message name="OutpatientBeenSeeingSoapOut">
+    <wsdl:part name="parameters" element="tns:OutpatientBeenSeeingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:ImageExamTypes" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:ImageExamTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:ImageExamItems" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:ImageExamItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamStylesSoapIn">
+    <wsdl:part name="parameters" element="tns:ImageExamStyles" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamStylesSoapOut">
+    <wsdl:part name="parameters" element="tns:ImageExamStylesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamFeeIndexesSoapIn">
+    <wsdl:part name="parameters" element="tns:ImageExamFeeIndexes" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamFeeIndexesSoapOut">
+    <wsdl:part name="parameters" element="tns:ImageExamFeeIndexesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:ImageExamInfo" />
+  </wsdl:message>
+  <wsdl:message name="ImageExamInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:ImageExamInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="PhysicalExamTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:PhysicalExamTypes" />
+  </wsdl:message>
+  <wsdl:message name="PhysicalExamTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:PhysicalExamTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="PhysicalExamItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:PhysicalExamItems" />
+  </wsdl:message>
+  <wsdl:message name="PhysicalExamItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:PhysicalExamItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:TestTypes" />
+  </wsdl:message>
+  <wsdl:message name="TestTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:TestTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:TestItems" />
+  </wsdl:message>
+  <wsdl:message name="TestItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:TestItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestItemsDepartmentsSoapIn">
+    <wsdl:part name="parameters" element="tns:TestItemsDepartments" />
+  </wsdl:message>
+  <wsdl:message name="TestItemsDepartmentsSoapOut">
+    <wsdl:part name="parameters" element="tns:TestItemsDepartmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSubitemsSoapIn">
+    <wsdl:part name="parameters" element="tns:TestSubitems" />
+  </wsdl:message>
+  <wsdl:message name="TestSubitemsSoapOut">
+    <wsdl:part name="parameters" element="tns:TestSubitemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:ExamTestInfo" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExamTestInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="TreatClassSoapIn">
+    <wsdl:part name="parameters" element="tns:TreatClass" />
+  </wsdl:message>
+  <wsdl:message name="TreatClassSoapOut">
+    <wsdl:part name="parameters" element="tns:TreatClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="TreatSubitemsSoapIn">
+    <wsdl:part name="parameters" element="tns:TreatSubitems" />
+  </wsdl:message>
+  <wsdl:message name="TreatSubitemsSoapOut">
+    <wsdl:part name="parameters" element="tns:TreatSubitemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TreatOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:TreatOrder" />
+  </wsdl:message>
+  <wsdl:message name="TreatOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:TreatOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="TreatOrderDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:TreatOrderDetail" />
+  </wsdl:message>
+  <wsdl:message name="TreatOrderDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:TreatOrderDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="TreatInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:TreatInfo" />
+  </wsdl:message>
+  <wsdl:message name="TreatInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:TreatInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestFeeItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:ExamTestFeeItems" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestFeeItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:ExamTestFeeItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestPriceListSoapIn">
+    <wsdl:part name="parameters" element="tns:ExamTestPriceList" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestPriceListSoapOut">
+    <wsdl:part name="parameters" element="tns:ExamTestPriceListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestChargeInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:ExamTestChargeInfo" />
+  </wsdl:message>
+  <wsdl:message name="ExamTestChargeInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExamTestChargeInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRegistryIDByCardNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRegistryIDByCardNum" />
+  </wsdl:message>
+  <wsdl:message name="GetRegistryIDByCardNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRegistryIDByCardNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetClinicalInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetClinicalInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetClinicalInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetClinicalInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPrescriptionForOutPatientSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPrescriptionForOutPatient" />
+  </wsdl:message>
+  <wsdl:message name="GetPrescriptionForOutPatientSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPrescriptionForOutPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPrescriptionForOneNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPrescriptionForOneNumber" />
+  </wsdl:message>
+  <wsdl:message name="GetPrescriptionForOneNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPrescriptionForOneNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatForOutPatientByRegistryIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreatForOutPatientByRegistryID" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatForOutPatientByRegistryIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreatForOutPatientByRegistryIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatForOutPatientByBillSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreatForOutPatientByBill" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatForOutPatientByBillSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreatForOutPatientByBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTestResultForOneRequisitionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTestResultForOneRequisition" />
+  </wsdl:message>
+  <wsdl:message name="GetTestResultForOneRequisitionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTestResultForOneRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPoorPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPoorPatients" />
+  </wsdl:message>
+  <wsdl:message name="GetPoorPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPoorPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHistoryRegistryInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHistoryRegistryInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetHistoryRegistryInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHistoryRegistryInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatForOutPatientByCardNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreatForOutPatientByCardNum" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatForOutPatientByCardNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreatForOutPatientByCardNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientsForArchiveNumByNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientsForArchiveNumByName" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientsForArchiveNumByNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientsForArchiveNumByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRegistryIDsForOneCardNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRegistryIDsForOneCardNum" />
+  </wsdl:message>
+  <wsdl:message name="GetRegistryIDsForOneCardNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRegistryIDsForOneCardNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCardTypeByCardNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCardTypeByCardNum" />
+  </wsdl:message>
+  <wsdl:message name="GetCardTypeByCardNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCardTypeByCardNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDepositSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDeposit" />
+  </wsdl:message>
+  <wsdl:message name="GetDepositSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRegistryInfoByCardNumForCallBackSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRegistryInfoByCardNumForCallBack" />
+  </wsdl:message>
+  <wsdl:message name="GetRegistryInfoByCardNumForCallBackSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRegistryInfoByCardNumForCallBackResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoByRegistryIDForQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderInfoByRegistryIDForQuery" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderInfoByRegistryIDForQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderInfoByRegistryIDForQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDepartmentsForRegistrySoapIn">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsForRegistry" />
+  </wsdl:message>
+  <wsdl:message name="GetDepartmentsForRegistrySoapOut">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsForRegistryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOutPatientTreatFeeForOneOperatorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOutPatientTreatFeeForOneOperator" />
+  </wsdl:message>
+  <wsdl:message name="GetOutPatientTreatFeeForOneOperatorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOutPatientTreatFeeForOneOperatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatFeeForOneOutPatientSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreatFeeForOneOutPatient" />
+  </wsdl:message>
+  <wsdl:message name="GetTreatFeeForOneOutPatientSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreatFeeForOneOutPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="Icd10SoapIn">
+    <wsdl:part name="parameters" element="tns:Icd10" />
+  </wsdl:message>
+  <wsdl:message name="Icd10SoapOut">
+    <wsdl:part name="parameters" element="tns:Icd10Response" />
+  </wsdl:message>
+  <wsdl:message name="GetItemsForBeInpatientSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemsForBeInpatient" />
+  </wsdl:message>
+  <wsdl:message name="GetItemsForBeInpatientSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemsForBeInpatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="RoomsSoapIn">
+    <wsdl:part name="parameters" element="tns:Rooms" />
+  </wsdl:message>
+  <wsdl:message name="RoomsSoapOut">
+    <wsdl:part name="parameters" element="tns:RoomsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DrugListForOnePharmacySoapIn">
+    <wsdl:part name="parameters" element="tns:DrugListForOnePharmacy" />
+  </wsdl:message>
+  <wsdl:message name="DrugListForOnePharmacySoapOut">
+    <wsdl:part name="parameters" element="tns:DrugListForOnePharmacyResponse" />
+  </wsdl:message>
+  <wsdl:message name="AnaesthesiaDrugListSoapIn">
+    <wsdl:part name="parameters" element="tns:AnaesthesiaDrugList" />
+  </wsdl:message>
+  <wsdl:message name="AnaesthesiaDrugListSoapOut">
+    <wsdl:part name="parameters" element="tns:AnaesthesiaDrugListResponse" />
+  </wsdl:message>
+  <wsdl:message name="DrugWayListSoapIn">
+    <wsdl:part name="parameters" element="tns:DrugWayList" />
+  </wsdl:message>
+  <wsdl:message name="DrugWayListSoapOut">
+    <wsdl:part name="parameters" element="tns:DrugWayListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChineseDrugWayListSoapIn">
+    <wsdl:part name="parameters" element="tns:ChineseDrugWayList" />
+  </wsdl:message>
+  <wsdl:message name="ChineseDrugWayListSoapOut">
+    <wsdl:part name="parameters" element="tns:ChineseDrugWayListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChineseDrugHowListSoapIn">
+    <wsdl:part name="parameters" element="tns:ChineseDrugHowList" />
+  </wsdl:message>
+  <wsdl:message name="ChineseDrugHowListSoapOut">
+    <wsdl:part name="parameters" element="tns:ChineseDrugHowListResponse" />
+  </wsdl:message>
+  <wsdl:message name="DrugTimeListSoapIn">
+    <wsdl:part name="parameters" element="tns:DrugTimeList" />
+  </wsdl:message>
+  <wsdl:message name="DrugTimeListSoapOut">
+    <wsdl:part name="parameters" element="tns:DrugTimeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="PharmacyListSoapIn">
+    <wsdl:part name="parameters" element="tns:PharmacyList" />
+  </wsdl:message>
+  <wsdl:message name="PharmacyListSoapOut">
+    <wsdl:part name="parameters" element="tns:PharmacyListResponse" />
+  </wsdl:message>
+  <wsdl:message name="DrugKindListSoapIn">
+    <wsdl:part name="parameters" element="tns:DrugKindList" />
+  </wsdl:message>
+  <wsdl:message name="DrugKindListSoapOut">
+    <wsdl:part name="parameters" element="tns:DrugKindListResponse" />
+  </wsdl:message>
+  <wsdl:message name="CombineConflictSoapIn">
+    <wsdl:part name="parameters" element="tns:CombineConflict" />
+  </wsdl:message>
+  <wsdl:message name="CombineConflictSoapOut">
+    <wsdl:part name="parameters" element="tns:CombineConflictResponse" />
+  </wsdl:message>
+  <wsdl:message name="DrugListExSoapIn">
+    <wsdl:part name="parameters" element="tns:DrugListEx" />
+  </wsdl:message>
+  <wsdl:message name="DrugListExSoapOut">
+    <wsdl:part name="parameters" element="tns:DrugListExResponse" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedOrderForDoctorSoapIn">
+    <wsdl:part name="parameters" element="tns:PredefinedOrderForDoctor" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedOrderForDoctorSoapOut">
+    <wsdl:part name="parameters" element="tns:PredefinedOrderForDoctorResponse" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedOrderForDepartmentSoapIn">
+    <wsdl:part name="parameters" element="tns:PredefinedOrderForDepartment" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedOrderForDepartmentSoapOut">
+    <wsdl:part name="parameters" element="tns:PredefinedOrderForDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedItemsForDoctorSoapIn">
+    <wsdl:part name="parameters" element="tns:PredefinedItemsForDoctor" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedItemsForDoctorSoapOut">
+    <wsdl:part name="parameters" element="tns:PredefinedItemsForDoctorResponse" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedItemsForDepartmentSoapIn">
+    <wsdl:part name="parameters" element="tns:PredefinedItemsForDepartment" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedItemsForDepartmentSoapOut">
+    <wsdl:part name="parameters" element="tns:PredefinedItemsForDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrivateDrugListSoapIn">
+    <wsdl:part name="parameters" element="tns:PrivateDrugList" />
+  </wsdl:message>
+  <wsdl:message name="PrivateDrugListSoapOut">
+    <wsdl:part name="parameters" element="tns:PrivateDrugListResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddPrivateDrugSoapIn">
+    <wsdl:part name="parameters" element="tns:AddPrivateDrug" />
+  </wsdl:message>
+  <wsdl:message name="AddPrivateDrugSoapOut">
+    <wsdl:part name="parameters" element="tns:AddPrivateDrugResponse" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedFullSoapIn">
+    <wsdl:part name="parameters" element="tns:PredefinedFull" />
+  </wsdl:message>
+  <wsdl:message name="PredefinedFullSoapOut">
+    <wsdl:part name="parameters" element="tns:PredefinedFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddPredefinedFullSoapIn">
+    <wsdl:part name="parameters" element="tns:AddPredefinedFull" />
+  </wsdl:message>
+  <wsdl:message name="AddPredefinedFullSoapOut">
+    <wsdl:part name="parameters" element="tns:AddPredefinedFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePredefinedFullSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePredefinedFull" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePredefinedFullSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePredefinedFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePredefinedFullSoapIn">
+    <wsdl:part name="parameters" element="tns:DeletePredefinedFull" />
+  </wsdl:message>
+  <wsdl:message name="DeletePredefinedFullSoapOut">
+    <wsdl:part name="parameters" element="tns:DeletePredefinedFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewOutOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:NewOutOrder" />
+  </wsdl:message>
+  <wsdl:message name="NewOutOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:NewOutOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="OldOutOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:OldOutOrder" />
+  </wsdl:message>
+  <wsdl:message name="OldOutOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:OldOutOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveOutOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:RemoveOutOrder" />
+  </wsdl:message>
+  <wsdl:message name="RemoveOutOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:RemoveOutOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="PayReturnSoapIn">
+    <wsdl:part name="parameters" element="tns:PayReturn" />
+  </wsdl:message>
+  <wsdl:message name="PayReturnSoapOut">
+    <wsdl:part name="parameters" element="tns:PayReturnResponse" />
+  </wsdl:message>
+  <wsdl:message name="FinishOutPatientSoapIn">
+    <wsdl:part name="parameters" element="tns:FinishOutPatient" />
+  </wsdl:message>
+  <wsdl:message name="FinishOutPatientSoapOut">
+    <wsdl:part name="parameters" element="tns:FinishOutPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecallOutPatientSoapIn">
+    <wsdl:part name="parameters" element="tns:RecallOutPatient" />
+  </wsdl:message>
+  <wsdl:message name="RecallOutPatientSoapOut">
+    <wsdl:part name="parameters" element="tns:RecallOutPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="OutTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:OutTransfer" />
+  </wsdl:message>
+  <wsdl:message name="OutTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:OutTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="UnSeePatientSoapIn">
+    <wsdl:part name="parameters" element="tns:UnSeePatient" />
+  </wsdl:message>
+  <wsdl:message name="UnSeePatientSoapOut">
+    <wsdl:part name="parameters" element="tns:UnSeePatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="BeInpatientSoapIn">
+    <wsdl:part name="parameters" element="tns:BeInpatient" />
+  </wsdl:message>
+  <wsdl:message name="BeInpatientSoapOut">
+    <wsdl:part name="parameters" element="tns:BeInpatientResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EmrOrderSoap">
+    <wsdl:operation name="OutpatientBeenSeeing">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Outpatient become in seeing status. </wsdl:documentation>
+      <wsdl:input message="tns:OutpatientBeenSeeingSoapIn" />
+      <wsdl:output message="tns:OutpatientBeenSeeingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns types of image examination</wsdl:documentation>
+      <wsdl:input message="tns:ImageExamTypesSoapIn" />
+      <wsdl:output message="tns:ImageExamTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamItems">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns types of image examination</wsdl:documentation>
+      <wsdl:input message="tns:ImageExamItemsSoapIn" />
+      <wsdl:output message="tns:ImageExamItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamStyles">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns styles of image examination</wsdl:documentation>
+      <wsdl:input message="tns:ImageExamStylesSoapIn" />
+      <wsdl:output message="tns:ImageExamStylesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamFeeIndexes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns fee indexes of image examination</wsdl:documentation>
+      <wsdl:input message="tns:ImageExamFeeIndexesSoapIn" />
+      <wsdl:output message="tns:ImageExamFeeIndexesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns info of image examination</wsdl:documentation>
+      <wsdl:input message="tns:ImageExamInfoSoapIn" />
+      <wsdl:output message="tns:ImageExamInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PhysicalExamTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns types of physical examination</wsdl:documentation>
+      <wsdl:input message="tns:PhysicalExamTypesSoapIn" />
+      <wsdl:output message="tns:PhysicalExamTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PhysicalExamItems">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns items of physical examination</wsdl:documentation>
+      <wsdl:input message="tns:PhysicalExamItemsSoapIn" />
+      <wsdl:output message="tns:PhysicalExamItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestTypes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns types of test</wsdl:documentation>
+      <wsdl:input message="tns:TestTypesSoapIn" />
+      <wsdl:output message="tns:TestTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestItems">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns items of test</wsdl:documentation>
+      <wsdl:input message="tns:TestItemsSoapIn" />
+      <wsdl:output message="tns:TestItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestItemsDepartments">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns items of test for departments</wsdl:documentation>
+      <wsdl:input message="tns:TestItemsDepartmentsSoapIn" />
+      <wsdl:output message="tns:TestItemsDepartmentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestSubitems">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns subitems of test items</wsdl:documentation>
+      <wsdl:input message="tns:TestSubitemsSoapIn" />
+      <wsdl:output message="tns:TestSubitemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns info of physical examination</wsdl:documentation>
+      <wsdl:input message="tns:ExamTestInfoSoapIn" />
+      <wsdl:output message="tns:ExamTestInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TreatClass">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns class of treat charge</wsdl:documentation>
+      <wsdl:input message="tns:TreatClassSoapIn" />
+      <wsdl:output message="tns:TreatClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TreatSubitems">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns subitems of treat order</wsdl:documentation>
+      <wsdl:input message="tns:TreatSubitemsSoapIn" />
+      <wsdl:output message="tns:TreatSubitemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TreatOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns list of treat order</wsdl:documentation>
+      <wsdl:input message="tns:TreatOrderSoapIn" />
+      <wsdl:output message="tns:TreatOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TreatOrderDetail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns list of treat order</wsdl:documentation>
+      <wsdl:input message="tns:TreatOrderDetailSoapIn" />
+      <wsdl:output message="tns:TreatOrderDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TreatInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Treatment info</wsdl:documentation>
+      <wsdl:input message="tns:TreatInfoSoapIn" />
+      <wsdl:output message="tns:TreatInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestFeeItems">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns fee items of one examination, test or treat</wsdl:documentation>
+      <wsdl:input message="tns:ExamTestFeeItemsSoapIn" />
+      <wsdl:output message="tns:ExamTestFeeItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestPriceList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns price list of examination, test, treat or materials</wsdl:documentation>
+      <wsdl:input message="tns:ExamTestPriceListSoapIn" />
+      <wsdl:output message="tns:ExamTestPriceListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestChargeInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns info of charge</wsdl:documentation>
+      <wsdl:input message="tns:ExamTestChargeInfoSoapIn" />
+      <wsdl:output message="tns:ExamTestChargeInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryIDByCardNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns registry id for a patient by card number</wsdl:documentation>
+      <wsdl:input message="tns:GetRegistryIDByCardNumSoapIn" />
+      <wsdl:output message="tns:GetRegistryIDByCardNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClinicalInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns clinical info of a patient by short registryID</wsdl:documentation>
+      <wsdl:input message="tns:GetClinicalInfoSoapIn" />
+      <wsdl:output message="tns:GetClinicalInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrescriptionForOutPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns old Prescription by registryID</wsdl:documentation>
+      <wsdl:input message="tns:GetPrescriptionForOutPatientSoapIn" />
+      <wsdl:output message="tns:GetPrescriptionForOutPatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrescriptionForOneNumber">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns old rescription by registryID and prescription number </wsdl:documentation>
+      <wsdl:input message="tns:GetPrescriptionForOneNumberSoapIn" />
+      <wsdl:output message="tns:GetPrescriptionForOneNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByRegistryID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns treat charge info. by registryID number for back pay</wsdl:documentation>
+      <wsdl:input message="tns:GetTreatForOutPatientByRegistryIDSoapIn" />
+      <wsdl:output message="tns:GetTreatForOutPatientByRegistryIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByBill">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns treat charge info. by bill number for back pay</wsdl:documentation>
+      <wsdl:input message="tns:GetTreatForOutPatientByBillSoapIn" />
+      <wsdl:output message="tns:GetTreatForOutPatientByBillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTestResultForOneRequisition">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns treat charge info. by registryID number for back pay</wsdl:documentation>
+      <wsdl:input message="tns:GetTestResultForOneRequisitionSoapIn" />
+      <wsdl:output message="tns:GetTestResultForOneRequisitionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPoorPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns poor patients who have valid registry. </wsdl:documentation>
+      <wsdl:input message="tns:GetPoorPatientsSoapIn" />
+      <wsdl:output message="tns:GetPoorPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoryRegistryInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns history registry info of a patient by archive number</wsdl:documentation>
+      <wsdl:input message="tns:GetHistoryRegistryInfoSoapIn" />
+      <wsdl:output message="tns:GetHistoryRegistryInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByCardNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns old Treat and patient registry info. by card number for back pay</wsdl:documentation>
+      <wsdl:input message="tns:GetTreatForOutPatientByCardNumSoapIn" />
+      <wsdl:output message="tns:GetTreatForOutPatientByCardNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientsForArchiveNumByName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns patients for geting archive number</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientsForArchiveNumByNameSoapIn" />
+      <wsdl:output message="tns:GetPatientsForArchiveNumByNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryIDsForOneCardNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns registryIDs by card number</wsdl:documentation>
+      <wsdl:input message="tns:GetRegistryIDsForOneCardNumSoapIn" />
+      <wsdl:output message="tns:GetRegistryIDsForOneCardNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCardTypeByCardNum">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns card type by card number</wsdl:documentation>
+      <wsdl:input message="tns:GetCardTypeByCardNumSoapIn" />
+      <wsdl:output message="tns:GetCardTypeByCardNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeposit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns deposit for urgent observation patient </wsdl:documentation>
+      <wsdl:input message="tns:GetDepositSoapIn" />
+      <wsdl:output message="tns:GetDepositSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryInfoByCardNumForCallBack">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns registry info by registryID for query </wsdl:documentation>
+      <wsdl:input message="tns:GetRegistryInfoByCardNumForCallBackSoapIn" />
+      <wsdl:output message="tns:GetRegistryInfoByCardNumForCallBackSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfoByRegistryIDForQuery">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns order info by card number for call back </wsdl:documentation>
+      <wsdl:input message="tns:GetOrderInfoByRegistryIDForQuerySoapIn" />
+      <wsdl:output message="tns:GetOrderInfoByRegistryIDForQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsForRegistry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns departments for out patients to registry </wsdl:documentation>
+      <wsdl:input message="tns:GetDepartmentsForRegistrySoapIn" />
+      <wsdl:output message="tns:GetDepartmentsForRegistrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutPatientTreatFeeForOneOperator">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns Treat items for one oprator</wsdl:documentation>
+      <wsdl:input message="tns:GetOutPatientTreatFeeForOneOperatorSoapIn" />
+      <wsdl:output message="tns:GetOutPatientTreatFeeForOneOperatorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatFeeForOneOutPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns Treat items for one oprator</wsdl:documentation>
+      <wsdl:input message="tns:GetTreatFeeForOneOutPatientSoapIn" />
+      <wsdl:output message="tns:GetTreatFeeForOneOutPatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Icd10">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns icd10</wsdl:documentation>
+      <wsdl:input message="tns:Icd10SoapIn" />
+      <wsdl:output message="tns:Icd10SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsForBeInpatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns </wsdl:documentation>
+      <wsdl:input message="tns:GetItemsForBeInpatientSoapIn" />
+      <wsdl:output message="tns:GetItemsForBeInpatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Rooms">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns room and bed info</wsdl:documentation>
+      <wsdl:input message="tns:RoomsSoapIn" />
+      <wsdl:output message="tns:RoomsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DrugListForOnePharmacy">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns drug list for one pharmacy</wsdl:documentation>
+      <wsdl:input message="tns:DrugListForOnePharmacySoapIn" />
+      <wsdl:output message="tns:DrugListForOnePharmacySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AnaesthesiaDrugList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns drug list for one pharmacy</wsdl:documentation>
+      <wsdl:input message="tns:AnaesthesiaDrugListSoapIn" />
+      <wsdl:output message="tns:AnaesthesiaDrugListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DrugWayList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns drug way list</wsdl:documentation>
+      <wsdl:input message="tns:DrugWayListSoapIn" />
+      <wsdl:output message="tns:DrugWayListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChineseDrugWayList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns Chinese drug way list</wsdl:documentation>
+      <wsdl:input message="tns:ChineseDrugWayListSoapIn" />
+      <wsdl:output message="tns:ChineseDrugWayListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChineseDrugHowList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns Chinese drug how list</wsdl:documentation>
+      <wsdl:input message="tns:ChineseDrugHowListSoapIn" />
+      <wsdl:output message="tns:ChineseDrugHowListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DrugTimeList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns drug time list</wsdl:documentation>
+      <wsdl:input message="tns:DrugTimeListSoapIn" />
+      <wsdl:output message="tns:DrugTimeListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PharmacyList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns pharmacy list</wsdl:documentation>
+      <wsdl:input message="tns:PharmacyListSoapIn" />
+      <wsdl:output message="tns:PharmacyListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DrugKindList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns drug kind list</wsdl:documentation>
+      <wsdl:input message="tns:DrugKindListSoapIn" />
+      <wsdl:output message="tns:DrugKindListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CombineConflict">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns combine conflict of the grugs</wsdl:documentation>
+      <wsdl:input message="tns:CombineConflictSoapIn" />
+      <wsdl:output message="tns:CombineConflictSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DrugListEx">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns drug list with drugWayList, drugTimeList and pharmacyList</wsdl:documentation>
+      <wsdl:input message="tns:DrugListExSoapIn" />
+      <wsdl:output message="tns:DrugListExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedOrderForDoctor">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns predefined orders for one doctor</wsdl:documentation>
+      <wsdl:input message="tns:PredefinedOrderForDoctorSoapIn" />
+      <wsdl:output message="tns:PredefinedOrderForDoctorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedOrderForDepartment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns predefined orders for one department</wsdl:documentation>
+      <wsdl:input message="tns:PredefinedOrderForDepartmentSoapIn" />
+      <wsdl:output message="tns:PredefinedOrderForDepartmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedItemsForDoctor">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns predefined order items for one doctor</wsdl:documentation>
+      <wsdl:input message="tns:PredefinedItemsForDoctorSoapIn" />
+      <wsdl:output message="tns:PredefinedItemsForDoctorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedItemsForDepartment">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns predefined order items for one department</wsdl:documentation>
+      <wsdl:input message="tns:PredefinedItemsForDepartmentSoapIn" />
+      <wsdl:output message="tns:PredefinedItemsForDepartmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PrivateDrugList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns private drug names</wsdl:documentation>
+      <wsdl:input message="tns:PrivateDrugListSoapIn" />
+      <wsdl:output message="tns:PrivateDrugListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPrivateDrug">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Add a row into private drug names(mz_gryp)</wsdl:documentation>
+      <wsdl:input message="tns:AddPrivateDrugSoapIn" />
+      <wsdl:output message="tns:AddPrivateDrugSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedFull">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns predefined order and their items</wsdl:documentation>
+      <wsdl:input message="tns:PredefinedFullSoapIn" />
+      <wsdl:output message="tns:PredefinedFullSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPredefinedFull">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Add predefined order and their items</wsdl:documentation>
+      <wsdl:input message="tns:AddPredefinedFullSoapIn" />
+      <wsdl:output message="tns:AddPredefinedFullSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePredefinedFull">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update predefined order and their items</wsdl:documentation>
+      <wsdl:input message="tns:UpdatePredefinedFullSoapIn" />
+      <wsdl:output message="tns:UpdatePredefinedFullSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePredefinedFull">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Delete predefined order and their items</wsdl:documentation>
+      <wsdl:input message="tns:DeletePredefinedFullSoapIn" />
+      <wsdl:output message="tns:DeletePredefinedFullSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewOutOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Add mix order</wsdl:documentation>
+      <wsdl:input message="tns:NewOutOrderSoapIn" />
+      <wsdl:output message="tns:NewOutOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OldOutOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Update mix order</wsdl:documentation>
+      <wsdl:input message="tns:OldOutOrderSoapIn" />
+      <wsdl:output message="tns:OldOutOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOutOrder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Remove simple order</wsdl:documentation>
+      <wsdl:input message="tns:RemoveOutOrderSoapIn" />
+      <wsdl:output message="tns:RemoveOutOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PayReturn">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Return the pay for treat item</wsdl:documentation>
+      <wsdl:input message="tns:PayReturnSoapIn" />
+      <wsdl:output message="tns:PayReturnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FinishOutPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set done flag for out patient</wsdl:documentation>
+      <wsdl:input message="tns:FinishOutPatientSoapIn" />
+      <wsdl:output message="tns:FinishOutPatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecallOutPatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">recall out patient</wsdl:documentation>
+      <wsdl:input message="tns:RecallOutPatientSoapIn" />
+      <wsdl:output message="tns:RecallOutPatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OutTransfer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Change department for out patient</wsdl:documentation>
+      <wsdl:input message="tns:OutTransferSoapIn" />
+      <wsdl:output message="tns:OutTransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UnSeePatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Remove a out patient from seeing queue</wsdl:documentation>
+      <wsdl:input message="tns:UnSeePatientSoapIn" />
+      <wsdl:output message="tns:UnSeePatientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BeInpatient">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Become in patient from out patient</wsdl:documentation>
+      <wsdl:input message="tns:BeInpatientSoapIn" />
+      <wsdl:output message="tns:BeInpatientSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmrOrderSoap" type="tns:EmrOrderSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OutpatientBeenSeeing">
+      <soap:operation soapAction="http://shoujia.org/emrorders/OutpatientBeenSeeing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamTypes">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ImageExamTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamItems">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ImageExamItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamStyles">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ImageExamStyles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamFeeIndexes">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ImageExamFeeIndexes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamInfo">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ImageExamInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PhysicalExamTypes">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PhysicalExamTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PhysicalExamItems">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PhysicalExamItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestTypes">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TestTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestItems">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TestItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestItemsDepartments">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TestItemsDepartments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSubitems">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TestSubitems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestInfo">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ExamTestInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatClass">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TreatClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatSubitems">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TreatSubitems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatOrder">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TreatOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatOrderDetail">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TreatOrderDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatInfo">
+      <soap:operation soapAction="http://shoujia.org/emrorders/TreatInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestFeeItems">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ExamTestFeeItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestPriceList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ExamTestPriceList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestChargeInfo">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ExamTestChargeInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryIDByCardNum">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetRegistryIDByCardNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClinicalInfo">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetClinicalInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrescriptionForOutPatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetPrescriptionForOutPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrescriptionForOneNumber">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetPrescriptionForOneNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByRegistryID">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetTreatForOutPatientByRegistryID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByBill">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetTreatForOutPatientByBill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTestResultForOneRequisition">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetTestResultForOneRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPoorPatients">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetPoorPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoryRegistryInfo">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetHistoryRegistryInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByCardNum">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetTreatForOutPatientByCardNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientsForArchiveNumByName">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetPatientsForArchiveNumByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryIDsForOneCardNum">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetRegistryIDsForOneCardNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCardTypeByCardNum">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetCardTypeByCardNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeposit">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryInfoByCardNumForCallBack">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetRegistryInfoByCardNumForCallBack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfoByRegistryIDForQuery">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetOrderInfoByRegistryIDForQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsForRegistry">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetDepartmentsForRegistry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutPatientTreatFeeForOneOperator">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetOutPatientTreatFeeForOneOperator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatFeeForOneOutPatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetTreatFeeForOneOutPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Icd10">
+      <soap:operation soapAction="http://shoujia.org/emrorders/Icd10" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsForBeInpatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/GetItemsForBeInpatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rooms">
+      <soap:operation soapAction="http://shoujia.org/emrorders/Rooms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugListForOnePharmacy">
+      <soap:operation soapAction="http://shoujia.org/emrorders/DrugListForOnePharmacy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnaesthesiaDrugList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/AnaesthesiaDrugList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugWayList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/DrugWayList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChineseDrugWayList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ChineseDrugWayList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChineseDrugHowList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/ChineseDrugHowList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugTimeList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/DrugTimeList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PharmacyList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PharmacyList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugKindList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/DrugKindList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CombineConflict">
+      <soap:operation soapAction="http://shoujia.org/emrorders/CombineConflict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugListEx">
+      <soap:operation soapAction="http://shoujia.org/emrorders/DrugListEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedOrderForDoctor">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PredefinedOrderForDoctor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedOrderForDepartment">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PredefinedOrderForDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedItemsForDoctor">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PredefinedItemsForDoctor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedItemsForDepartment">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PredefinedItemsForDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrivateDrugList">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PrivateDrugList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPrivateDrug">
+      <soap:operation soapAction="http://shoujia.org/emrorders/AddPrivateDrug" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedFull">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PredefinedFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPredefinedFull">
+      <soap:operation soapAction="http://shoujia.org/emrorders/AddPredefinedFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePredefinedFull">
+      <soap:operation soapAction="http://shoujia.org/emrorders/UpdatePredefinedFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePredefinedFull">
+      <soap:operation soapAction="http://shoujia.org/emrorders/DeletePredefinedFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewOutOrder">
+      <soap:operation soapAction="http://shoujia.org/emrorders/NewOutOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OldOutOrder">
+      <soap:operation soapAction="http://shoujia.org/emrorders/OldOutOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOutOrder">
+      <soap:operation soapAction="http://shoujia.org/emrorders/RemoveOutOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayReturn">
+      <soap:operation soapAction="http://shoujia.org/emrorders/PayReturn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FinishOutPatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/FinishOutPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecallOutPatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/RecallOutPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OutTransfer">
+      <soap:operation soapAction="http://shoujia.org/emrorders/OutTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnSeePatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/UnSeePatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BeInpatient">
+      <soap:operation soapAction="http://shoujia.org/emrorders/BeInpatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EmrOrderSoap12" type="tns:EmrOrderSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OutpatientBeenSeeing">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/OutpatientBeenSeeing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamTypes">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ImageExamTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamItems">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ImageExamItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamStyles">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ImageExamStyles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamFeeIndexes">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ImageExamFeeIndexes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImageExamInfo">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ImageExamInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PhysicalExamTypes">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PhysicalExamTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PhysicalExamItems">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PhysicalExamItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestTypes">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TestTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestItems">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TestItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestItemsDepartments">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TestItemsDepartments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSubitems">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TestSubitems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestInfo">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ExamTestInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatClass">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TreatClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatSubitems">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TreatSubitems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatOrder">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TreatOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatOrderDetail">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TreatOrderDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TreatInfo">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/TreatInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestFeeItems">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ExamTestFeeItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestPriceList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ExamTestPriceList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExamTestChargeInfo">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ExamTestChargeInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryIDByCardNum">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetRegistryIDByCardNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClinicalInfo">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetClinicalInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrescriptionForOutPatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetPrescriptionForOutPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrescriptionForOneNumber">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetPrescriptionForOneNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByRegistryID">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetTreatForOutPatientByRegistryID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByBill">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetTreatForOutPatientByBill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTestResultForOneRequisition">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetTestResultForOneRequisition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPoorPatients">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetPoorPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoryRegistryInfo">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetHistoryRegistryInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatForOutPatientByCardNum">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetTreatForOutPatientByCardNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientsForArchiveNumByName">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetPatientsForArchiveNumByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryIDsForOneCardNum">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetRegistryIDsForOneCardNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCardTypeByCardNum">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetCardTypeByCardNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeposit">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetDeposit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegistryInfoByCardNumForCallBack">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetRegistryInfoByCardNumForCallBack" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderInfoByRegistryIDForQuery">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetOrderInfoByRegistryIDForQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsForRegistry">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetDepartmentsForRegistry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutPatientTreatFeeForOneOperator">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetOutPatientTreatFeeForOneOperator" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreatFeeForOneOutPatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetTreatFeeForOneOutPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Icd10">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/Icd10" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsForBeInpatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/GetItemsForBeInpatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Rooms">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/Rooms" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugListForOnePharmacy">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/DrugListForOnePharmacy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnaesthesiaDrugList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/AnaesthesiaDrugList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugWayList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/DrugWayList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChineseDrugWayList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ChineseDrugWayList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChineseDrugHowList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/ChineseDrugHowList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugTimeList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/DrugTimeList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PharmacyList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PharmacyList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugKindList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/DrugKindList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CombineConflict">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/CombineConflict" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrugListEx">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/DrugListEx" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedOrderForDoctor">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PredefinedOrderForDoctor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedOrderForDepartment">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PredefinedOrderForDepartment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedItemsForDoctor">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PredefinedItemsForDoctor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedItemsForDepartment">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PredefinedItemsForDepartment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrivateDrugList">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PrivateDrugList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPrivateDrug">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/AddPrivateDrug" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PredefinedFull">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PredefinedFull" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPredefinedFull">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/AddPredefinedFull" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePredefinedFull">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/UpdatePredefinedFull" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePredefinedFull">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/DeletePredefinedFull" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewOutOrder">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/NewOutOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OldOutOrder">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/OldOutOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOutOrder">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/RemoveOutOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayReturn">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/PayReturn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FinishOutPatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/FinishOutPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecallOutPatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/RecallOutPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OutTransfer">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/OutTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnSeePatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/UnSeePatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BeInpatient">
+      <soap12:operation soapAction="http://shoujia.org/emrorders/BeInpatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmrOrder">
+    <wsdl:port name="EmrOrderSoap" binding="tns:EmrOrderSoap">
+      <soap:address location="http://172.16.0.11/emrGL/EmrOrder.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EmrOrderSoap12" binding="tns:EmrOrderSoap12">
+      <soap12:address location="http://172.16.0.11/emrGL/EmrOrder.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

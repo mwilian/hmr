@@ -1,0 +1,4294 @@
+11:34:47	[日志记录开始] 123456789
+11:38:21	[日志记录开始] 123456789
+11:40:49	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:40:50	[现在时间] 12013-05-21 11:38
+11:40:50	[现在时间] 22013-05-21 11:38
+11:40:50	[现在时间] 4:2013-05-21 11:38
+11:40:50	[现在时间] 5:OK
+11:40:52	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:41:27	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:41:48	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:41:48	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:42:04	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:42:32	[现在时间] 12013-05-21 11:40
+11:42:32	[现在时间] 22013-05-21 11:40
+11:42:32	[现在时间] 4:2013-05-21 11:40
+11:42:32	[现在时间] 5:OK
+11:42:32	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:42:44	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:42:56	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:42:56	[现在时间] 12013-05-21 11:40
+11:42:56	[现在时间] 22013-05-21 11:40
+11:42:56	[现在时间] 4:2013-05-21 11:40
+11:42:57	[现在时间] 5:OK
+11:42:57	[现在时间] 12013-05-21 11:40
+11:42:57	[现在时间] 22013-05-21 11:40
+11:42:57	[现在时间] 4:2013-05-21 11:40
+11:42:57	[现在时间] 5:OK
+11:42:57	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:43:06	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:43:18	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:43:19	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:43:39	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:43:56	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:43:56	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:44:10	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:44:17	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:50:39	[现在时间] 12013-05-21 11:48
+11:50:39	[现在时间] 22013-05-21 11:48
+11:50:39	[现在时间] 4:2013-05-21 11:48
+11:50:39	[现在时间] 5:OK
+11:50:39	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:51:04	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:51:09	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+12:17:42	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+12:17:42	[现在时间] 12013-05-21 12:15
+12:17:42	[现在时间] 22013-05-21 12:15
+12:17:42	[现在时间] 4:2013-05-21 12:15
+12:17:42	[现在时间] 5:OK
+12:17:43	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+12:23:39	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:13:42	[日志记录开始] 123456789
+14:14:20	[EX922511256895] 客户端发现响应内容类型为“text/html; charset=utf-8”，但应为“text/xml”。
+请求失败，错误信息为:
+--
+<html>
+    <head>
+        <title>编译错误</title>
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Lucida Console";font-size: .9em}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>“/emrService2012-11-16”应用程序中的服务器错误。<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>编译错误</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> 说明: </b>在编译向该请求提供服务所需资源的过程中出现错误。请检查下列特定错误详细信息并适当地修改源代码。
+            <br><br>
+
+            <b> 编译器错误消息: </b>CS1002: 应输入 ;<br><br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+                              </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1772:
+行 1773:        SqlHelper Helper = new SqlHelper("EmrDB");
+<font color=red>行 1774:        SqlHelper
+</font>行 1775:        string Series = noteForEmrDoc.Attributes["Series"].Value.ToString();
+行 1776:        string NodeId = noteForEmrDoc.Attributes["NoteID"].Value.ToString();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>源文件:</b> c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs
+               <b>行:</b>  1774
+            <br><br>
+<br><div class="expandable" onclick="OnToggleTOCLevel1('warningDiv')">编译器警告消息:</div>
+<div id="warningDiv" style="display: none;">
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 271:            
+行 272:        }
+<font color=red>行 273:        catch (Exception ex)
+</font>行 274:        {
+行 275:           </pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0162: 检测到无法访问的代码<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1503:                         break;
+行 1504:
+<font color=red>行 1505:                        SQLSentence = "SELECT DISTINCT tdjk.bah FROM tdjk WHERE tdjk.xm= '" + criteria + "' ";
+</font>行 1506:                        dataset = ExeuSentence(SQLSentence, hisDBType);
+行 1507:                        if (dataset.Tables.Count == 0) break;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1914:            }
+行 1915:        }
+<font color=red>行 1916:        catch (Exception ex)
+</font>行 1917:        {
+行 1918:            result = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 3871:            return Sum;
+行 3872:        }
+<font color=red>行 3873:        catch (Exception ex)
+</font>行 3874:        {
+行 3875:            //return ex.Message;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 3985:            return dt;
+行 3986:        }
+<font color=red>行 3987:        catch (Exception ex)
+</font>行 3988:        {
+行 3989:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4038:            return dt;
+行 4039:        }
+<font color=red>行 4040:        catch (Exception ex)
+</font>行 4041:        {
+行 4042:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4120:            return dt;
+行 4121:        }
+<font color=red>行 4122:        catch (Exception ex)
+</font>行 4123:        {
+行 4124:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4192:    
+行 4193:          }
+<font color=red>行 4194:          catch (Exception ex)
+</font>行 4195:          {
+行 4196:              dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4342:
+行 4343:        }
+<font color=red>行 4344:        catch (Exception ex)
+</font>行 4345:        {
+行 4346:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4374:
+行 4375:        }
+<font color=red>行 4376:        catch (Exception ex)
+</font>行 4377:        {
+行 4378:            blResult = false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4442:
+行 4443:        }
+<font color=red>行 4444:        catch (Exception ex)
+</font>行 4445:        {
+行 4446:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4566:
+行 4567:        }
+<font color=red>行 4568:        catch (Exception ex)
+</font>行 4569:        {
+行 4570:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4587:            }
+行 4588:        }
+<font color=red>行 4589:        catch (Exception ex)
+</font>行 4590:        {
+行 4591:           </pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4607:
+行 4608:        }
+<font color=red>行 4609:        catch (Exception ex)
+</font>行 4610:        {
+行 4611:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4627:           
+行 4628:        } //try end
+<font color=red>行 4629:        catch (Exception ex)
+</font>行 4630:        {
+行 4631:            myDataSet = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4648:
+行 4649:        } //try end
+<font color=red>行 4650:        catch (Exception ex)
+</font>行 4651:        {
+行 4652:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4667:
+行 4668:        } //try end
+<font color=red>行 4669:        catch (Exception ex)
+</font>行 4670:        {
+行 4671:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4684:            dt = Helper.GetDataSet(strSelect);
+行 4685:        }
+<font color=red>行 4686:        catch (Exception ex)
+</font>行 4687:        {
+行 4688:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4702:            dt = Helper.GetDataSet(strSelect);
+行 4703:        }
+<font color=red>行 4704:        catch (Exception ex)
+</font>行 4705:        {
+行 4706:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4729:
+行 4730:        }
+<font color=red>行 4731:        catch (Exception ex)
+</font>行 4732:        {
+行 4733:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4748:            dt = Helper.GetDataSet(strSelects);
+行 4749:        }
+<font color=red>行 4750:        catch (Exception ex)
+</font>行 4751:        {
+行 4752:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4765:            dt = Helper.GetDataSet(strSelect);
+行 4766:        }
+<font color=red>行 4767:        catch (Exception ex)
+</font>行 4768:        {
+行 4769:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4801:
+行 4802:        }
+<font color=red>行 4803:        catch (Exception ex)
+</font>行 4804:        {
+行 4805:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4824:
+行 4825:        }
+<font color=red>行 4826:        catch (Exception ex)
+</font>行 4827:        {
+行 4828:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4870:
+行 4871:        }
+<font color=red>行 4872:        catch (Exception ex)
+</font>行 4873:        {
+行 4874:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4886:            dt = Helper.GetDataSet(SELECT);
+行 4887:        }
+<font color=red>行 4888:        catch (Exception ex)
+</font>行 4889:        {
+行 4890:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4905:
+行 4906:        }
+<font color=red>行 4907:        catch (Exception ex)
+</font>行 4908:        {
+行 4909:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4923:
+行 4924:        }
+<font color=red>行 4925:        catch (Exception ex)
+</font>行 4926:        {
+行 4927:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4951:
+行 4952:        }
+<font color=red>行 4953:        catch (Exception ex)
+</font>行 4954:        {
+行 4955:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4975:
+行 4976:        }
+<font color=red>行 4977:        catch (Exception ex)
+</font>行 4978:        {
+行 4979:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5008:
+行 5009:        }
+<font color=red>行 5010:        catch (Exception ex)
+</font>行 5011:        {
+行 5012:            ds = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5276:            }
+行 5277:        }
+<font color=red>行 5278:        catch (Exception ex)
+</font>行 5279:        {
+行 5280:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5437:
+行 5438:
+<font color=red>行 5439:        catch (Exception ex)
+</font>行 5440:        {
+行 5441:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5523:
+行 5524:
+<font color=red>行 5525:        catch (Exception ex)
+</font>行 5526:        {
+行 5527:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5977:
+行 5978:        } //try end
+<font color=red>行 5979:        catch (Exception ex)
+</font>行 5980:        {
+行 5981:            myDataSet = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 610:            myCommand.ExecuteNonQuery();
+行 611:        }
+<font color=red>行 612:        catch (Exception ex)
+</font>行 613:        {
+行 614:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1289:";
+行 1290:            strSql = String.Format(strTemp, registryID, ArchieveNum, noteForWordDoc.OuterXml.ToString(), noteForEmrDoc.OuterXml.ToString(), noteForEmrDoc.Attributes["NoteID"].Value, Root.OuterXml.ToString());
+<font color=red>行 1291:            using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1292:            {
+行 1293:                DataSet ds = new DataSet();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1320:            try
+行 1321:            {
+<font color=red>行 1322:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1323:                {
+行 1324:                    if (strError == null)</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1604:";
+行 1605:            strSql = String.Format(strTemp, registryID, ArchieveNum, noteForWordDoc.OuterXml.ToString(), noteForEmrDoc.OuterXml.ToString(), noteForEmrDoc.Attributes["NoteID"].Value, Root.OuterXml.ToString(), noteForEmrXml.OuterXml.ToString());
+<font color=red>行 1606:            using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1607:            {
+行 1608:                DataSet ds = new DataSet();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1635:            try
+行 1636:            {
+<font color=red>行 1637:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1638:                {
+行 1639:                    con.Open();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1667:        string strXmlNodeAttrValue = "";
+行 1668:        string strError = "未知异常";
+<font color=red>行 1669:        using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1670:        {
+行 1671:            con.Open();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1967:                SqlTransaction tran;
+行 1968:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 1969:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1970:                {
+行 1971:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 2093:
+行 2094:        }
+<font color=red>行 2095:        catch (Exception ex)
+</font>行 2096:        {
+行 2097:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 2146:                SqlTransaction tran;
+行 2147:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 2148:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 2149:                {
+行 2150:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 2284:                SqlTransaction tran;
+行 2285:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 2286:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 2287:                {
+行 2288:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4676:
+行 4677:        }
+<font color=red>行 4678:        catch (Exception ex)
+</font>行 4679:        {
+行 4680:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 6156:
+行 6157:        }
+<font color=red>行 6158:        catch (Exception ex)
+</font>行 6159:        {
+行 6160:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 6208:
+行 6209:        }
+<font color=red>行 6210:        catch (Exception ex)
+</font>行 6211:        {
+行 6212:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7012:            return IDs;
+行 7013:        } //try end
+<font color=red>行 7014:        catch (Exception ex)
+</font>行 7015:        {
+行 7016:            //IDs.InnerText = ex.Message;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7042:            }
+行 7043:        }
+<font color=red>行 7044:        catch (Exception ex)
+</font>行 7045:        {
+行 7046:            // return ex.Message;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7241:
+行 7242:        }
+<font color=red>行 7243:        catch (Exception ex)
+</font>行 7244:        {
+行 7245:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7260:
+行 7261:        }
+<font color=red>行 7262:        catch (Exception ex)
+</font>行 7263:        {
+行 7264:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7280:
+行 7281:        }
+<font color=red>行 7282:        catch (Exception ex)
+</font>行 7283:        {
+行 7284:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7300:
+行 7301:        }
+<font color=red>行 7302:        catch (Exception ex)
+</font>行 7303:        {
+行 7304:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7324:
+行 7325:        }
+<font color=red>行 7326:        catch (Exception ex)
+</font>行 7327:        {
+行 7328:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7342:            blResult = true;
+行 7343:        }
+<font color=red>行 7344:        catch (Exception ex)
+</font>行 7345:        {
+行 7346:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7401:
+行 7402:        }
+<font color=red>行 7403:        catch (Exception ex)
+</font>行 7404:        {
+行 7405:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7430:
+行 7431:        }
+<font color=red>行 7432:        catch (Exception ex)
+</font>行 7433:        {
+行 7434:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7450:
+行 7451:        }
+<font color=red>行 7452:        catch (Exception ex)
+</font>行 7453:        {
+行 7454:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7483:            }
+行 7484:        }
+<font color=red>行 7485:        catch (Exception ex)
+</font>行 7486:        {
+行 7487:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7504:
+行 7505:        }
+<font color=red>行 7506:        catch (Exception ex)
+</font>行 7507:        {
+行 7508:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7524:
+行 7525:        }
+<font color=red>行 7526:        catch (Exception ex)
+</font>行 7527:        {
+行 7528:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7545:
+行 7546:        }
+<font color=red>行 7547:        catch (Exception ex)
+</font>行 7548:        {
+行 7549:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7712:
+行 7713:        }
+<font color=red>行 7714:        catch (Exception e)
+</font>行 7715:        {
+行 7716:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7747:
+行 7748:        }
+<font color=red>行 7749:        catch (Exception e)
+</font>行 7750:        {
+行 7751:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7783:
+行 7784:        }
+<font color=red>行 7785:        catch (Exception e)
+</font>行 7786:        {
+行 7787:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7819:
+行 7820:        }
+<font color=red>行 7821:        catch (Exception e)
+</font>行 7822:        {
+行 7823:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7854:
+行 7855:        }
+<font color=red>行 7856:        catch (Exception e)
+</font>行 7857:        {
+行 7858:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8003:            Helper.ExecuteSql(Insert);
+行 8004:        }
+<font color=red>行 8005:        catch (Exception ex)
+</font>行 8006:        {
+行 8007:        };</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8020:            dt = Helper.GetDataSet(SELECT);
+行 8021:        }
+<font color=red>行 8022:        catch (Exception ex)
+</font>行 8023:        {
+行 8024:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8037:            dt = Helper.GetDataSet(SELECT);
+行 8038:        }
+<font color=red>行 8039:        catch (Exception ex)
+</font>行 8040:        {
+行 8041:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8055:
+行 8056:        }
+<font color=red>行 8057:        catch (Exception ex)
+</font>行 8058:        {
+行 8059:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8103:            }
+行 8104:        }
+<font color=red>行 8105:        catch (Exception ex)
+</font>行 8106:        {
+行 8107:            dsNew = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8148:            }
+行 8149:        }
+<font color=red>行 8150:        catch (Exception ex)
+</font>行 8151:        {
+行 8152:            dsNew = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8210:
+行 8211:        }
+<font color=red>行 8212:        catch (Exception ex)
+</font>行 8213:        {
+行 8214:            ds = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8290:
+行 8291:        }
+<font color=red>行 8292:        catch (Exception ex)
+</font>行 8293:        {
+行 8294:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8308:
+行 8309:        }
+<font color=red>行 8310:        catch (Exception ex)
+</font>行 8311:        {
+行 8312:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8325:
+行 8326:        }
+<font color=red>行 8327:        catch (Exception ex)
+</font>行 8328:        {
+行 8329:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ep”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8397:            else return true;
+行 8398:        }
+<font color=red>行 8399:        catch (Exception ep)
+</font>行 8400:        {
+行 8401:            return true;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ep”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8413:
+行 8414:        }
+<font color=red>行 8415:        catch (Exception ep)
+</font>行 8416:        {
+行 8417:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8430:
+行 8431:        }
+<font color=red>行 8432:        catch (Exception ex)
+</font>行 8433:        {
+行 8434:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8462:            return;
+行 8463:        }
+<font color=red>行 8464:        catch (Exception e)
+</font>行 8465:        {
+行 8466:            //ErrorLog("RemoveNoteTemplate", "NoteTemplate",</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8487:            }
+行 8488:        }
+<font color=red>行 8489:        catch (Exception ex)
+</font>行 8490:        {
+行 8491:            strResult = "";</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8513:            }
+行 8514:        }
+<font color=red>行 8515:        catch (Exception ex)
+</font>行 8516:        {
+行 8517:            strResult = "";</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8596:                SqlTransaction tran;
+行 8597:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 8598:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 8599:                {
+行 8600:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8690:            DocRange = dt.Rows[0][0].ToString();
+行 8691:        }
+<font color=red>行 8692:        catch (Exception ex)
+</font>行 8693:        {
+行 8694:            return false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8711:            DocRange = dt.Rows[0][0].ToString();
+行 8712:        }
+<font color=red>行 8713:        catch (Exception ex)
+</font>行 8714:        {
+行 8715:            return false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8730:            DocRange = dt.Rows[0][0].ToString();
+行 8731:        }
+<font color=red>行 8732:        catch (Exception ex)
+</font>行 8733:        {
+行 8734:            return false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8769:            Helper.ExecuteNonQuery(Insert);
+行 8770:        }
+<font color=red>行 8771:        catch (Exception ex)
+</font>行 8772:        {
+行 8773:            return;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8788:            Helper.ExecuteNonQuery(Insert);
+行 8789:        }
+<font color=red>行 8790:        catch (Exception ex)
+</font>行 8791:        {
+行 8792:            return;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+   
+--.>>System.InvalidOperationException: 客户端发现响应内容类型为“text/html; charset=utf-8”，但应为“text/xml”。
+请求失败，错误信息为:
+--
+<html>
+    <head>
+        <title>编译错误</title>
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Lucida Console";font-size: .9em}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>“/emrService2012-11-16”应用程序中的服务器错误。<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>编译错误</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> 说明: </b>在编译向该请求提供服务所需资源的过程中出现错误。请检查下列特定错误详细信息并适当地修改源代码。
+            <br><br>
+
+            <b> 编译器错误消息: </b>CS1002: 应输入 ;<br><br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+                              </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1772:
+行 1773:        SqlHelper Helper = new SqlHelper("EmrDB");
+<font color=red>行 1774:        SqlHelper
+</font>行 1775:        string Series = noteForEmrDoc.Attributes["Series"].Value.ToString();
+行 1776:        string NodeId = noteForEmrDoc.Attributes["NoteID"].Value.ToString();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>源文件:</b> c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs
+               <b>行:</b>  1774
+            <br><br>
+<br><div class="expandable" onclick="OnToggleTOCLevel1('warningDiv')">编译器警告消息:</div>
+<div id="warningDiv" style="display: none;">
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 271:            
+行 272:        }
+<font color=red>行 273:        catch (Exception ex)
+</font>行 274:        {
+行 275:           </pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0162: 检测到无法访问的代码<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1503:                         break;
+行 1504:
+<font color=red>行 1505:                        SQLSentence = "SELECT DISTINCT tdjk.bah FROM tdjk WHERE tdjk.xm= '" + criteria + "' ";
+</font>行 1506:                        dataset = ExeuSentence(SQLSentence, hisDBType);
+行 1507:                        if (dataset.Tables.Count == 0) break;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1914:            }
+行 1915:        }
+<font color=red>行 1916:        catch (Exception ex)
+</font>行 1917:        {
+行 1918:            result = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 3871:            return Sum;
+行 3872:        }
+<font color=red>行 3873:        catch (Exception ex)
+</font>行 3874:        {
+行 3875:            //return ex.Message;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 3985:            return dt;
+行 3986:        }
+<font color=red>行 3987:        catch (Exception ex)
+</font>行 3988:        {
+行 3989:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4038:            return dt;
+行 4039:        }
+<font color=red>行 4040:        catch (Exception ex)
+</font>行 4041:        {
+行 4042:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4120:            return dt;
+行 4121:        }
+<font color=red>行 4122:        catch (Exception ex)
+</font>行 4123:        {
+行 4124:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4192:    
+行 4193:          }
+<font color=red>行 4194:          catch (Exception ex)
+</font>行 4195:          {
+行 4196:              dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4342:
+行 4343:        }
+<font color=red>行 4344:        catch (Exception ex)
+</font>行 4345:        {
+行 4346:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4374:
+行 4375:        }
+<font color=red>行 4376:        catch (Exception ex)
+</font>行 4377:        {
+行 4378:            blResult = false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4442:
+行 4443:        }
+<font color=red>行 4444:        catch (Exception ex)
+</font>行 4445:        {
+行 4446:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4566:
+行 4567:        }
+<font color=red>行 4568:        catch (Exception ex)
+</font>行 4569:        {
+行 4570:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4587:            }
+行 4588:        }
+<font color=red>行 4589:        catch (Exception ex)
+</font>行 4590:        {
+行 4591:           </pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4607:
+行 4608:        }
+<font color=red>行 4609:        catch (Exception ex)
+</font>行 4610:        {
+行 4611:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4627:           
+行 4628:        } //try end
+<font color=red>行 4629:        catch (Exception ex)
+</font>行 4630:        {
+行 4631:            myDataSet = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4648:
+行 4649:        } //try end
+<font color=red>行 4650:        catch (Exception ex)
+</font>行 4651:        {
+行 4652:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4667:
+行 4668:        } //try end
+<font color=red>行 4669:        catch (Exception ex)
+</font>行 4670:        {
+行 4671:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4684:            dt = Helper.GetDataSet(strSelect);
+行 4685:        }
+<font color=red>行 4686:        catch (Exception ex)
+</font>行 4687:        {
+行 4688:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4702:            dt = Helper.GetDataSet(strSelect);
+行 4703:        }
+<font color=red>行 4704:        catch (Exception ex)
+</font>行 4705:        {
+行 4706:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4729:
+行 4730:        }
+<font color=red>行 4731:        catch (Exception ex)
+</font>行 4732:        {
+行 4733:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4748:            dt = Helper.GetDataSet(strSelects);
+行 4749:        }
+<font color=red>行 4750:        catch (Exception ex)
+</font>行 4751:        {
+行 4752:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4765:            dt = Helper.GetDataSet(strSelect);
+行 4766:        }
+<font color=red>行 4767:        catch (Exception ex)
+</font>行 4768:        {
+行 4769:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4801:
+行 4802:        }
+<font color=red>行 4803:        catch (Exception ex)
+</font>行 4804:        {
+行 4805:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4824:
+行 4825:        }
+<font color=red>行 4826:        catch (Exception ex)
+</font>行 4827:        {
+行 4828:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4870:
+行 4871:        }
+<font color=red>行 4872:        catch (Exception ex)
+</font>行 4873:        {
+行 4874:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4886:            dt = Helper.GetDataSet(SELECT);
+行 4887:        }
+<font color=red>行 4888:        catch (Exception ex)
+</font>行 4889:        {
+行 4890:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4905:
+行 4906:        }
+<font color=red>行 4907:        catch (Exception ex)
+</font>行 4908:        {
+行 4909:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4923:
+行 4924:        }
+<font color=red>行 4925:        catch (Exception ex)
+</font>行 4926:        {
+行 4927:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4951:
+行 4952:        }
+<font color=red>行 4953:        catch (Exception ex)
+</font>行 4954:        {
+行 4955:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4975:
+行 4976:        }
+<font color=red>行 4977:        catch (Exception ex)
+</font>行 4978:        {
+行 4979:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5008:
+行 5009:        }
+<font color=red>行 5010:        catch (Exception ex)
+</font>行 5011:        {
+行 5012:            ds = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5276:            }
+行 5277:        }
+<font color=red>行 5278:        catch (Exception ex)
+</font>行 5279:        {
+行 5280:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5437:
+行 5438:
+<font color=red>行 5439:        catch (Exception ex)
+</font>行 5440:        {
+行 5441:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5523:
+行 5524:
+<font color=red>行 5525:        catch (Exception ex)
+</font>行 5526:        {
+行 5527:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrPatients.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 5977:
+行 5978:        } //try end
+<font color=red>行 5979:        catch (Exception ex)
+</font>行 5980:        {
+行 5981:            myDataSet = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 610:            myCommand.ExecuteNonQuery();
+行 611:        }
+<font color=red>行 612:        catch (Exception ex)
+</font>行 613:        {
+行 614:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1289:";
+行 1290:            strSql = String.Format(strTemp, registryID, ArchieveNum, noteForWordDoc.OuterXml.ToString(), noteForEmrDoc.OuterXml.ToString(), noteForEmrDoc.Attributes["NoteID"].Value, Root.OuterXml.ToString());
+<font color=red>行 1291:            using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1292:            {
+行 1293:                DataSet ds = new DataSet();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1320:            try
+行 1321:            {
+<font color=red>行 1322:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1323:                {
+行 1324:                    if (strError == null)</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1604:";
+行 1605:            strSql = String.Format(strTemp, registryID, ArchieveNum, noteForWordDoc.OuterXml.ToString(), noteForEmrDoc.OuterXml.ToString(), noteForEmrDoc.Attributes["NoteID"].Value, Root.OuterXml.ToString(), noteForEmrXml.OuterXml.ToString());
+<font color=red>行 1606:            using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1607:            {
+行 1608:                DataSet ds = new DataSet();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1635:            try
+行 1636:            {
+<font color=red>行 1637:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1638:                {
+行 1639:                    con.Open();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1667:        string strXmlNodeAttrValue = "";
+行 1668:        string strError = "未知异常";
+<font color=red>行 1669:        using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1670:        {
+行 1671:            con.Open();</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 1967:                SqlTransaction tran;
+行 1968:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 1969:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 1970:                {
+行 1971:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 2093:
+行 2094:        }
+<font color=red>行 2095:        catch (Exception ex)
+</font>行 2096:        {
+行 2097:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 2146:                SqlTransaction tran;
+行 2147:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 2148:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 2149:                {
+行 2150:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 2284:                SqlTransaction tran;
+行 2285:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 2286:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 2287:                {
+行 2288:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 4676:
+行 4677:        }
+<font color=red>行 4678:        catch (Exception ex)
+</font>行 4679:        {
+行 4680:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 6156:
+行 6157:        }
+<font color=red>行 6158:        catch (Exception ex)
+</font>行 6159:        {
+行 6160:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 6208:
+行 6209:        }
+<font color=red>行 6210:        catch (Exception ex)
+</font>行 6211:        {
+行 6212:            return null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7012:            return IDs;
+行 7013:        } //try end
+<font color=red>行 7014:        catch (Exception ex)
+</font>行 7015:        {
+行 7016:            //IDs.InnerText = ex.Message;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7042:            }
+行 7043:        }
+<font color=red>行 7044:        catch (Exception ex)
+</font>行 7045:        {
+行 7046:            // return ex.Message;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7241:
+行 7242:        }
+<font color=red>行 7243:        catch (Exception ex)
+</font>行 7244:        {
+行 7245:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7260:
+行 7261:        }
+<font color=red>行 7262:        catch (Exception ex)
+</font>行 7263:        {
+行 7264:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7280:
+行 7281:        }
+<font color=red>行 7282:        catch (Exception ex)
+</font>行 7283:        {
+行 7284:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7300:
+行 7301:        }
+<font color=red>行 7302:        catch (Exception ex)
+</font>行 7303:        {
+行 7304:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7324:
+行 7325:        }
+<font color=red>行 7326:        catch (Exception ex)
+</font>行 7327:        {
+行 7328:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7342:            blResult = true;
+行 7343:        }
+<font color=red>行 7344:        catch (Exception ex)
+</font>行 7345:        {
+行 7346:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7401:
+行 7402:        }
+<font color=red>行 7403:        catch (Exception ex)
+</font>行 7404:        {
+行 7405:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7430:
+行 7431:        }
+<font color=red>行 7432:        catch (Exception ex)
+</font>行 7433:        {
+行 7434:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7450:
+行 7451:        }
+<font color=red>行 7452:        catch (Exception ex)
+</font>行 7453:        {
+行 7454:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7483:            }
+行 7484:        }
+<font color=red>行 7485:        catch (Exception ex)
+</font>行 7486:        {
+行 7487:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7504:
+行 7505:        }
+<font color=red>行 7506:        catch (Exception ex)
+</font>行 7507:        {
+行 7508:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7524:
+行 7525:        }
+<font color=red>行 7526:        catch (Exception ex)
+</font>行 7527:        {
+行 7528:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7545:
+行 7546:        }
+<font color=red>行 7547:        catch (Exception ex)
+</font>行 7548:        {
+行 7549:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7712:
+行 7713:        }
+<font color=red>行 7714:        catch (Exception e)
+</font>行 7715:        {
+行 7716:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7747:
+行 7748:        }
+<font color=red>行 7749:        catch (Exception e)
+</font>行 7750:        {
+行 7751:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7783:
+行 7784:        }
+<font color=red>行 7785:        catch (Exception e)
+</font>行 7786:        {
+行 7787:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7819:
+行 7820:        }
+<font color=red>行 7821:        catch (Exception e)
+</font>行 7822:        {
+行 7823:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 7854:
+行 7855:        }
+<font color=red>行 7856:        catch (Exception e)
+</font>行 7857:        {
+行 7858:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8003:            Helper.ExecuteSql(Insert);
+行 8004:        }
+<font color=red>行 8005:        catch (Exception ex)
+</font>行 8006:        {
+行 8007:        };</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8020:            dt = Helper.GetDataSet(SELECT);
+行 8021:        }
+<font color=red>行 8022:        catch (Exception ex)
+</font>行 8023:        {
+行 8024:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8037:            dt = Helper.GetDataSet(SELECT);
+行 8038:        }
+<font color=red>行 8039:        catch (Exception ex)
+</font>行 8040:        {
+行 8041:            dt = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8055:
+行 8056:        }
+<font color=red>行 8057:        catch (Exception ex)
+</font>行 8058:        {
+行 8059:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8103:            }
+行 8104:        }
+<font color=red>行 8105:        catch (Exception ex)
+</font>行 8106:        {
+行 8107:            dsNew = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8148:            }
+行 8149:        }
+<font color=red>行 8150:        catch (Exception ex)
+</font>行 8151:        {
+行 8152:            dsNew = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8210:
+行 8211:        }
+<font color=red>行 8212:        catch (Exception ex)
+</font>行 8213:        {
+行 8214:            ds = null;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8290:
+行 8291:        }
+<font color=red>行 8292:        catch (Exception ex)
+</font>行 8293:        {
+行 8294:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8308:
+行 8309:        }
+<font color=red>行 8310:        catch (Exception ex)
+</font>行 8311:        {
+行 8312:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8325:
+行 8326:        }
+<font color=red>行 8327:        catch (Exception ex)
+</font>行 8328:        {
+行 8329:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ep”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8397:            else return true;
+行 8398:        }
+<font color=red>行 8399:        catch (Exception ep)
+</font>行 8400:        {
+行 8401:            return true;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ep”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8413:
+行 8414:        }
+<font color=red>行 8415:        catch (Exception ep)
+</font>行 8416:        {
+行 8417:</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8430:
+行 8431:        }
+<font color=red>行 8432:        catch (Exception ex)
+</font>行 8433:        {
+行 8434:            /* Error ocuured */</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“e”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8462:            return;
+行 8463:        }
+<font color=red>行 8464:        catch (Exception e)
+</font>行 8465:        {
+行 8466:            //ErrorLog("RemoveNoteTemplate", "NoteTemplate",</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8487:            }
+行 8488:        }
+<font color=red>行 8489:        catch (Exception ex)
+</font>行 8490:        {
+行 8491:            strResult = "";</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8513:            }
+行 8514:        }
+<font color=red>行 8515:        catch (Exception ex)
+</font>行 8516:        {
+行 8517:            strResult = "";</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0618: “System.Configuration.ConfigurationSettings.AppSettings”已过时:“This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings”<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8596:                SqlTransaction tran;
+行 8597:                SqlCommand cmd = new SqlCommand();
+<font color=red>行 8598:                using (SqlConnection con = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["EmrDB"]))
+</font>行 8599:                {
+行 8600:                    try</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8690:            DocRange = dt.Rows[0][0].ToString();
+行 8691:        }
+<font color=red>行 8692:        catch (Exception ex)
+</font>行 8693:        {
+行 8694:            return false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8711:            DocRange = dt.Rows[0][0].ToString();
+行 8712:        }
+<font color=red>行 8713:        catch (Exception ex)
+</font>行 8714:        {
+行 8715:            return false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8730:            DocRange = dt.Rows[0][0].ToString();
+行 8731:        }
+<font color=red>行 8732:        catch (Exception ex)
+</font>行 8733:        {
+行 8734:            return false;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8769:            Helper.ExecuteNonQuery(Insert);
+行 8770:        }
+<font color=red>行 8771:        catch (Exception ex)
+</font>行 8772:        {
+行 8773:            return;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+            <table width=100% bgcolor="#ffffcc">
+               <tr><td>
+               <b>c:\Users\Administrator\Desktop\静海20130517\emrService2012-11-16\App_Code\emrServiceXml.cs</b>
+               </td></tr>
+               <tr>
+                  <td>
+                      <code><pre>
+
+行 8788:            Helper.ExecuteNonQuery(Insert);
+行 8789:        }
+<font color=red>行 8790:        catch (Exception ex)
+</font>行 8791:        {
+行 8792:            return;</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+<b>警告:</b> CS0168: 声明了变量“ex”，但从未使用过<br>
+<b>源错误:</b><br><br>
+   
+--.
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetOperatorName(String opcode, String& opname, String& passwd, String& department, String& departname) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3042
+   在 EMR.ThisAddIn.GetOperatorInf(String Code, String& Name, String& passwd, String& departmentCode, String& departName) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\ThisAddIn.cs:行号 44
+14:15:59	[日志记录开始] 123456789
+14:19:45	[日志记录开始] 123456789
+14:21:31	[现在时间] 12013-05-21 14:19
+14:21:31	[现在时间] 22013-05-21 14:19
+14:21:31	[现在时间] 4:2013-05-21 14:19
+14:21:31	[现在时间] 5:OK
+14:21:34	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:21:53	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:22:07	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:22:34	[现在时间] 12013-05-21 14:20
+14:22:34	[现在时间] 22013-05-21 14:20
+14:22:34	[现在时间] 4:2013-05-21 14:20
+14:22:34	[现在时间] 5:OK
+14:22:35	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:24:12	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:24:40	[EX9134474988] 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式>>System.Runtime.InteropServices.COMException (0x800A17E7): 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式
+   在 Microsoft.Office.Interop.Word.DocumentClass.SaveAs(Object& FileName, Object& FileFormat, Object& LockComments, Object& Password, Object& AddToRecentFiles, Object& WritePassword, Object& ReadOnlyRecommended, Object& EmbedTrueTypeFonts, Object& SaveNativePictureFormat, Object& SaveFormsData, Object& SaveAsAOCELetter, Object& Encoding, Object& InsertLineBreaks, Object& AllowSubstitutions, Object& LineEnding, Object& AddBiDiMarks)
+   在 EMR.MainForm.GetXmlfile() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1287
+14:25:18	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:26:01	[日志记录开始] 123456789
+14:33:41	[现在时间] 12013-05-21 14:31
+14:33:41	[现在时间] 22013-05-21 14:31
+14:33:41	[现在时间] 4:2013-05-21 14:31
+14:33:41	[现在时间] 5:OK
+14:33:41	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:33:53	[现在时间] 12013-05-21 14:31
+14:33:53	[现在时间] 22013-05-21 14:31
+14:33:53	[现在时间] 4:2013-05-21 14:31
+14:33:53	[现在时间] 5:OK
+14:33:54	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:35:57	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:36:23	[现在时间] 12013-05-21 14:34
+14:36:23	[现在时间] 22013-05-21 14:34
+14:36:23	[现在时间] 4:2013-05-21 14:34
+14:36:24	[现在时间] 5:OK
+14:36:24	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:37:21	[现在时间] 12013-05-21 14:34
+14:37:21	[现在时间] 22013-05-21 14:34
+14:37:21	[现在时间] 4:2013-05-21 14:34
+14:37:21	[现在时间] 5:OK
+14:37:22	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:42:35	[现在时间] 12013-05-21 14:40
+14:42:35	[现在时间] 22013-05-21 14:40
+14:42:35	[现在时间] 4:2013-05-21 14:40
+14:42:35	[现在时间] 5:OK
+14:42:36	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:42:42	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:42:51	[EX9134474988] 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式>>System.Runtime.InteropServices.COMException (0x800A17E7): 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式
+   在 Microsoft.Office.Interop.Word.DocumentClass.SaveAs(Object& FileName, Object& FileFormat, Object& LockComments, Object& Password, Object& AddToRecentFiles, Object& WritePassword, Object& ReadOnlyRecommended, Object& EmbedTrueTypeFonts, Object& SaveNativePictureFormat, Object& SaveFormsData, Object& SaveAsAOCELetter, Object& Encoding, Object& InsertLineBreaks, Object& AllowSubstitutions, Object& LineEnding, Object& AddBiDiMarks)
+   在 EMR.MainForm.GetXmlfile() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1287
+14:51:43	[现在时间] 12013-05-21 14:49
+14:51:43	[现在时间] 22013-05-21 14:49
+14:51:43	[现在时间] 4:2013-05-21 14:49
+14:51:43	[现在时间] 5:OK
+14:51:44	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:52:32	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+14:52:58	[EX9134474988] 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式>>System.Runtime.InteropServices.COMException (0x800A17E7): 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式
+   在 Microsoft.Office.Interop.Word.DocumentClass.SaveAs(Object& FileName, Object& FileFormat, Object& LockComments, Object& Password, Object& AddToRecentFiles, Object& WritePassword, Object& ReadOnlyRecommended, Object& EmbedTrueTypeFonts, Object& SaveNativePictureFormat, Object& SaveFormsData, Object& SaveAsAOCELetter, Object& Encoding, Object& InsertLineBreaks, Object& AllowSubstitutions, Object& LineEnding, Object& AddBiDiMarks)
+   在 EMR.MainForm.GetXmlfile() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1287
+14:55:16	[现在时间] 12013-05-21 14:52
+14:55:16	[现在时间] 22013-05-21 14:52
+14:55:16	[现在时间] 4:2013-05-21 14:52
+14:55:16	[现在时间] 5:OK
+14:55:16	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+15:17:47	[现在时间] 12013-05-21 15:15
+15:17:47	[现在时间] 22013-05-21 15:15
+15:17:47	[现在时间] 4:2013-05-21 15:15
+15:17:47	[现在时间] 5:OK
+15:17:47	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+15:19:36	[现在时间] 12013-05-21 15:17
+15:19:37	[现在时间] 22013-05-21 15:17
+15:19:37	[现在时间] 4:2013-05-21 15:17
+15:19:37	[现在时间] 5:OK
+15:19:37	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336

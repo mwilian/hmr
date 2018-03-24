@@ -1,0 +1,15 @@
+10:14:48	[日志记录开始] 123456789
+10:18:08	[现在时间] 12013-06-14 10:16
+10:18:08	[现在时间] 22013-06-14 10:16
+10:18:08	[现在时间] 4:2013-06-14 10:16
+10:18:08	[现在时间] 5:OK
+10:18:10	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+10:18:14	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+10:18:21	[EX9134474988] 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式>>System.Runtime.InteropServices.COMException (0x800A17E7): 文档结构与一个或多个附加架构设置的规则冲突，因此无法另存为 XML 格式
+   在 Microsoft.Office.Interop.Word.DocumentClass.SaveAs(Object& FileName, Object& FileFormat, Object& LockComments, Object& Password, Object& AddToRecentFiles, Object& WritePassword, Object& ReadOnlyRecommended, Object& EmbedTrueTypeFonts, Object& SaveNativePictureFormat, Object& SaveFormsData, Object& SaveAsAOCELetter, Object& Encoding, Object& InsertLineBreaks, Object& AllowSubstitutions, Object& LineEnding, Object& AddBiDiMarks)
+   在 EMR.MainForm.GetXmlfile() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1287
+10:40:55	[日志记录开始] 123456789

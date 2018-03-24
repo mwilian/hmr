@@ -1,0 +1,6 @@
+11:43:10	[日志记录开始] 123456789
+11:44:40	[日志记录开始] 123456789
+11:45:41	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+12:14:12	[日志记录开始] 123456789

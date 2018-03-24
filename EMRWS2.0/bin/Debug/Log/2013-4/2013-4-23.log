@@ -1,0 +1,20 @@
+11:13:30	[日志记录开始] 123456789
+11:19:00	[日志记录开始] 123456789
+13:13:02	[日志记录开始] 123456789
+13:17:57	[EX741852966] 操作超时>>System.Net.WebException: 操作超时
+   在 System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetDoctorOrders(String registryID, Boolean inStyle) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3303
+   在 EMR.DoctorOrders..ctor(String registryID, Application WordApplication, String status) 位置 E:\61\EMR\EMRWS2.0\DoctorOrders.cs:行号 66
+13:19:58	[日志记录开始] 123456789
+15:29:00	[现在时间] 12013-04-23 15:27
+15:29:00	[现在时间] 22013-04-23 15:27
+15:29:00	[现在时间] 4:2013-04-23 15:27
+15:29:00	[现在时间] 5:OK
+15:29:00	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1336
+15:51:03	[日志记录开始] 123456789
+16:05:48	[日志记录开始] 123456789
+16:15:07	[日志记录开始] 123456789

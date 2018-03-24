@@ -1,0 +1,66 @@
+14:41:22	[日志记录开始] 123456789
+14:42:04	[EX9212474979] 未将对象引用设置到对象的实例。>>System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EMR.ActiveDocumentManager.setDefaultAD(Document wordActiveDocument) 位置 E:\61\EMR\EMRWS2.0\ActiveDocumentManager.cs:行号 18
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 133
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.OpenWordDoc(String wdDocName) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 384
+14:42:42	[日志记录开始] 123456789
+14:42:58	[EX9212474979] 未将对象引用设置到对象的实例。>>System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EMR.ActiveDocumentManager.setDefaultAD(Document wordActiveDocument) 位置 E:\61\EMR\EMRWS2.0\ActiveDocumentManager.cs:行号 18
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 133
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.OpenWordDoc(String wdDocName) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 384
+14:44:32	[日志记录开始] 123456789
+14:45:42	[EX9212474979] 未将对象引用设置到对象的实例。>>System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EMR.ActiveDocumentManager.setDefaultAD(Document wordActiveDocument) 位置 E:\61\EMR\EMRWS2.0\ActiveDocumentManager.cs:行号 18
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 133
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.OpenWordDoc(String wdDocName) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 384
+14:46:17	[日志记录开始] 123456789
+14:48:19	[日志记录开始] 123456789
+14:51:07	[现在时间] 12013-05-15 14:49
+14:51:07	[现在时间] 22013-05-15 14:49
+14:51:07	[现在时间] 4:2013-05-15 14:49
+14:51:07	[现在时间] 5:OK
+14:51:07	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1336
+14:51:30	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e) 位置 E:\61\EMR\EMRWS2.0\NoteRef.cs:行号 164
+14:51:50	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e) 位置 E:\61\EMR\EMRWS2.0\NoteRef.cs:行号 164
+14:51:52	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e) 位置 E:\61\EMR\EMRWS2.0\NoteRef.cs:行号 164
+14:55:58	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e) 位置 E:\61\EMR\EMRWS2.0\NoteRef.cs:行号 164
+14:56:02	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e) 位置 E:\61\EMR\EMRWS2.0\NoteRef.cs:行号 164
+14:59:15	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1336
+15:04:33	[现在时间] 12013-05-15 15:03
+15:04:33	[现在时间] 22013-05-15 15:03
+15:04:33	[现在时间] 4:2013-05-15 15:03
+15:04:33	[现在时间] 5:OK
+15:04:33	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1336
+15:16:18	[日志记录开始] 123456789

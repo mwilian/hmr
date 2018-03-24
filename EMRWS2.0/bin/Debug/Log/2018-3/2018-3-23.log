@@ -1,0 +1,21 @@
+01:58:13	[日志记录开始] 123456789
+01:58:15	[EX97894563852] 系统无法找到指定的资源。 (异常来自 HRESULT:0x800C0005)>>System.IO.FileNotFoundException: 系统无法找到指定的资源。 (异常来自 HRESULT:0x800C0005)
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url) 位置 E:\CSharp\emr 静海\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1416
+01:59:57	[EX922511256895] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7349
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetOperatorName(String opcode, String& opname, String& passwd, String& department, String& departname) 位置 E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3809
+   在 EMR.ThisAddIn.GetOperatorInf(String Code, String& Name, String& passwd, String& departmentCode, String& departName) 位置 E:\CSharp\emr 静海\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 44
+02:01:12	[日志记录开始] 123456789
+02:01:15	[EX97894563852] 系统无法找到指定的资源。 (异常来自 HRESULT:0x800C0005)>>System.IO.FileNotFoundException: 系统无法找到指定的资源。 (异常来自 HRESULT:0x800C0005)
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url) 位置 E:\CSharp\emr 静海\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1416
+02:35:21	[日志记录开始] 123456789
+02:35:23	[EX97894563852] 系统无法找到指定的资源。 (异常来自 HRESULT:0x800C0005)>>System.IO.FileNotFoundException: 系统无法找到指定的资源。 (异常来自 HRESULT:0x800C0005)
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url) 位置 E:\CSharp\emr 静海\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1416

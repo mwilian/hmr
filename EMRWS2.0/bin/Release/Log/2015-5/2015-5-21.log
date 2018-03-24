@@ -1,0 +1,18 @@
+15:17:18	[日志记录开始] 123456789
+15:18:23	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+15:18:24	[现在时间] 12015-05-21 15:18
+15:18:24	[现在时间] 32015年05月21日 15时18分
+15:18:24	[现在时间] 4:2015年05月21日 15时18分
+15:18:24	[现在时间] 5:OK
+15:18:25	[模板打开成功] 
+15:18:25	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:19:03	[EX9112474989] 被呼叫方拒绝接收呼叫。 (异常来自 HRESULT:0x80010001 (RPC_E_CALL_REJECTED))>>System.Runtime.InteropServices.COMException (0x80010001): 被呼叫方拒绝接收呼叫。 (异常来自 HRESULT:0x80010001 (RPC_E_CALL_REJECTED))
+   在 Microsoft.Office.Interop.Word.DocumentClass.get_Application()
+   在 EMR.MainForm.loadFileFinished(Document doc)
+   在 EMR.WordContainer.Navigate(String filename)
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4)
+   在 EMR.MainForm.OpenWordTem(String wdDocName)

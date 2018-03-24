@@ -1,0 +1,82 @@
+08:38:13	[日志记录开始] 123456789
+09:08:35	[日志记录开始] 123456789
+09:09:38	[日志记录开始] 123456789
+09:10:27	[EX756987457752] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetAreaCodeOfDepartment(String departmentCode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3964
+   在 EMR.ThisAddIn.GetAreaCodeOfDepartment(String departmentCode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn2.cs:行号 511
+   在 EMR.ThisAddIn.xmlDepartWriter() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1520
+   在 EMR.ThisAddIn.CreateLocalStorage(Boolean refresh) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1479
+   在 EMR.ThisAddIn.CreateWorkFolders(CreateWorkFolderMode buildMode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1455
+   在 EMR.Welcome.LoadData() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Welcome.cs:行号 301
+09:11:47	[EX92257745659827] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrService.emrServiceXml.GetSecurityConfig(XmlNode& content) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrService\Reference.cs:行号 8716
+   在 EMR.ThisAddIn.GetConfig(XmlNode& Config) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 766
+09:13:24	[日志记录开始] 123456789
+09:14:12	[EX99852674456] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrService.emrServiceXml.GetSecurityConfig(XmlNode& content) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrService\Reference.cs:行号 8716
+   在 EMR.ThisAddIn.GetConfig() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn2.cs:行号 99
+   在 EMR.ThisAddIn.GetOps() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn3.cs:行号 264
+   在 EMR.ThisAddIn.CanOption(String ElementNames) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn3.cs:行号 247
+   在 EMR.ThisAddIn.GetDoctors() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1125
+09:14:35	[EX121584274152] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.DoctorNameList() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3126
+   在 EMR.ThisAddIn.GetDoctorNames() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn2.cs:行号 479
+09:15:20	[EX756987457752] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetAreaCodeOfDepartment(String departmentCode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3964
+   在 EMR.ThisAddIn.GetAreaCodeOfDepartment(String departmentCode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn2.cs:行号 511
+   在 EMR.ThisAddIn.xmlDepartWriter() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1520
+   在 EMR.ThisAddIn.CreateLocalStorage(Boolean refresh) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1479
+   在 EMR.ThisAddIn.CreateWorkFolders(CreateWorkFolderMode buildMode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1455
+   在 EMR.Welcome.LoadData() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Welcome.cs:行号 301
+09:16:04	[日志记录开始] 123456789
+09:16:52	[EX756987457752] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetAreaCodeOfDepartment(String departmentCode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 3964
+   在 EMR.ThisAddIn.GetAreaCodeOfDepartment(String departmentCode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn2.cs:行号 511
+   在 EMR.ThisAddIn.xmlDepartWriter() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1520
+   在 EMR.ThisAddIn.CreateLocalStorage(Boolean refresh) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1479
+   在 EMR.ThisAddIn.CreateWorkFolders(CreateWorkFolderMode buildMode) 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\ThisAddIn.cs:行号 1455
+   在 EMR.Welcome.LoadData() 位置 E:\other\20150129 程序\emr 静海\EMRWS2.0\Welcome.cs:行号 301
+09:19:07	[日志记录开始] 123456789
+09:22:42	[日志记录开始] 123456789

@@ -1,0 +1,36 @@
+12:21:30	[日志记录开始] 123456789
+12:23:17	[日志记录开始] 123456789
+12:24:25	[日志记录开始] 123456789
+12:49:25	[日志记录开始] 123456789
+12:55:32	[日志记录开始] 123456789
+12:59:35	[日志记录开始] 123456789
+13:27:45	[日志记录开始] 123456789
+13:29:58	[日志记录开始] 123456789
+13:31:37	[日志记录开始] 123456789
+13:37:39	[日志记录开始] 123456789
+13:41:42	[日志记录开始] 123456789
+13:46:57	[日志记录开始] 123456789
+14:28:09	[日志记录开始] 123456789
+14:31:26	[日志记录开始] 123456789
+14:32:00	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.ArgumentException: 列“住院号”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 emrPatients.ValuateNowPSSelectHz(String item1, String item2) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6285
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.ArgumentException: 列“住院号”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 emrPatients.ValuateNowPSSelectHz(String item1, String item2) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6285
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectHz(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 1612
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 99
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2778
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+14:33:08	[日志记录开始] 123456789
+15:49:08	[日志记录开始] 123456789
+15:50:32	[日志记录开始] 123456789

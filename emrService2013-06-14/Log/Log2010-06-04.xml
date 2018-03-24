@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventLogs>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 对象名 'signContent' 无效。
+   在 SqlHelper.ExecuteSqlByTran(String[] sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2010/6/4 11:21:03</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 对象名 'signContent' 无效。
+   在 SqlHelper.ExecuteSqlByTran(String[] sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2010/6/4 10:47:35</RecordTime>
+  </Log>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 对象名 'signContent' 无效。
+   在 SqlHelper.ExecuteSqlByTran(String[] sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2010/6/4 10:46:52</RecordTime>
+  </Log>
+</EventLogs>

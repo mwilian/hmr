@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Myconfig xmlns="">
+  <WorkFolder Name="D:\Work" />
+  <Department Code="1002" Name="内二科" />
+  <Style In="Yes" />
+  <Roles>
+    <Role RoleID="00" RoleName="系统" Description="配置运行环境">
+      <Function>EnvConfig</Function>
+      <Function>ImportPhrase</Function>
+      <Function>ExportPhrase</Function>
+      <Function>ImportBlock</Function>
+      <Function>ExportBlock</Function>
+      <Function>ImportTemplate</Function>
+      <Function>ExportTemplate</Function>
+    </Role>
+    <Role RoleID="01" RoleName="书写" Description="建立修改审核病历">
+      <Function>openEmr</Function>
+      <Function>newNote</Function>
+      <Function>duplicateNote</Function>
+      <Function>delNote</Function>
+      <Function>useNoteTemplate</Function>
+      <Function>open</Function>
+      <Function>use</Function>
+      <Function>EmrQuery</Function>
+      <Function>EmrQuery2</Function>
+      <Function>QualityQuery</Function>
+      <Function>Synchronize</Function>
+      <Function>Archive</Function>
+      <Function>Deputed</Function>
+      <Function>Deputing</Function>
+      <Function>EmrPhrase</Function>
+    </Role>
+    <Role RoleID="02" RoleName="阅读" Description="只能阅读病历">
+      <Function>openEmr</Function>
+      <Function>EmrQuery</Function>
+      <Function>EmrQuery2</Function>
+    </Role>
+    <Role RoleID="03" RoleName="质管" Description="病历质量管理">
+      <Function>openEmr</Function>
+      <Function>valuate</Function>
+      <Function>EmrQuery</Function>
+      <Function>EmrQuery2</Function>
+      <Function>QCReport</Function>
+      <Function>QCTimeOut</Function>
+      <Function>DefPattern</Function>
+      <Function>SetAudit</Function>
+      <Function>DefRules</Function>
+      <Function>SetOptions</Function>
+    </Role>
+    <Role RoleID="04" RoleName="维护" Description="模板构件等维护">
+      <!-- template operations on  context -->
+      <Function>delete</Function>
+      <Function>open</Function>
+      <Function>rename</Function>
+      <Function>attribute</Function>
+      <!-- block operations on ribbon  -->
+      <Function>NewBlock</Function>
+      <Function>SaveBlock</Function>
+      <Function>RemoveBlock</Function>
+      <!-- phrase operations on ribbon  -->
+      <Function>asTemplate</Function>
+    </Role>
+    <Role RoleID="05" RoleName="科检" Description="科室内部质检">
+      <Function>noteValuate</Function>
+      <Function>valuate</Function>
+      <Function>QCReportSelf</Function>
+      <Function>openEmr</Function>
+      <Function>EmrQuery</Function>
+      <Function>EmrQuery2</Function>
+    </Role>
+    <Role RoleID="06" RoleName="全院模板" Description="全院模板维护">
+      <Function>asHospitalTemplate</Function>
+      <Function>delete</Function>
+      <Function>open</Function>
+      <Function>rename</Function>
+    </Role>
+    <Role RoleID="07" RoleName="科室模板" Description="科室模板维护">
+      <Function>asDepartTemplate</Function>
+      <Function>delete</Function>
+      <Function>open</Function>
+      <Function>rename</Function>
+    </Role>
+  </Roles>
+  <Fonts>
+    <Font Kind="LabelFont" Name="宋体" Size="10.5" Color="0" Bold="Yes" Italic="No" />
+    <Font Kind="HeaderFont" Name="宋体" Size="9" Color="0" Bold="No" Italic="No" />
+    <Font Kind="NoteNameFont" Name="宋体" Size="9" Color="0" Bold="No" Italic="No" />
+  </Fonts>
+  <Start>
+    <Item English="Registry" Chinise="入科时间" />
+    <Item English="Operation" Chinise="手术结束时间" />
+    <Item English="TransferIn" Chinise="转科接收时间" />
+    <Item English="TransferOut" Chinise="转科时间" />
+    <Item English="Discharged" Chinise="出科时间" />
+    <Item English="Dead" Chinise="死亡时间" />
+    <Item English="TakeOver" Chinise="接班时间" />
+    <Item English="Monthly" Chinise="每月一次" />
+    <Item English="Routine" Chinise="每 N 天一次" />
+    <Item English="Rescued" Chinise="抢救结束时间" />
+    <Item English="Consult" Chinise="会诊申请时间" />
+    <Item English="None" Chinise="不要求" />
+  </Start>
+  <QC State="No" />
+  <Options>
+    <AutoArchive>No</AutoArchive>
+    <CanEndPrint>Yes</CanEndPrint>
+    <DischargedCanEdit>Yes</DischargedCanEdit>
+    <AtPageHeader>No</AtPageHeader>
+    <ShowWritenDate>No</ShowWritenDate>
+    <ShowWriter>No</ShowWriter>
+    <LimitInDepart>No</LimitInDepart>
+    <CallSystem>No</CallSystem>
+    <LimitInDays>3</LimitInDays>
+    <MixOrder>No</MixOrder>
+    <Header>Yes</Header>
+    <Archive>Yes</Archive>
+    <k16>No</k16>
+    <EditLockedEmr>No</EditLockedEmr>
+    <AutoPageNum>Yes</AutoPageNum>
+    <CommitedAsEnd>No</CommitedAsEnd>
+    <UseDigitalSign>No</UseDigitalSign>
+    <RegistryID>No</RegistryID>
+    <ValuateEmr>Yes</ValuateEmr>
+    <ContinueAsEmrOpened>Yes</ContinueAsEmrOpened>
+    <UseTemplateNameAsNoteName>No</UseTemplateNameAsNoteName>
+    <CanEditHeader>No</CanEditHeader>
+    <Nurse>Yes</Nurse>
+    <PageFooter>No</PageFooter>
+    <CannotUncommit>No</CannotUncommit>
+    <OperatorDepartment>Yes</OperatorDepartment>
+    <EnterCommitTime>Yes</EnterCommitTime>
+    <OrderByMode>Yes</OrderByMode>
+    <Timeout>0</Timeout>
+    <NameAsHeader>Yes</NameAsHeader>
+    <GroupOwner>No</GroupOwner>
+    <TemplateRight>Yes</TemplateRight>
+    <SpaceAsFooter>Yes</SpaceAsFooter>
+    <NoPatientInfo>Yes</NoPatientInfo>
+    <SignRight>No</SignRight>
+    <Sign>No</Sign>
+    <AutoSign>Yes</AutoSign>
+    <ManualSign>No</ManualSign>
+    <RoleNewMenu>No</RoleNewMenu>
+    <OperationRight>No</OperationRight>
+    <UKey>No</UKey>
+    <Blood>No</Blood>
+    <AssignCheckRight>Yes</AssignCheckRight>
+    <Special>No</Special>
+    <Anesthesia>No</Anesthesia>
+    <OperationID />
+    <BloodID />
+    <SpecialText />
+    <AnesthesiaText />
+    <ConsultationBHSY>No</ConsultationBHSY>
+    <IllTemplate>No</IllTemplate>
+    <ChildHeader>No</ChildHeader>
+    <UseOldTemplate>No</UseOldTemplate>
+    <EyesCenter>No</EyesCenter>
+    <UseOldPic>No</UseOldPic>
+    <NoRefOther>No</NoRefOther>
+    <TimeLock>No</TimeLock>
+    <chxTrace>No</chxTrace>
+    <UseNewOp>Yes</UseNewOp>
+    <PersonTemplateRight>No</PersonTemplateRight>
+    <EncryptSign>No</EncryptSign>
+    <GetValue>No</GetValue>
+    <EHRInterface>No</EHRInterface>
+    <RealName>Yes</RealName>
+    <RevisionBy>Yes</RevisionBy>
+    <NewDate>No</NewDate>
+    <NoGridPrint>Yes</NoGridPrint>
+    <ArchiveManagement>No</ArchiveManagement>
+    <DepartArchive />
+    <CommitTime>No</CommitTime>
+    <Consent>No</Consent>
+    <ConsentID>23</ConsentID>
+    <UseNewTemp>Yes</UseNewTemp>
+    <PrintNoView>Yes</PrintNoView>
+    <PrintTop>760</PrintTop>
+    <PrintEnd>Yes</PrintEnd>
+    <RemindReview>Yes</RemindReview>
+    <ShowTime>No</ShowTime>
+  </Options>
+  <AuditSystem Level="A1" Mode="2" />
+  <PageMargin Left="90" Top="90" Right="72" Bottom="72" />
+  <HospitalName Value="天津市武清区人民医院" />
+  <MyRoles DoctorID="0000">
+    <RoleID>00</RoleID>
+    <RoleID>01</RoleID>
+    <RoleID>02</RoleID>
+    <RoleID>03</RoleID>
+    <RoleID>04</RoleID>
+    <RoleID>05</RoleID>
+  </MyRoles>
+  <Area Code="02" />
+</Myconfig>

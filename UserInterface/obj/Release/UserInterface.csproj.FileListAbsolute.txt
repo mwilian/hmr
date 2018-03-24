@@ -1,0 +1,147 @@
+E:\61\EMR\UserInterface\bin\Release\UserInterface.dll
+E:\61\EMR\UserInterface\bin\Release\CommonLib.dll
+E:\61\EMR\UserInterface\bin\Release\DevComponents.DotNetBar2.dll
+E:\61\EMR\UserInterface\bin\Release\HuronControl.dll
+E:\61\EMR\UserInterface\bin\Release\Interop.MSXML2.dll
+E:\61\EMR\UserInterface\bin\Release\Microsoft.Office.Interop.Word.dll
+E:\61\EMR\UserInterface\bin\Release\Office.dll
+E:\61\EMR\UserInterface\bin\Release\SevenZipSharp.dll
+E:\61\EMR\UserInterface\bin\Release\Microsoft.Vbe.Interop.dll
+E:\61\EMR\UserInterface\bin\Release\CommonLib.pdb
+E:\61\EMR\UserInterface\bin\Release\HuronControl.xml
+E:\61\EMR\UserInterface\obj\Release\ResolveAssemblyReference.cache
+E:\61\EMR\UserInterface\obj\Release\UserInterface.EmrNoteInfo.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.Emr_Message.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.FindPatient.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.FontSetting.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.GetTime.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.icd10.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.MergeNotes.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.OpDone.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.Patient.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.PatientInfoForm.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.PatternList.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.Phrase.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.PrintInfo.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.Properties.Resources.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.QueryPatient.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.SelectDepartment.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.SetBlocks.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.SetPhrase.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.Symbol.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.TableInfo.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.TemplateName.resources
+E:\61\EMR\UserInterface\obj\Release\UserInterface.Uncommit.resources
+E:\61\EMR\UserInterface\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\61\EMR\UserInterface\obj\Release\GenerateResource-ResGen.read.4.tlog
+E:\61\EMR\UserInterface\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\61\EMR\UserInterface\obj\Release\UserInterface.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\UserInterface.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\CommonLib.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\HuronControl.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\Interop.MSXML2.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\Office.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\CommonLib.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\bin\Release\HuronControl.xml
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.EmrNoteInfo.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.Emr_Message.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.FindPatient.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.FontSetting.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.GetTime.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.icd10.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.MergeNotes.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.OpDone.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.Patient.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.PatientInfoForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.PatternList.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.Phrase.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.PrintInfo.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.Properties.Resources.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.QueryPatient.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.SelectDepartment.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.SetBlocks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.SetPhrase.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.Symbol.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.TableInfo.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.TemplateName.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.Uncommit.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\UserInterface\obj\Release\UserInterface.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\UserInterface.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\CommonLib.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\HuronControl.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\Interop.MSXML2.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\Office.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\CommonLib.pdb
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\bin\Release\HuronControl.xml
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.EmrNoteInfo.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.Emr_Message.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.FindPatient.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.FontSetting.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.GetTime.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.icd10.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.MergeNotes.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.OpDone.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.Patient.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.PatientInfoForm.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.PatternList.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.Phrase.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.PrintInfo.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.Properties.Resources.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.QueryPatient.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.SelectDepartment.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.SetBlocks.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.SetPhrase.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.Symbol.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.TableInfo.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.TemplateName.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.Uncommit.resources
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\emr 静海\UserInterface\obj\Release\UserInterface.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\UserInterface.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\CommonLib.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\DevComponents.DotNetBar2.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\HuronControl.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\Interop.MSXML2.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\Microsoft.Office.Interop.Word.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\Office.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\SevenZipSharp.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\Microsoft.Vbe.Interop.dll
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\CommonLib.pdb
+E:\other\20150129 程序\emr 静海\UserInterface\bin\Release\HuronControl.xml
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\ResolveAssemblyReference.cache
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.EmrNoteInfo.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.Emr_Message.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.FindPatient.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.FontSetting.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.GetTime.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.icd10.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.MergeNotes.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.OpDone.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.Patient.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.PatientInfoForm.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.PatternList.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.Phrase.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.PrintInfo.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.Properties.Resources.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.QueryPatient.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.SelectDepartment.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.SetBlocks.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.SetPhrase.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.Symbol.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.TableInfo.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.TemplateName.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.Uncommit.resources
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\other\20150129 程序\emr 静海\UserInterface\obj\Release\UserInterface.dll

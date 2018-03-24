@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67EE79C1-CA59-4402-8CA6-8801BED95714}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMR</RootNamespace>
+    <AssemblyName>EMR</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>JinweiShoujia.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words, Version=11.7.0.0, Culture=neutral, PublicKeyToken=f0cad6ec951377d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\Libraries\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="HuronControl, Version=1.0.8.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\HuronControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <HintPath>..\Libraries\Interop.Microsoft.Office.Core.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.MSXML2">
+      <HintPath>..\Libraries\Interop.MSXML2.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="iTrusDotNetCertAPI">
+      <HintPath>..\Libraries\iTrusDotNetCertAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MathMLControl">
+      <HintPath>..\Libraries\MathMLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveDocumentManager.cs" />
+    <Compile Include="Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area.designer.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BA.cs">
+      <DependentUpon>BA.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BA.designer.cs">
+      <DependentUpon>BA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BA2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BA\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BA\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlockName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlockName.designer.cs">
+      <DependentUpon>BlockName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blocks.designer.cs">
+      <DependentUpon>Blocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckVersion.cs" />
+    <Compile Include="clsIme.cs" />
+    <Compile Include="EmrDocInfo.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewQC\ValuateNow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewQC\ValuateNow.designer.cs">
+      <DependentUpon>ValuateNow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\DgvPrinter.cs" />
+    <Compile Include="Prints\DocPrintHelper.cs" />
+    <Compile Include="DocProtectManager.cs" />
+    <Compile Include="DoctorOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorOrders.designer.cs">
+      <DependentUpon>DoctorOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmrDocument.cs" />
+    <Compile Include="EmrDocuments.cs" />
+    <Compile Include="EmrNote.cs" />
+    <Compile Include="EmrNote1.cs" />
+    <Compile Include="EmrTaskPane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmrTaskPane2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmrTaskPane3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmrTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmrTemplate.designer.cs">
+      <DependentUpon>EmrTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquation.designer.cs">
+      <DependentUpon>frmEquation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logon.designer.cs">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoteRef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoteRef.designer.cs">
+      <DependentUpon>NoteRef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PicGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PicGallery.designer.cs">
+      <DependentUpon>PicGallery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\ContiPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\ContiPrint.designer.cs">
+      <DependentUpon>ContiPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\PrinterManager.cs" />
+    <Compile Include="Prints\PrintError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\PrintError.designer.cs">
+      <DependentUpon>PrintError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\PrintSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\PrintSetup.designer.cs">
+      <DependentUpon>PrintSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reference.cs" />
+    <Compile Include="Right\ArchiveEmr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\ArchiveEmr.designer.cs">
+      <DependentUpon>ArchiveEmr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\ConsentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\ConsentForm.designer.cs">
+      <DependentUpon>ConsentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\DocTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\DocTransfer.designer.cs">
+      <DependentUpon>DocTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\UnlockEmr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\UnlockEmr.designer.cs">
+      <DependentUpon>UnlockEmr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right\ValuateScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right\ValuateScore.designer.cs">
+      <DependentUpon>ValuateScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveTemplate.designer.cs">
+      <DependentUpon>SaveTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select\CSelectEndP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select\CSelectEndP.designer.cs">
+      <DependentUpon>CSelectEndP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select\CSelectP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select\CSelectP.designer.cs">
+      <DependentUpon>CSelectP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select\Flaw.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Select\Flaw.designer.cs">
+      <DependentUpon>Flaw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select\QCReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select\QCReport.designer.cs">
+      <DependentUpon>QCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select\QualityKs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select\QualityKs.designer.cs">
+      <DependentUpon>QualityKs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendMessageToMonitor.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Set\FilingSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Set\FilingSetup.designer.cs">
+      <DependentUpon>FilingSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Set\FilingUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Set\FilingUC.designer.cs">
+      <DependentUpon>FilingUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Set\IndividualOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Set\IndividualOptions.designer.cs">
+      <DependentUpon>IndividualOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Set\SetIndividualOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Set\SetIndividualOptions.designer.cs">
+      <DependentUpon>SetIndividualOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Set\Trust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Set\Trust.designer.cs">
+      <DependentUpon>Trust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolidText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolidText.designer.cs">
+      <DependentUpon>SolidText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplitPagesBySection.cs" />
+    <Compile Include="ThisAddIn.cs" />
+    <Compile Include="ThisAddIn2.cs" />
+    <Compile Include="ThisAddIn3.cs" />
+    <Compile Include="ucAuthor.cs" />
+    <Compile Include="udt.cs" />
+    <Compile Include="Web References\gjtEmrOrder\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\gjtEmrPatients\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\gjtEmrService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordConfigs.cs" />
+    <Compile Include="WordContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WordContainer.Designer.cs">
+      <DependentUpon>WordContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordToHTML.cs" />
+    <Compile Include="XMLAfterInsert.cs" />
+    <EmbeddedResource Include="Area.resx">
+      <DependentUpon>Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BA.resx">
+      <DependentUpon>BA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BA\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewQC\ValuateNow.resx">
+      <DependentUpon>ValuateNow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\ContiPrint.resx">
+      <DependentUpon>ContiPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\PrintError.resx">
+      <DependentUpon>PrintError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\PrintSetup.resx">
+      <DependentUpon>PrintSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="BlockName.resx">
+      <DependentUpon>BlockName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blocks.resx">
+      <DependentUpon>Blocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorOrders.resx">
+      <DependentUpon>DoctorOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmrTemplate.resx">
+      <DependentUpon>EmrTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquation.resx">
+      <DependentUpon>frmEquation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logon.resx">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoteRef.resx">
+      <DependentUpon>NoteRef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PicGallery.resx">
+      <DependentUpon>PicGallery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Right\ArchiveEmr.resx">
+      <DependentUpon>ArchiveEmr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\ConsentForm.resx">
+      <DependentUpon>ConsentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\DocTransfer.resx">
+      <DependentUpon>DocTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\UnlockEmr.resx">
+      <DependentUpon>UnlockEmr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right\ValuateScore.resx">
+      <DependentUpon>ValuateScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveTemplate.resx">
+      <DependentUpon>SaveTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select\CSelectEndP.resx">
+      <DependentUpon>CSelectEndP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select\CSelectP.resx">
+      <DependentUpon>CSelectP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select\Flaw.resx">
+      <DependentUpon>Flaw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select\QCReport.resx">
+      <DependentUpon>QCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select\QualityKs.resx">
+      <DependentUpon>QualityKs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Set\FilingSetup.resx">
+      <DependentUpon>FilingSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Set\FilingUC.resx">
+      <DependentUpon>FilingUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Set\IndividualOptions.resx">
+      <DependentUpon>IndividualOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Set\SetIndividualOptions.resx">
+      <DependentUpon>SetIndividualOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Set\Trust.resx">
+      <DependentUpon>Trust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolidText.resx">
+      <DependentUpon>SolidText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BA.xsc">
+      <DependentUpon>BA.xsd</DependentUpon>
+    </None>
+    <None Include="BA.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BA2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BA.xss">
+      <DependentUpon>BA.xsd</DependentUpon>
+    </None>
+    <None Include="BA.xsx">
+      <DependentUpon>BA.xsd</DependentUpon>
+    </None>
+    <None Include="EmrOrder.wsdl" />
+    <None Include="help.chm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\gjtEmrOrder\EmrOrder.wsdl" />
+    <None Include="Web References\gjtEmrOrder\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\gjtEmrPatients\emrPatients.wsdl" />
+    <None Include="Web References\gjtEmrPatients\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\gjtEmrService\emrServiceXml.wsdl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\gjtEmrService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLib\CommonLib.csproj">
+      <Project>{B2B1DA4D-6C61-4A36-B0B8-A22180F8A208}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserInterface\UserInterface.csproj">
+      <Project>{617323B0-CDD6-4488-A53D-66FD85AB5220}</Project>
+      <Name>UserInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:7349/emrService2013-06-14/EmrOrder.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\gjtEmrOrder\</RelPath>
+      <UpdateFromURL>http://localhost:7349/emrService2013-06-14/EmrOrder.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EMR_gjtEmrOrder_EmrOrder</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:7349/emrService2013-06-14/emrPatients.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\gjtEmrPatients\</RelPath>
+      <UpdateFromURL>http://localhost:7349/emrService2013-06-14/emrPatients.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EMR_gjtEmrPatients_emrPatients</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:7349/emrService2013-06-14/emrServiceXml.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\gjtEmrService\</RelPath>
+      <UpdateFromURL>http://localhost:7349/emrService2013-06-14/emrServiceXml.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EMR_gjtEmrService_emrServiceXml</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddDelete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AI1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AI.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArchiveSet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARROW1.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARROW.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AsDepart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AsHosptial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ask.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asperson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssignRoles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blocks.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlockWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnConvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPrint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPrintPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonExitDefault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonExitHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonExitPushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLoginDefault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLoginHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonLoginPushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeblock1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeblock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConSelect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Convert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefChildPattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefPattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefRules.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefRulesEnd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmrPhrase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmrQueryScore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnableCommit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExtBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hospitalor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icd10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportPattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ind.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipatient.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IQi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LQI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainLQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medical2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\men.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mphrases.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyPic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyQC.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neworder1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noteclose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notecommit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoteRef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notesave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoteValuate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnDepting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnDeput.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnExportPhrase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnExportTemplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnImportBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnImportPhrase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnImportTemplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenTemp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PatientGone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PatientsConsult.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PatientSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PatientStayin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PatientStayin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printinfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QCSelfReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QualityQuery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\readme.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReferBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReferOder .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReferPhrase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refreshinfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savesm.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveTemp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoujia.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soption.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tnEmrQueryScoreEnd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnProtect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdateStatus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JinweiShoujia.ico" />
+    <Content Include="Resources\logon.jpg" />
+    <Content Include="Resources\myconfig.xml" />
+    <None Include="Resources\Q41.png" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\HelpManual.png" />
+    <None Include="Resources\Base1.png" />
+    <None Include="Web References\gjtEmrOrder\EmrOrder.disco" />
+    <None Include="Web References\gjtEmrPatients\emrPatients.disco" />
+    <None Include="Web References\gjtEmrService\emrServiceXml.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,54 @@
+E:\61\EMR\CommonLib\bin\Debug\CommonLib.dll
+E:\61\EMR\CommonLib\bin\Debug\CommonLib.pdb
+E:\61\EMR\CommonLib\bin\Debug\HuronControl.dll
+E:\61\EMR\CommonLib\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\61\EMR\CommonLib\bin\Debug\SevenZipSharp.dll
+E:\61\EMR\CommonLib\bin\Debug\office.dll
+E:\61\EMR\CommonLib\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\61\EMR\CommonLib\bin\Debug\HuronControl.xml
+E:\61\EMR\CommonLib\obj\Debug\ResolveAssemblyReference.cache
+E:\61\EMR\CommonLib\obj\Debug\CommonLib.dll
+E:\61\EMR\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\HuronControl.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\office.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\bin\Debug\HuronControl.xml
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\HuronControl.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\office.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\bin\Debug\HuronControl.xml
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\Administrator\Desktop\emr 静海\CommonLib\obj\Debug\CommonLib.pdb
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\CommonLib.dll
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\CommonLib.pdb
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\HuronControl.dll
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\SevenZipSharp.dll
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\office.dll
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\other\20150129 程序\emr 静海\CommonLib\bin\Debug\HuronControl.xml
+E:\other\20150129 程序\emr 静海\CommonLib\obj\Debug\CommonLib.dll
+E:\other\20150129 程序\emr 静海\CommonLib\obj\Debug\CommonLib.pdb
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\CommonLib.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\CommonLib.pdb
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\HuronControl.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\SevenZipSharp.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\office.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\bin\Debug\HuronControl.xml
+E:\CSharp\emr 静海\emr 静海\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+E:\CSharp\emr 静海\emr 静海\CommonLib\obj\Debug\CommonLib.dll
+E:\CSharp\emr 静海\emr 静海\CommonLib\obj\Debug\CommonLib.pdb

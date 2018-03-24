@@ -1,0 +1,33 @@
+10:54:25	[日志记录开始] 123456789
+10:55:17	[日志记录开始] 123456789
+10:55:37	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelect(String item1, String item2, String departID)
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelect(String item1, String item2, String departID)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelect(String item1, String item2, String departID)
+   在 EMR.CSelectP.GetDataNew()
+   在 EMR.MainForm._Cselect()
+   在 EMR.MainForm._EditDoc()
+   在 EMR.MainForm.loadFileFinished(Document doc)
+   在 EMR.WordContainer.Navigate(String filename)
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4)
+   在 EMR.MainForm.NewWordDoc()
+10:56:22	[日志记录开始] 123456789
+10:56:40	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPjL(String start, String end)
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPjL(String start, String end)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPjL(String start, String end)
+   在 EMR.CSelectP.GetDataNew()
+   在 EMR.MainForm._Cselect()
+   在 EMR.MainForm._EditDoc()
+   在 EMR.MainForm.loadFileFinished(Document doc)
+   在 EMR.WordContainer.Navigate(String filename)
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4)
+   在 EMR.MainForm.NewWordDoc()

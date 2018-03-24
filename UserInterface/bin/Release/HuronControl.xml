@@ -1,0 +1,1147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HuronControl</name>
+    </assembly>
+    <members>
+        <member name="M:HuronControl.Regular.IsOnlyLetterAndDigit(System.String)">
+            <summary>
+            校验字符串是否只包含字母与数字
+            </summary>
+            <param name="str">需要校验的字符串</param>
+            <returns>true表示符合要求，false表示不符合要求</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsInt(System.String)">
+            <summary>
+            检验是否是整数
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为整数：true是整数，false非整数</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsFloat(System.String)">
+            <summary>
+            校验是否为正的浮点数
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为正浮点，是返回true，否则返回false</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsNumber(System.String)">
+            <summary>
+            检验是否为数字
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为数字：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsDateTime(System.String)">
+            <summary>
+            检验字符串是否为日期时间
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为日期时间：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsPostCode(System.String)">
+            <summary>
+            检验字符串是否为邮政编码
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为邮政编码：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsCode(System.String)">
+            <summary>
+            检验字符串是否为身份证号
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为身份证号：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsEMail(System.String)">
+            <summary>
+            检验字符串是否为电子邮件
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为电子邮件：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsPhoneNumber(System.String)">
+            <summary>
+            检验字符串是否为中国地区的电话号码
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为中国地区的电话号码：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsChinese(System.String)">
+            <summary>
+            检验字符串是否为汉字
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为汉字：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsDoubleByteChar(System.String)">
+            <summary>
+            检验字符串是否为双字节字符(包括汉字)
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为双字节字符：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsURLAddress(System.String)">
+            <summary>
+            检验字符串是否为URL地址
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为URL地址：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.IsIPAddress(System.String)">
+            <summary>
+            检验字符串是否为IP地址
+            </summary>
+            <param name="str">需要检验的字符串</param>
+            <returns>是否为IP地址：true代表是，false代表否</returns>
+        </member>
+        <member name="M:HuronControl.Regular.RemoveHtmlTags(System.String)">
+            <summary>
+            清除字符串中的HTML标签(对于复杂的嵌套标签有时不准确)
+            </summary>
+            <param name="str">指定的要被处理的字符串</param>
+            <returns>清除HTML标签后的字符串</returns>
+        </member>
+        <member name="P:HuronControl.PicButtonPushDown.IsActive">
+            <summary>
+            获取按钮当前的被激活状态
+            </summary>
+        </member>
+        <member name="P:HuronControl.PicButtonPushDown.ImgHover">
+            <summary>
+            鼠标指针滑过按钮时显示的背景图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.PicButtonPushDown.ImgPushed">
+            <summary>
+            按下按钮时显示的背景图片
+            </summary>
+        </member>
+        <member name="T:HuronControl.Document.WordMerger">
+            <summary>  
+            Word文档合并类  
+            </summary>  
+        </member>
+        <member name="M:HuronControl.Document.WordMerger.CopyMerge(System.String,System.String[],System.String)">
+            <summary>  
+            循环合并多个文件（复制合并重复的文件）  
+            </summary>  
+            <param name="tempDoc">模板文件</param>  
+            <param name="arrCopies">需要合并的文件</param>  
+            <param name="outDoc">合并后的输出文件</param>  
+        </member>
+        <member name="M:HuronControl.Document.WordMerger.CopyMerge(System.String,System.String,System.String)">
+            <summary>  
+            循环合并多个文件（复制合并重复的文件）  
+            </summary>  
+            <param name="tempDoc">模板文件</param>  
+            <param name="strCopyFolder">需要合并的文件所在目录</param>  
+            <param name="outDoc">合并后的输出文件</param>  
+        </member>
+        <member name="M:HuronControl.Document.WordMerger.InsertMerge(System.String,System.String[],System.String,System.Boolean)">
+            <summary>  
+            循环合并多个文件（插入合并文件）  
+            </summary>  
+            <param name="tempDoc">模板文件</param>  
+            <param name="arrCopies">需要合并的文件</param>  
+            <param name="outDoc">合并后的输出文件</param>  
+            <param name="NewPage">是否启用新页</param>
+        </member>
+        <member name="M:HuronControl.Document.WordMerger.InsertMerge(System.String,System.String,System.String,System.Boolean)">
+            <summary>  
+            循环合并多个文件（插入合并文件）  
+            </summary>  
+            <param name="tempDoc">模板文件</param>  
+            <param name="strCopyFolder">需要合并的文件所在目录</param>  
+            <param name="outDoc">合并后的输出文件</param>  
+            <param name="NewPage">是否启用新页</param>
+        </member>
+        <member name="M:HuronControl.GetPBLInf.GetComments(System.String)">
+            <summary>
+            获取PowerBuilder Library中Comments的内容
+            </summary>
+            <param name="path">*.pbl文件所处位置</param>
+            <returns>1.原始二进制串 2.原始十六进制串 3.解密后十六进制串</returns>
+            <exception cref="T:HuronControl.CommentsNullException">PBL文件不含Comments</exception>
+        </member>
+        <member name="M:HuronControl.GetPBLInf.Hanzi2Pinyin(System.String)">
+            <summary>
+            获取字符串Hanzi中的每个字的拼音字头。
+            </summary>
+            <param name="Hanzi">汉字字符串</param>
+            <returns>Hanzi中的拼音字头</returns>
+        </member>
+        <member name="F:HuronControl.ColorSelector.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HuronControl.ColorSelector.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HuronControl.ColorSelector.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HuronControl.ColorSelector.SelectColor">
+            <summary>
+            当前选择的颜色
+            </summary>
+        </member>
+        <member name="M:HuronControl.LoadingCircle.StartMarquee">
+            <summary>
+            开始循环
+            </summary>
+        </member>
+        <member name="M:HuronControl.LoadingCircle.StartErase">
+            <summary>
+            开始擦写
+            </summary>
+        </member>
+        <member name="M:HuronControl.LoadingCircle.StartStep(System.Int64)">
+            <summary>
+            开始步进
+            </summary>
+            <param name="Value">总步数</param>
+        </member>
+        <member name="M:HuronControl.LoadingCircle.Stop">
+            <summary>
+            控件循环停止
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.Speed">
+            <summary>
+            获取和设置循环速度(单位毫秒)
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.SpokesMember">
+            <summary>
+            获取和设置线条数量
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.InnerCircleRadius">
+            <summary>
+            获取和设置圆形内半径
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.OutnerCircleRadius">
+            <summary>
+            获取和设置圆形内半径
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.ThemeColor">
+            <summary>
+            获取和设置主题颜色
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.LineWidth">
+            <summary>
+            获取和设置线条宽度
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.IsActive">
+            <summary>
+            获取控件运行状态，True:正在运行，False:已停止
+            </summary>
+        </member>
+        <member name="P:HuronControl.LoadingCircle.ShowWatermark">
+            <summary>
+            是否显示未填充印记，仅在Erase效果中可用
+            </summary>
+        </member>
+        <member name="M:HuronControl.LineAlphaTextBox.GetFontHeight">
+            <summary>
+            根据指定字体的大小来指定其他字体的大小
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HuronControl.PicButtonPush.ImgHover">
+            <summary>
+            鼠标指针滑过按钮时显示的背景图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.PicButtonPush.ImgPushed">
+            <summary>
+            按下按钮时显示的背景图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.ShadowPanel.FillColor">
+            <summary>
+            填充背景颜色
+            </summary>
+        </member>
+        <member name="P:HuronControl.ShadowPanel.BorderColor">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="T:HuronControl.FileMethod">
+            <summary>
+            文件类函数
+            </summary>
+        </member>
+        <member name="M:HuronControl.FileMethod.GetFilePath(System.String)">
+            <summary>
+            获取文件所在目录
+            </summary>
+            <param name="FileFullName">文件路径</param>
+            <returns>文件所在目录</returns>
+        </member>
+        <member name="M:HuronControl.FileMethod.GetFileName(System.String)">
+            <summary>
+            获取文件名(包含扩展名)
+            </summary>
+            <param name="FileFullName">文件路径</param>
+            <returns>文件名</returns>
+        </member>
+        <member name="M:HuronControl.FileMethod.GetFileNameOnly(System.String)">
+            <summary>
+            获取文件名(不含扩展名)
+            </summary>
+            <param name="FileFullName">文件路径</param>
+            <returns>文件名</returns>
+        </member>
+        <member name="M:HuronControl.FileMethod.GetFileExpandedName(System.String)">
+            <summary>
+            获取文件扩展名
+            </summary>
+            <param name="FileFullName">文件路径</param>
+            <returns>文件扩展名</returns>
+        </member>
+        <member name="T:HuronControl.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:HuronControl.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:HuronControl.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:HuronControl.SelectRectangle.SelectRect">
+            <summary>
+            获取和设置选定范围
+            </summary>
+        </member>
+        <member name="F:HuronControl.GradientLabel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HuronControl.GradientLabel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HuronControl.GradientLabel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HuronControl.SortableListView.Highlight">
+            <summary>
+            获取和设置是否高亮显示排序列
+            </summary>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.StartMarquee">
+            <summary>
+            开始循环
+            </summary>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.StartMarquee(System.Int64)">
+            <summary>
+            开始一段时间的循环，并自动关闭
+            </summary>
+            <param name="Second">总时长</param>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.StartStep(System.Int64)">
+            <summary>
+            开始步进
+            </summary>
+            <param name="Value">总步数</param>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.StartErase">
+            <summary>
+            开始擦写
+            </summary>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.StartErase(System.Int64)">
+            <summary>
+            开始一段时间的擦写，并自动关闭
+            </summary>
+            <param name="Second">总时长</param>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.Stop">
+            <summary>
+            停止运行
+            </summary>
+        </member>
+        <member name="M:HuronControl.RunningLoadFlag.StopClose">
+            <summary>
+            停止运行并关闭
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.OpacityTo">
+            <summary>
+            获取或设置渐变到某个透明度
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.EnterOpacitySecend">
+            <summary>
+            获取和设置渐入时长(单位:秒)
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.ExitOpacitySecend">
+            <summary>
+            获取和设置渐出时长(单位:秒)
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.Speed">
+            <summary>
+            获取和设置循环速度(单位毫秒)
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.SpokesMember">
+            <summary>
+            获取和设置线条数量
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.InnerCircleRadius">
+            <summary>
+            获取和设置圆形内半径
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.OutnerCircleRadius">
+            <summary>
+            获取和设置圆形内半径
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.ThemeColor">
+            <summary>
+            获取和设置主题颜色
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.LineWidth">
+            <summary>
+            获取和设置线条宽度
+            </summary>
+        </member>
+        <member name="P:HuronControl.RunningLoadFlag.IsActive">
+            <summary>
+            获取控件运行状态，true:正在运行，false:已停止
+            </summary>
+        </member>
+        <member name="T:HuronControl.ConfigAdapter">
+            <summary>
+            系统配置类，获取系统配置的配置参数
+            此类实现了IConfigurationSectionHandler接口
+            </summary>
+        </member>
+        <member name="F:HuronControl.ConfigAdapter.m_configValues">
+            <summary>
+            设置应用系统配置段，在各应用系统中实例化。
+            </summary>
+        </member>
+        <member name="M:HuronControl.ConfigAdapter.#ctor">
+            <summary>
+            初始化 AppConfiguration 类的新实例。
+            </summary>
+        </member>
+        <member name="M:HuronControl.ConfigAdapter.#ctor(System.String)">
+            <summary>
+            初始化 AppConfiguration 类的新实例。
+            </summary>
+            <param name="sectionName">默认读取的段的名称。</param>
+        </member>
+        <member name="M:HuronControl.ConfigAdapter.GetConfig(System.String)">
+            <summary>
+             获取某段配置中的配置信息（为名称值的配置段）。
+            </summary>
+            <param name="sectionName">配置段的名称Z</param>
+            <returns>配置段中的名称值对。</returns>
+        </member>
+        <member name="M:HuronControl.ConfigAdapter.GetDllConfiguration">
+            <summary>
+            获取dll对应的配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HuronControl.ConfigAdapter.Create(System.Object,System.Object,System.Xml.XmlNode)">
+            <summary>
+            创建新的配置处理程序并将其添加到节处理程序集合中。
+            </summary>
+            <param name="parent">对应父配置节中的配置设置。</param>
+            <param name="configContext">配置节处理程序为其计算配置值的虚拟路径。通常，该参数是保留参数，并为空引用（Visual Basic 中为 Nothing）。 </param>
+            <param name="section">包含要处理的配置信息的 XmlNode。提供对配置节 XML 内容的直接访问。</param>
+            <returns>一个 NameValueCollection。</returns>
+        </member>
+        <member name="P:HuronControl.ConfigAdapter.SectionName">
+            <summary>
+            获取或设置配置段名。
+            </summary>
+        </member>
+        <member name="P:HuronControl.ConfigAdapter.AppSettings">
+            <summary>
+            获取appSettings配置段里的内容。		
+            </summary>
+        </member>
+        <member name="P:HuronControl.ConfigAdapter.ModuleConfigSettings">
+            <summary>
+            获取或设置用户指定配置段里的内容和默认内容的并集（默认为appSettings里的内容）。
+            </summary>
+        </member>
+        <member name="P:HuronControl.ConfigAdapter.DllConfigFilePath">
+            <summary>
+            封装多一遍, 确保调用本方法的方法为Dll内部方法, 从而取得正确的Dll配置文件路径
+            否则可能取得的是执行程序(主程序)的路径
+            </summary>
+        </member>
+        <member name="F:HuronControl.Painter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HuronControl.Painter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HuronControl.Painter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:HuronControl.Painter.#ctor(System.Boolean)">
+            <summary>
+            创建Painter实例，并新建一个空画板
+            </summary>
+            <param name="ShowReturnButton">指示是否显示“返回”按钮</param>
+        </member>
+        <member name="M:HuronControl.Painter.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            创建Painter实例，并创建指定大小的画板
+            </summary>
+            <param name="Width">画板宽度(单位:像素)</param>
+            <param name="Height">画板高度(单位:像素)</param>
+            <param name="ShowReturnButton">指示是否显示“返回”按钮</param>
+        </member>
+        <member name="M:HuronControl.Painter.#ctor(System.Drawing.Bitmap,System.Boolean)">
+            <summary>
+            创建Painter实例，并由一个已存在的Bitmap填充画板
+            </summary>
+            <param name="Image">初始图像</param>
+            <param name="ShowReturnButton">指示是否显示“返回”按钮</param>
+        </member>
+        <member name="P:HuronControl.Painter.FinalBitmap">
+            <summary>
+            最终结果
+            </summary>
+        </member>
+        <member name="M:HuronControl.INIAdapter.#ctor(System.String)">
+            <summary> 
+            构造方法  
+            </summary>  
+            <param name="INIPath">文件路径</param>
+        </member>
+        <member name="M:HuronControl.INIAdapter.WriteValue(System.String,System.String,System.String)">
+            <summary>  
+            写入INI文件  
+            </summary> 
+            <param name="Section">节名称(如 [SectionName])</param>
+            <param name="Key">键</param>  
+            <param name="Value">值</param> 
+        </member>
+        <member name="M:HuronControl.INIAdapter.ReadValue(System.String,System.String)">
+            <summary>  
+            读出INI文件   
+            </summary>  
+            <param name="Section">节名称(如 [SectionName])</param> 
+            <param name="Key">键</param>
+        </member>
+        <member name="M:HuronControl.INIAdapter.Exists">
+            <summary>  
+            验证文件是否存在  
+            </summary>   
+            <returns>布尔值</returns>  
+        </member>
+        <member name="M:HuronControl.Property.GetProperty(System.Windows.Forms.Control)">
+            <summary>
+            获取附加属性
+            </summary>
+        </member>
+        <member name="M:HuronControl.Property.SetProperty(System.Windows.Forms.Control,System.Object)">
+            <summary>
+            设置附加属性
+            </summary>
+        </member>
+        <member name="T:HuronControl.Document.WordConvert">
+            <summary>
+            将Word文件转换为指定格式
+            </summary>
+        </member>
+        <member name="M:HuronControl.Document.WordConvert.#ctor(System.String,System.String)">
+            <summary>
+            将Word文档转换为指定格式
+            </summary>
+            <param name="WordFileName">源Word文档完整路径</param>
+            <param name="TargetFileName">目标文件的完整路径</param>
+        </member>
+        <member name="M:HuronControl.Document.WordConvert.#ctor(Microsoft.Office.Interop.Word.Application,System.String)">
+            <summary>
+            将打开的Word文档转换为指定格式
+            </summary>
+            <param name="WordApp">WordApplication实例</param>
+            <param name="TargetFileName">目标文件的完整路径</param>
+        </member>
+        <member name="M:HuronControl.Document.WordConvert.ConvertWord(HuronControl.Document.WordConvert.FileType,System.Boolean)">
+            <summary>
+            将Word文档转换为指定格式
+            </summary>
+            <param name="TargetFileType">目标文件的格式</param>
+            <param name="OpenAfterExport">转换完成后是否打开目标文件</param>
+        </member>
+        <member name="T:HuronControl.Document.PDF2Flash">
+            <summary>
+            将PDF文档转换为Flash
+            </summary>
+        </member>
+        <member name="M:HuronControl.Document.PDF2Flash.#ctor(System.String,System.String,System.String)">
+            <summary>
+            由PDF文档生成包含SWF文件的目录
+            </summary>
+            <param name="PDFFileName">源PDF文档完整路径</param>
+            <param name="PDFPassword">源PDF文档密码，若无密码则为null</param>
+            <param name="OutPutPath">输出目录</param>
+        </member>
+        <member name="M:HuronControl.Document.PDF2Flash.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            由PDF文档生成包含SWF文件的7-Zip压缩包
+            </summary>
+            <param name="PDFFileName">源PDF文档完整路径</param>
+            <param name="PDFPassword">源PDF文档密码，若无密码则为null</param>
+            <param name="OutPutPath">压缩包输出目录</param>
+            <param name="PacketFileName">压缩包文件名</param>
+        </member>
+        <member name="M:HuronControl.Document.PDF2Flash.ConvertPDF(System.String,System.String,System.String,System.String,System.String,System.String[],System.Boolean)">
+            <summary>
+            由PDF文档创建指定形式的Flash
+            </summary>
+            <param name="Logo">Logo文字或图片文件的完整路径，文字仅支持英文，图片支持扩展名为JPG的文件，若不存在则为null</param>
+            <param name="LogoURL">Logo链接URL地址，若不存在则为null</param>
+            <param name="BackgroundMusicFileName">背景音乐文件的完整路径，支持MP3格式，若不存在则为null</param>
+            <param name="ReplaceFiles">文件完整路径，该文件用于覆盖或添加到Flash生成目录，用于修改版权信息</param>
+            <param name="DeletePDF">转换完成后，是否删除源PDF文件</param>
+            <param name="Author">作者信息</param>
+            <param name="Title">题目信息</param>
+        </member>
+        <member name="P:HuronControl.ExtendTextBox.AllowType">
+            <summary>
+            允许输入的内容，包括数字、字母、全部三种
+            </summary>
+        </member>
+        <member name="P:HuronControl.ExtendTextBox.CommentsText">
+            <summary>
+            描述性文本
+            </summary>
+        </member>
+        <member name="T:HuronControl.ExtendTextBox.AllowTypes">
+            <summary>
+            允许输入的内容
+            </summary>
+        </member>
+        <member name="F:HuronControl.ExtendTextBox.AllowTypes.Number">
+            <summary>
+            数字
+            </summary>
+        </member>
+        <member name="F:HuronControl.ExtendTextBox.AllowTypes.Decimal">
+            <summary>
+            十进制数，包含小数(如3.14)、大整数(如9,600,000)
+            </summary>
+        </member>
+        <member name="F:HuronControl.ExtendTextBox.AllowTypes.Letter">
+            <summary>
+            英文字母，大小写忽略
+            </summary>
+        </member>
+        <member name="F:HuronControl.ExtendTextBox.AllowTypes.NumberAndLetter">
+            <summary>
+            数字和英文字母，大小写忽略
+            </summary>
+        </member>
+        <member name="F:HuronControl.ExtendTextBox.AllowTypes.All">
+            <summary>
+            任何字符
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.IsActive">
+            <summary>
+            获取按钮当前的被激活状态
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.ImgDisDefault">
+            <summary>
+            获取和设置按钮处于禁用状态时显示的默认图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.ImgDisHover">
+            <summary>
+            获取和设置按钮处于禁用状态鼠标滑过时显示的图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.ImgActDefault">
+            <summary>
+            获取和设置按钮处于激活状态时显示的默认图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.ImgActHover">
+            <summary>
+            获取和设置按钮处于激活状态鼠标滑过时显示的图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.DisText">
+            <summary>
+            获取和设置按钮处于禁用状态时显示的说明性文字
+            </summary>
+        </member>
+        <member name="P:HuronControl.SwitchButton.ActText">
+            <summary>
+            获取和设置按钮处于激活状态时显示的说明性文字
+            </summary>
+        </member>
+        <member name="P:HuronControl.PicButton.ImgDefault">
+            <summary>
+            按钮处于默认状态时显示的图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.PicButton.ImgHover">
+            <summary>
+            鼠标指针滑过按钮时显示的图片
+            </summary>
+        </member>
+        <member name="P:HuronControl.PicButton.ImgPushed">
+            <summary>
+            按下按钮时显示的图片
+            </summary>
+        </member>
+        <member name="T:HuronControl.SystemInfo.OperationSystem">
+            <summary>
+            操作系统信息
+            </summary>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.GetWeekDay(System.DateTime)">
+            <summary>
+            获取指定DateTime的星期几属性（已过时，请使用DateTime.Now.ToString("dddd")）
+            </summary>
+            <param name="DateTime">指定的DateTime</param>
+            <returns>星期几</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.Caption">
+            <summary>
+            获取当前操作系统说明
+            </summary>
+            <returns>操作系统说明</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.Version">
+            <summary>
+            获取当前操作系统版本
+            </summary>
+            <returns>操作系统版本</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.Type">
+            <summary>
+            获取当前操作系统类型，如x86,x64
+            </summary>
+            <returns>操作系统类型</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.DocNetVersion">
+            <summary>
+            获取当前操作系统 .Net Framework 版本
+            </summary>
+            <returns>.Net Framework 版本</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.SystemDirectory">
+            <summary>
+            获取当前操作系统文件夹
+            </summary>
+            <returns>操作系统文件夹</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.ComputerName">
+            <summary>
+            获取当前操作系统计算机名（NetBIOS名称）
+            </summary>
+            <returns>计算机名</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.UserName">
+            <summary>
+            获取当前操作系统当前用户名
+            </summary>
+            <returns>用户名</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.UserDomainName">
+            <summary>
+            获取当前操作系统当前用户所属域名
+            </summary>
+            <returns>用户所属域名</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.ScreenArea">
+            <summary>
+            获取当前操作系统屏幕分辨率
+            </summary>
+            <returns>屏幕分辨率</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.Areo">
+            <summary>
+            获取当前操作系统Areo特效状态
+            </summary>
+            <returns>Areo特效状态</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.OperationSystem.MenuFont">
+            <summary>
+            获取当前操作系统菜单字体
+            </summary>
+            <returns>菜单字体</returns>
+        </member>
+        <member name="T:HuronControl.SystemInfo.HardWare">
+            <summary>
+            硬件信息
+            </summary>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.Manufacturer">
+            <summary>
+            获取当前计算机主板制造商名称
+            </summary>
+            <returns>主板制造商名称</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.ModelName">
+            <summary>
+            获取当前计算机系统产品名称
+            </summary>
+            <returns>系统产品名称</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.ProcessorName">
+            <summary>
+            获取当前计算机处理器名称
+            </summary>
+            <returns>处理器名称</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.ProcessorDescription">
+            <summary>
+            获取当前计算机处理器描述
+            </summary>
+            <returns>处理器描述</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.ProcessorCoreCount">
+            <summary>
+            获取当前计算机处理器核心总数
+            </summary>
+            <returns>处理器核心总数</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.PhysicalMemorySize">
+            <summary>
+            获取当前计算机物理内存总量
+            </summary>
+            <returns>物理内存总量</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.FreePhysicalMemory">
+            <summary>
+            获取当前计算机剩余物理内存
+            </summary>
+            <returns>剩余物理内存</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.VirtualMemorySize">
+            <summary>
+            获取当前计算机虚拟内存总量
+            </summary>
+            <returns>虚拟内存总量</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.HardDiskSize">
+            <summary>
+            获取当前计算机硬盘容量
+            </summary>
+            <returns>硬盘容量</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.VideoController">
+            <summary>
+            获取当前计算机显卡信息
+            </summary>
+            <returns>显卡信息</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.HardWare.MonitorCount">
+            <summary>
+            获取当前计算机显示器数量
+            </summary>
+            <returns>显示器数量</returns>
+        </member>
+        <member name="T:HuronControl.SystemInfo.ApplicationInfo">
+            <summary>
+            应用程序信息
+            </summary>
+        </member>
+        <member name="M:HuronControl.SystemInfo.ApplicationInfo.CommandLine">
+            <summary>
+            获取当前程序的命令行
+            </summary>
+            <returns>命令行</returns>
+        </member>
+        <member name="M:HuronControl.SystemInfo.ApplicationInfo.ProsessUserName">
+            <summary>
+            获取当前程序的执行用户
+            </summary>
+            <returns>用户名</returns>
+        </member>
+        <member name="T:HuronControl.Win32">
+            <summary>
+            Win32 相关代码
+            </summary>
+        </member>
+        <member name="M:HuronControl.Win32.CursorFromResources(System.String,System.Byte[])">
+            <summary>
+            通过资源文件中的Cursor获取新的Cursor实例
+            </summary>
+        </member>
+        <member name="M:HuronControl.Win32.CursorFromResources(System.String,System.Drawing.Bitmap)">
+            <summary>
+            通过资源文件中的Image获取新的Cursor实例
+            </summary>
+        </member>
+        <member name="M:HuronControl.Win32.CursorFromResources(System.Drawing.Bitmap,System.Drawing.Point)">
+            <summary>
+            通过资源文件中的Image获取新的Cursor实例，同时指定其焦点
+            </summary>
+        </member>
+        <member name="M:HuronControl.Win32.GetWin32ClassInf(System.String,System.String)">
+            <summary>
+            通用Win32Class访问方法
+            </summary>
+            <param name="Class">类名</param>
+            <param name="Object">项目名</param>
+            <returns>返回字符串</returns>
+        </member>
+        <member name="T:HuronControl.StringEncrypt">
+            <summary>
+            字符串加密解密类
+            </summary>
+        </member>
+        <member name="M:HuronControl.StringEncrypt.DecodeString(System.String,System.String@)">
+            <summary>
+            解密字符串
+            </summary>
+            <param name="StrEncoded">已编码字符串</param>
+            <param name="StrDecoded">未编码字符串</param>
+            <returns>结束位置</returns>
+        </member>
+        <member name="M:HuronControl.StringEncrypt.EncodeString(System.String)">
+            <summary>
+            加密字符串
+            </summary>
+            <param name="StrDecoded">未编码字符串</param>
+            <returns>已编码字符串</returns>
+        </member>
+        <member name="T:HuronControl.StringCryptogram">
+            <summary>
+            字符串加密解密类
+            </summary>
+        </member>
+        <member name="M:HuronControl.StringCryptogram.Encrypt(System.String)">
+            <summary>
+            字符串加密
+            </summary>
+            <param name="StrDecoded">未加密字符串</param>
+            <returns>加密字符串</returns>
+        </member>
+        <member name="M:HuronControl.StringCryptogram.Decrypt(System.String)">
+            <summary>
+            字符串解密类
+            </summary>
+            <param name="StrEncoded">已加密字符串</param>
+            <returns>未加密字符串</returns>
+        </member>
+        <member name="T:HuronControl.StringAdapter">
+            <summary>
+            字符串处理类
+            </summary>
+        </member>
+        <member name="M:HuronControl.StringAdapter.ArrayToString(System.String[],System.String)">
+            <summary>
+            合成字符串（将字符串数组连接为字符串）
+            </summary>
+            <param name="StringArray">字符串数组</param>
+            <param name="SplitString">用于分割各项的字符串</param>
+            <returns>合成结果</returns>
+        </member>
+        <member name="M:HuronControl.StringAdapter.ListToString(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            合成字符串（将字符串列表连接为字符串）
+            </summary>
+            <param name="StringList">字符串列表</param>
+            <param name="SplitString">用于分割各项的字符串</param>
+            <returns>合成结果</returns>
+        </member>
+        <member name="M:HuronControl.StringAdapter.GetStaticString(System.Int32,System.Char)">
+            <summary>
+            用指定的字符合成指定长度的字符串
+            </summary>
+            <param name="Length">字符串长度</param>
+            <param name="Item">用于填充的字符</param>
+            <returns>合成结果</returns>
+        </member>
+        <member name="T:HuronControl.RandomString">
+            <summary>
+            随机字符串类
+            </summary>
+        </member>
+        <member name="M:HuronControl.RandomString.GetString(System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            获取随机字符串
+            </summary>
+            <param name="intLength">字符串长度</param>
+            <param name="booNumber">是否包含数字</param>
+            <param name="booSign">是否包含特殊符号</param>
+            <param name="booSmallword">是否包含小写字母</param>
+            <param name="booBigword">是否包含大写字母</param>
+            <returns>随机字符串</returns>
+        </member>
+        <member name="F:HuronControl.TextShadow.gaussMatrix">
+            <summary>
+            高斯卷积矩阵
+            </summary>
+        </member>
+        <member name="F:HuronControl.TextShadow.nuclear">
+            <summary>
+            卷积核
+            </summary>
+        </member>
+        <member name="M:HuronControl.TextShadow.MaskShadow(System.Drawing.Bitmap)">
+            <summary>
+            对文字阴影位图按阴影半径计算的高斯矩阵进行卷积模糊
+            </summary>
+            <param name="bmp">文字阴影位图</param>
+        </member>
+        <member name="M:HuronControl.TextShadow.MakeGaussMatrix">
+            <summary>
+            按给定的阴影半径生成高斯卷积矩阵
+            </summary>
+        </member>
+        <member name="M:HuronControl.TextShadow.StringShadow(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            画文字阴影
+            </summary>
+            <param name="g">画布</param>
+            <param name="text">文字串</param>
+            <param name="font">字体</param>
+            <param name="layoutRect">文字串的布局矩形</param>
+            <param name="format">文字串输出格式</param>
+        </member>
+        <member name="M:HuronControl.TextShadow.StringShadow(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.RectangleF)">
+            <summary>
+            画文字阴影
+            </summary>
+            <param name="g">画布</param>
+            <param name="text">文字串</param>
+            <param name="font">字体</param>
+            <param name="layoutRect">文字串的布局矩形</param>
+        </member>
+        <member name="M:HuronControl.TextShadow.StringShadow(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            画文字阴影
+            </summary>
+            <param name="g">画布</param>
+            <param name="text">文字串</param>
+            <param name="font">字体</param>
+            <param name="origin">文字串的输出原点</param>
+            <param name="format">文字串输出格式</param>
+        </member>
+        <member name="M:HuronControl.TextShadow.StringShadow(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.PointF)">
+            <summary>
+            画文字阴影
+            </summary>
+            <param name="g">画布</param>
+            <param name="text">文字串</param>
+            <param name="font">字体</param>
+            <param name="origin">文字串的输出原点</param>
+        </member>
+        <member name="P:HuronControl.TextShadow.Radius">
+            <summary>
+            阴影半径
+            </summary>
+        </member>
+        <member name="P:HuronControl.TextShadow.Distance">
+            <summary>
+             阴影距离
+            </summary>
+        </member>
+        <member name="P:HuronControl.TextShadow.Angle">
+            <summary>
+             阴影输出角度(左边平行处为0度。顺时针方向)
+            </summary>
+        </member>
+        <member name="P:HuronControl.TextShadow.Alpha">
+            <summary>
+            阴影文字的不透明度
+            </summary>
+        </member>
+        <member name="M:HuronControl.NetAdapter.GetLocalIP">
+            <summary>
+            获取当前使用的IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HuronControl.NetAdapter.GetPrimaryDNS">
+            <summary>
+            获取本机主DNS
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HuronControl.NetAdapter.RunApp(System.String,System.String,System.Boolean)">
+            <summary>
+            运行一个控制台程序并返回其输出参数。
+            </summary>
+            <param name="filename">程序名</param>
+            <param name="arguments">输入参数</param>
+            <param name="recordLog">记录日志</param>
+            <returns></returns>
+        </member>
+        <member name="M:HuronControl.LogAdapter.#ctor(System.String)">
+            <summary>
+            单文件日志记录
+            </summary>
+            <param name="LogFileName">日志文件存储路径</param>
+        </member>
+        <member name="M:HuronControl.LogAdapter.#ctor(System.String,System.Boolean)">
+            <summary>
+            多文件的日志记录
+            </summary>
+            <param name="LogFileFolder">日志文件存储目录</param>
+            <param name="MonthFolder">是否创建月份子目录</param>
+        </member>
+        <member name="M:HuronControl.LogAdapter.Record(System.String,System.String,System.Boolean)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="Caption">标题</param>
+            <param name="Data">数据</param>
+            <param name="RecordTime">是否记录时间</param>
+        </member>
+        <member name="M:HuronControl.LogAdapter.Dispose">
+            <summary>
+            释放由LogAdapter占用的资源
+            </summary>
+        </member>
+    </members>
+</doc>

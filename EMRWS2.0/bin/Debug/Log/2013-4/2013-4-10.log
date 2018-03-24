@@ -1,0 +1,369 @@
+08:54:43	[日志记录开始] 123456789
+08:59:45	[日志记录开始] 123456789
+10:07:18	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:09:43	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:10:31	[日志记录开始] 123456789
+10:10:59	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:12:04	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:14:23	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:15:03	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:16:29	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:21:15	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:29:17	[EX961052979] 操作超时>>System.Net.WebException: 操作超时
+   在 System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:34:20	[日志记录开始] 123456789
+10:35:34	[日志记录开始] 123456789
+10:36:44	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write109_ValuateNowPSSelectQyResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer209.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectQy(String item1, String item2) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2246
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 101
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2790
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2557
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:39:08	[日志记录开始] 123456789
+13:47:26	[日志记录开始] 123456789
+15:27:51	[日志记录开始] 123456789
+17:10:42	[日志记录开始] 123456789
+17:11:54	[日志记录开始] 123456789
+17:22:47	[日志记录开始] 123456789
+17:26:21	[日志记录开始] 123456789
+17:28:51	[日志记录开始] 123456789
+17:33:46	[日志记录开始] 123456789
+17:36:59	[日志记录开始] 123456789
+17:38:27	[日志记录开始] 123456789
+17:40:03	[日志记录开始] 123456789
+17:41:54	[日志记录开始] 123456789
+17:44:39	[日志记录开始] 123456789
+17:51:49	[日志记录开始] 123456789
+17:57:26	[日志记录开始] 123456789
+17:58:48	[日志记录开始] 123456789
+18:00:05	[日志记录开始] 123456789
+18:03:09	[日志记录开始] 123456789

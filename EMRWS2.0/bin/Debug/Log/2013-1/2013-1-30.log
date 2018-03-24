@@ -1,0 +1,28 @@
+15:02:51	[日志记录开始] 123456789
+15:08:36	[日志记录开始] 123456789
+15:15:21	[日志记录开始] 123456789
+15:30:01	[日志记录开始] 123456789
+15:32:01	[日志记录开始] 123456789
+15:33:57	[日志记录开始] 123456789
+15:53:21	[日志记录开始] 123456789
+15:56:46	[日志记录开始] 123456789
+15:58:27	[日志记录开始] 123456789
+16:05:58	[日志记录开始] 123456789
+16:09:21	[日志记录开始] 123456789
+16:13:14	[日志记录开始] 123456789
+16:49:21	[日志记录开始] 123456789
+17:17:37	[日志记录开始] 123456789
+17:19:51	[日志记录开始] 123456789
+17:21:02	[日志记录开始] 123456789
+17:22:58	[日志记录开始] 123456789
+17:25:38	[日志记录开始] 123456789
+17:45:19	[日志记录开始] 123456789
+17:48:02	[日志记录开始] 123456789
+17:51:20	[日志记录开始] 123456789
+17:52:54	[日志记录开始] 123456789
+17:56:55	[EX9225145659827] 操作超时>>System.Net.WebException: 操作超时
+   在 System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.QueryPatientList(QueryMode mode, String criteria, Boolean inStyle) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2838
+   在 EMR.ThisAddIn.GetPatientsList(QueryMode mode, String criteria) 位置 E:\61\EMR\EMRWS2.0\ThisAddIn.cs:行号 663

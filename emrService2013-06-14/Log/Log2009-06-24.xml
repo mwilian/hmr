@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventLogs>
+  <Log>
+    <UserId></UserId>
+    <LogType>5</LogType>
+    <Module></Module>
+    <Function></Function>
+    <message>System.Data.SqlClient.SqlException: 列名 'Reason' 无效。
+   在 SqlHelper.ExecuteSqlByTran(String[] sql)</message>
+    <ClientIP>127.0.0.1</ClientIP>
+    <RecordTime>2009/6/24 12:31:33</RecordTime>
+  </Log>
+</EventLogs>

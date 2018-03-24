@@ -1,0 +1,26 @@
+15:22:57	[日志记录开始] 123456789
+15:23:00	[EX97894563852] 系统未找到指定的资源。
+>>System.IO.FileNotFoundException: 系统未找到指定的资源。
+
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url)
+15:29:05	[EX922511256895] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetOperatorName(String opcode, String& opname, String& passwd, String& department, String& departname)
+   在 EMR.ThisAddIn.GetOperatorInf(String Code, String& Name, String& passwd, String& departmentCode, String& departName)
+15:29:13	[EX922511256895] 无法连接到远程服务器>>System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:2638
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.GetOperatorName(String opcode, String& opname, String& passwd, String& department, String& departname)
+   在 EMR.ThisAddIn.GetOperatorInf(String Code, String& Name, String& passwd, String& departmentCode, String& departName)

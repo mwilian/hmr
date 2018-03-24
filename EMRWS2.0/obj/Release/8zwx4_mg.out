@@ -1,0 +1,7 @@
+﻿C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0> "C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe" /t:library /utf8output /R:"C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" /R:"C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" /R:"C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll" /R:"C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" /R:"C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.exe" /R:"C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll" /out:"C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.XmlSerializers.dll" /debug- /optimize+ /nostdlib /D:_DYNAMIC_XMLSERIALIZER_COMPILATION  "C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\8zwx4_mg.0.cs"
+
+
+Microsoft (R) Visual C# 2005 编译器 版本 8.00.50727.4927
+用于 Microsoft (R) Windows (R) 2005 Framework 版本 2.0.50727
+版权所有(C) Microsoft Corporation 2001-2005。保留所有权利。
+

@@ -1,0 +1,312 @@
+09:36:23	[日志记录开始] 123456789
+09:37:33	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+09:41:31	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+09:41:31	[现在时间] 12013-05-13 09:40
+09:41:31	[现在时间] 22013-05-13 09:40
+09:41:31	[现在时间] 4:2013-05-13 09:40
+09:41:31	[现在时间] 5:OK
+09:41:31	[现在时间] 12013-05-13 09:40
+09:41:31	[现在时间] 22013-05-13 09:40
+09:41:31	[现在时间] 4:2013-05-13 09:40
+09:41:31	[现在时间] 5:OK
+09:41:32	[EX9134474991] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+09:41:32	[EX9134474999] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+09:41:32	[EX9134474979] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+09:41:33	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+09:59:41	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:12:49	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+10:12:49	[现在时间] 12013-05-13 10:11
+10:12:49	[现在时间] 22013-05-13 10:11
+10:12:49	[现在时间] 4:2013-05-13 10:11
+10:12:49	[现在时间] 5:OK
+10:12:51	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+10:13:06	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:45:58	[现在时间] 12013-05-13 10:44
+10:45:58	[现在时间] 22013-05-13 10:44
+10:45:58	[现在时间] 4:2013-05-13 10:44
+10:45:58	[现在时间] 5:OK
+10:45:58	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+10:46:24	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:46:37	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:46:40	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:46:43	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:46:46	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:48:03	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:48:35	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:48:39	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:48:42	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+10:51:52	[日志记录开始] 123456789
+12:48:35	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+12:49:34	[日志记录开始] 123456789
+13:00:04	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:00:15	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+13:00:23	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:00:35	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:00:40	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:00:46	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:24:17	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+13:24:17	[现在时间] 12013-05-13 13:23
+13:24:17	[现在时间] 22013-05-13 13:23
+13:24:17	[现在时间] 4:2013-05-13 13:23
+13:24:17	[现在时间] 5:OK
+13:24:17	[现在时间] 12013-05-13 13:23
+13:24:17	[现在时间] 22013-05-13 13:23
+13:24:17	[现在时间] 4:2013-05-13 13:23
+13:24:17	[现在时间] 5:OK
+13:24:18	[EX9134474991] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+13:24:18	[EX9134474999] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+13:24:18	[EX9134474979] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+13:24:19	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+13:24:45	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:29:51	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+13:29:52	[现在时间] 12013-05-13 13:28
+13:29:52	[现在时间] 22013-05-13 13:28
+13:29:52	[现在时间] 4:2013-05-13 13:28
+13:29:52	[现在时间] 5:OK
+13:29:52	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+13:30:25	[现在时间] 12013-05-13 13:29
+13:30:25	[现在时间] 22013-05-13 13:29
+13:30:25	[现在时间] 4:2013-05-13 13:29
+13:30:25	[现在时间] 5:OK
+13:30:25	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+13:30:43	[现在时间] 12013-05-13 13:29
+13:30:43	[现在时间] 22013-05-13 13:29
+13:30:43	[现在时间] 4:2013-05-13 13:29
+13:30:43	[现在时间] 5:OK
+13:30:43	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+13:31:57	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+13:32:08	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+15:17:36	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+15:17:36	[现在时间] 12013-05-13 15:16
+15:17:36	[现在时间] 22013-05-13 15:16
+15:17:36	[现在时间] 4:2013-05-13 15:16
+15:17:36	[现在时间] 5:OK
+15:17:37	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:19:43	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+15:23:21	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+15:36:10	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+15:42:33	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+15:42:33	[现在时间] 12013-05-13 15:41
+15:42:33	[现在时间] 22013-05-13 15:41
+15:42:33	[现在时间] 4:2013-05-13 15:41
+15:42:33	[现在时间] 5:OK
+15:42:33	[现在时间] 12013-05-13 15:41
+15:42:34	[现在时间] 22013-05-13 15:41
+15:42:34	[现在时间] 4:2013-05-13 15:41
+15:42:34	[现在时间] 5:OK
+15:42:34	[EX9134474991] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+15:42:34	[EX9134474999] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+15:42:34	[EX9134474979] 该字符串未被识别为有效的 DateTime。>>System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value)
+   在 EMR.MainForm.ChangeRanges(XMLNode cc, DataSet dst, String registryID)
+15:42:35	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:50:22	[现在时间] 12013-05-13 15:49
+15:50:22	[现在时间] 22013-05-13 15:49
+15:50:22	[现在时间] 4:2013-05-13 15:49
+15:50:22	[现在时间] 5:OK
+15:50:23	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:50:59	[现在时间] 12013-05-13 15:49
+15:50:59	[现在时间] 22013-05-13 15:49
+15:50:59	[现在时间] 4:2013-05-13 15:49
+15:50:59	[现在时间] 5:OK
+15:50:59	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:51:12	[现在时间] 12013-05-13 15:49
+15:51:12	[现在时间] 22013-05-13 15:49
+15:51:12	[现在时间] 4:2013-05-13 15:49
+15:51:12	[现在时间] 5:OK
+15:51:12	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:51:31	[现在时间] 12013-05-13 15:50
+15:51:31	[现在时间] 22013-05-13 15:50
+15:51:31	[现在时间] 4:2013-05-13 15:50
+15:51:31	[现在时间] 5:OK
+15:51:31	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+15:53:42	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+16:39:46	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc()
+16:39:46	[现在时间] 12013-05-13 16:38
+16:39:46	[现在时间] 22013-05-13 16:38
+16:39:46	[现在时间] 4:2013-05-13 16:38
+16:39:46	[现在时间] 5:OK
+16:39:46	[现在时间] 12013-05-13 16:38
+16:39:46	[现在时间] 22013-05-13 16:38
+16:39:46	[现在时间] 4:2013-05-13 16:38
+16:39:46	[现在时间] 5:OK
+16:39:46	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+17:23:26	[EX925511256759] 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))>>System.Runtime.InteropServices.COMException (0x80020006): 未知名称。 (异常来自 HRESULT:0x80020006 (DISP_E_UNKNOWNNAME))
+   在 System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 EMR.NoteRef.axWbDoCView_NavigateComplete2(Object sender, DWebBrowserEvents2_NavigateComplete2Event e)
+17:25:37	[现在时间] 12013-05-13 17:24
+17:25:37	[现在时间] 22013-05-13 17:24
+17:25:37	[现在时间] 4:2013-05-13 17:24
+17:25:37	[现在时间] 5:OK
+17:25:38	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()

@@ -1,0 +1,419 @@
+E:\61\EMR\EMRWS2.0\bin\Debug\EMR.exe.config
+E:\61\EMR\EMRWS2.0\bin\Debug\EMR.exe
+E:\61\EMR\EMRWS2.0\bin\Debug\EMR.pdb
+E:\61\EMR\EMRWS2.0\bin\Debug\EMR.exe.CodeAnalysisLog.xml
+E:\61\EMR\EMRWS2.0\bin\Debug\EMR.exe.lastcodeanalysissucceeded
+E:\61\EMR\EMRWS2.0\bin\Debug\Aspose.Words.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\CommonLib.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\DevComponents.DotNetBar2.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\HuronControl.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\Interop.MSXML2.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\iTrusDotNetCertAPI.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\MathMLControl.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\Office.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\UserInterface.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\SevenZipSharp.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\CommonLib.pdb
+E:\61\EMR\EMRWS2.0\bin\Debug\UserInterface.pdb
+E:\61\EMR\EMRWS2.0\bin\Debug\HuronControl.xml
+E:\61\EMR\EMRWS2.0\bin\Debug\Interop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\bin\Debug\AxInterop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\obj\Debug\ResolveAssemblyReference.cache
+E:\61\EMR\EMRWS2.0\obj\Debug\Interop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\obj\Debug\AxInterop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.csproj.ResolveComReference.cache
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Area.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.DataSet2.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.BA.Form1.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.MainForm.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.ValuateNow.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Password.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.PrintForm.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Prints.ContiPrint.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\UserInterface.PrintError.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\UserInterface.PrintSetup.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.BlockName.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Blocks.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.DoctorOrders.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.EmrTemplate.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.OpenDoc.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.frmEquation.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Logon.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.NoteRef.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.PicGallery.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Properties.Resources.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.ArchiveEmr.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.ConsentForm.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.DocTransfer.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.UnlockEmr.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.ValuateScore.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.SaveTemplate.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.CSelectEndP.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.CSelectP.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Flaw.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.QCReport.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.FilingSetup.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.FilingUC.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.IndividualOptions.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.SetIndividualOptions.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Trust.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.SolidTextChange.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Welcome.resources
+E:\61\EMR\EMRWS2.0\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\61\EMR\EMRWS2.0\obj\Debug\GenerateResource-ResGen.read.4.tlog
+E:\61\EMR\EMRWS2.0\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\61\EMR\EMRWS2.0\obj\Debug\RdlCompile.cache
+E:\61\EMR\EMRWS2.0\obj\Debug\RdlCompile.compiled
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.exe
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.pdb
+E:\61\EMR\EMRWS2.0\obj\Debug\EMR.Qualityks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\EMR.exe.config
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\EMR.exe
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\EMR.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\EMR.exe.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\EMR.exe.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\Aspose.Words.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\CommonLib.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\HuronControl.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\Interop.MSXML2.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\iTrusDotNetCertAPI.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\MathMLControl.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\Office.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\UserInterface.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\CommonLib.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\UserInterface.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\HuronControl.xml
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Area.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.DataSet2.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.BA.Form1.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.MainForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.ValuateNow.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Password.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.PrintForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Prints.ContiPrint.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\UserInterface.PrintError.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\UserInterface.PrintSetup.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.BlockName.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Blocks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.DoctorOrders.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.EmrTemplate.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.OpenDoc.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.frmEquation.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Logon.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.NoteRef.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.PicGallery.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Properties.Resources.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.ArchiveEmr.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.ConsentForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.DocTransfer.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.UnlockEmr.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.ValuateScore.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.SaveTemplate.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.CSelectEndP.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.CSelectP.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Flaw.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.QCReport.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Qualityks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.FilingSetup.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.FilingUC.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.IndividualOptions.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.SetIndividualOptions.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Trust.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.SolidTextChange.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.Welcome.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\RdlCompile.compiled
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.exe
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Debug\EMR.pdb
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.config
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.exe
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.pdb
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\EMR.exe
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\EMR.pdb
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\Aspose.Words.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\CommonLib.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\HuronControl.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\Interop.MSXML2.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\iTrusDotNetCertAPI.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\MathMLControl.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\Office.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\UserInterface.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\CommonLib.pdb
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\UserInterface.pdb
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\HuronControl.xml
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Area.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.DataSet2.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.BA.Form1.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.MainForm.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateNow.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Password.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.PrintForm.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Prints.ContiPrint.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintError.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintSetup.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.BlockName.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Blocks.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.DoctorOrders.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.EmrTemplate.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.OpenDoc.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.frmEquation.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Logon.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.NoteRef.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.PicGallery.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Properties.Resources.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.ArchiveEmr.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.ConsentForm.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.DocTransfer.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.UnlockEmr.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateScore.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.SaveTemplate.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectEndP.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectP.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Flaw.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.QCReport.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Qualityks.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingSetup.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingUC.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.IndividualOptions.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.SetIndividualOptions.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Trust.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.SolidTextChange.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\EMR.Welcome.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.compiled
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.config
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Aspose.Words.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\CommonLib.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\DevComponents.DotNetBar2.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\HuronControl.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Interop.MSXML2.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\iTrusDotNetCertAPI.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\MathMLControl.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Office.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\UserInterface.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\SevenZipSharp.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\CommonLib.pdb
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\UserInterface.pdb
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\HuronControl.xml
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\Interop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\AxInterop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.ResolveComReference.cache
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Area.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.DataSet2.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.BA.Form1.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.MainForm.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateNow.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Password.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.PrintForm.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Prints.ContiPrint.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintError.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintSetup.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.BlockName.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Blocks.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.DoctorOrders.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.EmrTemplate.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.OpenDoc.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.frmEquation.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Logon.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.NoteRef.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.PicGallery.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Properties.Resources.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ArchiveEmr.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ConsentForm.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.DocTransfer.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.UnlockEmr.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateScore.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.SaveTemplate.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectEndP.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectP.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Flaw.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.QCReport.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Qualityks.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingSetup.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingUC.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.IndividualOptions.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.SetIndividualOptions.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Trust.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.SolidTextChange.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Welcome.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.cache
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.compiled
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.exe
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.pdb
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.pdb
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.CodeAnalysisLog.xml
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.lastcodeanalysissucceeded
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Interop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\AxInterop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.csprojResolveAssemblyReference.cache
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.GenerateResource.Cache
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.config
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\Interop.SHDocVw.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\AxInterop.SHDocVw.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.ResolveComReference.cache
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.exe
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.pdb
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.pdb
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.CodeAnalysisLog.xml
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.lastcodeanalysissucceeded
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Aspose.Words.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\CommonLib.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\DevComponents.DotNetBar2.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\HuronControl.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Interop.MSXML2.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\iTrusDotNetCertAPI.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\MathMLControl.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Office.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\UserInterface.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\SevenZipSharp.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\CommonLib.pdb
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\UserInterface.pdb
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\HuronControl.xml
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\Interop.SHDocVw.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\bin\Debug\AxInterop.SHDocVw.dll
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.csprojResolveAssemblyReference.cache
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Area.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.DataSet2.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.BA.Form1.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.MainForm.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateNow.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Password.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.PrintForm.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Prints.ContiPrint.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintError.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintSetup.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.BlockName.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Blocks.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.DoctorOrders.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.EmrTemplate.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.OpenDoc.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.frmEquation.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Logon.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.NoteRef.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.PicGallery.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Properties.Resources.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ArchiveEmr.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ConsentForm.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.DocTransfer.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.UnlockEmr.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateScore.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.SaveTemplate.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectEndP.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectP.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Flaw.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.QCReport.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Qualityks.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingSetup.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingUC.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.IndividualOptions.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.SetIndividualOptions.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Trust.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.SolidTextChange.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.Welcome.resources
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.GenerateResource.Cache
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.cache
+E:\电子病历系统\20150129 程序\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.compiled
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.config
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\Interop.SHDocVw.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\AxInterop.SHDocVw.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.ResolveComReference.cache
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.exe
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.pdb
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\EMR.exe
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\EMR.pdb
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.CodeAnalysisLog.xml
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\EMR.exe.lastcodeanalysissucceeded
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\Aspose.Words.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\CommonLib.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\DevComponents.DotNetBar2.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\HuronControl.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\Interop.MSXML2.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\iTrusDotNetCertAPI.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\MathMLControl.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\Office.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\UserInterface.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\SevenZipSharp.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\CommonLib.pdb
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\UserInterface.pdb
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\HuronControl.xml
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\Interop.SHDocVw.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\AxInterop.SHDocVw.dll
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.csprojResolveAssemblyReference.cache
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Area.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.DataSet2.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.BA.Form1.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.MainForm.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateNow.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Password.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.PrintForm.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Prints.ContiPrint.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintError.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\UserInterface.PrintSetup.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.BlockName.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Blocks.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.DoctorOrders.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.EmrTemplate.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.OpenDoc.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.frmEquation.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Logon.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.NoteRef.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.PicGallery.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Properties.Resources.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.ArchiveEmr.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.ConsentForm.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.DocTransfer.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.UnlockEmr.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.ValuateScore.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.SaveTemplate.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectEndP.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.CSelectP.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Flaw.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.QCReport.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Qualityks.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingSetup.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.FilingUC.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.IndividualOptions.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.SetIndividualOptions.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Trust.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.SolidTextChange.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.Welcome.resources
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\EMR.csproj.GenerateResource.Cache
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.cache
+E:\CSharp\emr 静海\emr 静海\EMRWS2.0\obj\Debug\RdlCompile.compiled

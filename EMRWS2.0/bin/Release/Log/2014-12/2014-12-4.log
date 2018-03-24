@@ -1,0 +1,12 @@
+10:37:13	[日志记录开始] 123456789
+10:37:17	[EX97894563852] 系统未找到指定的资源。
+>>System.IO.FileNotFoundException: 系统未找到指定的资源。
+
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url)
+10:40:41	[日志记录开始] 123456789
+10:40:46	[EX97894563852] 系统未找到指定的资源。
+>>System.IO.FileNotFoundException: 系统未找到指定的资源。
+
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url)

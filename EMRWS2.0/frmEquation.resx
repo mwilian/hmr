@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mathMLControl.MC_ToolbarLayout_Designtime" xml:space="preserve">
+    <value>&lt;ToolbarLayout xmlns='http://www.mathml.net/MC/ToolbarLayout/Designtime'&gt;&lt;Toolbar name='File' offset='1'&gt;&lt;Button index='0' text='新建' visible='false' /&gt;&lt;Button index='1' visible='false' /&gt;&lt;Button index='2' visible='false' /&gt;&lt;Button index='3' visible='false' /&gt;&lt;Button index='4' visible='false' /&gt;&lt;Button index='5' visible='false' /&gt;&lt;Button index='6' text='撤销 Ctrl+Z' /&gt;&lt;Button index='7' text='恢复 Ctrl+Y' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='SymbolDictionary' visible='false' line='0' /&gt;&lt;Toolbar name='GreekUpper' text='希腊字母（大写）' offset='270' line='4'&gt;&lt;Button index='0' text='Ctrl+G Shift+D' /&gt;&lt;Button index='1' text='Ctrl+G Shift+F' /&gt;&lt;Button index='2' text='Ctrl+G Shift+G' /&gt;&lt;Button index='3' text='Ctrl+G Shift+L' /&gt;&lt;Button index='4' text='Ctrl+G Shift+P' /&gt;&lt;Button index='5' text='Ctrl+G Shift+Q' /&gt;&lt;Button index='6' text='Ctrl+G Shift+S' /&gt;&lt;Button index='7' text='Ctrl+G Shift+U' /&gt;&lt;Button index='8' text='Ctrl+G Shift+W' /&gt;&lt;Button index='9' text='Ctrl+G Shift+X' /&gt;&lt;Button index='10' text='Ctrl+G Shift+Y' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='GreekLower' text='希腊字母（小写）' offset='-1' line='5'&gt;&lt;Button index='0' text='Ctrl+G a' /&gt;&lt;Button index='1' text='Ctrl+G b' /&gt;&lt;Button index='2' text='Ctrl+G c' /&gt;&lt;Button index='3' text='Ctrl+G d' /&gt;&lt;Button index='4' text='Ctrl+G epsi' /&gt;&lt;Button index='5' text='Ctrl+G e' /&gt;&lt;Button index='6' text='Ctrl+G f' /&gt;&lt;Button index='7' text='Ctrl+G g' /&gt;&lt;Button index='8' text='Ctrl+G h' /&gt;&lt;Button index='9' text='Ctrl+G i' /&gt;&lt;Button index='10' text='Ctrl+G j' /&gt;&lt;Button index='11' text='Ctrl+G k' /&gt;&lt;Button index='12' text='Ctrl+G l' /&gt;&lt;Button index='13' text='Ctrl+G m' /&gt;&lt;Button index='14' text='Ctrl+G n' /&gt;&lt;Button index='15' text='Ctrl+G p' /&gt;&lt;Button index='16' text='Ctrl+G q' /&gt;&lt;Button index='17' text='Ctrl+G r' /&gt;&lt;Button index='18' text='Ctrl+G s' /&gt;&lt;Button index='19' text='Ctrl+G t' /&gt;&lt;Button index='20' text='Ctrl+G u' /&gt;&lt;Button index='21' text='Ctrl+G v' /&gt;&lt;Button index='22' text='Ctrl+G w' /&gt;&lt;Button index='23' text='Ctrl+G x' /&gt;&lt;Button index='24' text='Ctrl+G y' /&gt;&lt;Button index='25' text='Ctrl+G z' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='DoubleStruck' line='0' /&gt;&lt;Toolbar name='Arrows' text='箭头' offset='-48' line='1'&gt;&lt;Button index='0' text='向右箭头' /&gt;&lt;Button index='1' visible='false' /&gt;&lt;Button index='2' text='向左箭头' /&gt;&lt;Button index='3' visible='false' /&gt;&lt;Button index='4' text='横向箭头' /&gt;&lt;Button index='5' text='向上箭头' /&gt;&lt;Button index='6' text='向下箭头' /&gt;&lt;Button index='7' text='纵向箭头' /&gt;&lt;Button index='8' text='右上' /&gt;&lt;Button index='9' text='左下' /&gt;&lt;Button index='10' text='右下' /&gt;&lt;Button index='11' text='左上' /&gt;&lt;Button index='12' text='双向右' /&gt;&lt;Button index='13' text='双向左' /&gt;&lt;Button index='14' text='双向上' /&gt;&lt;Button index='15' text='双向下' /&gt;&lt;Button index='16' visible='false' /&gt;&lt;Button index='17' visible='false' /&gt;&lt;Button index='18' visible='false' /&gt;&lt;Button index='19' visible='false' /&gt;&lt;Button index='20' text='推出' /&gt;&lt;Button index='21' text='无法推出' /&gt;&lt;Button index='22' visible='false' /&gt;&lt;Button index='23' visible='false' /&gt;&lt;Button index='24' text='等价于' /&gt;&lt;Button index='25' text='不等价于' /&gt;&lt;Button index='26' visible='false' /&gt;&lt;Button index='27' visible='false' /&gt;&lt;Button index='28' visible='false' /&gt;&lt;Button index='29' visible='false' /&gt;&lt;Button index='30' visible='false' /&gt;&lt;Button index='31' visible='false' /&gt;&lt;Button index='32' visible='false' /&gt;&lt;Button index='33' visible='false' /&gt;&lt;Button index='34' visible='false' /&gt;&lt;Button index='35' visible='false' /&gt;&lt;Button index='36' visible='false' /&gt;&lt;Button index='37' text='转到' /&gt;&lt;Button index='38' visible='false' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='Vectors' visible='false' line='0' /&gt;&lt;Toolbar name='Summations' visible='false' line='0' /&gt;&lt;Toolbar name='Integrals' visible='false' line='0' /&gt;&lt;Toolbar name='StretchyArrows' text='条件' offset='221' line='3'&gt;&lt;Button index='0' text='条件' /&gt;&lt;Button index='1' text='条件' /&gt;&lt;Button index='2' text='多条件' /&gt;&lt;Button index='3' visible='false' /&gt;&lt;Button index='4' visible='false' /&gt;&lt;Button index='5' visible='false' /&gt;&lt;Button index='6' text='双向条件' /&gt;&lt;Button index='7' text='双向条件' /&gt;&lt;Button index='8' text='双向多条件' /&gt;&lt;Button index='9' text='转化条件' /&gt;&lt;Button index='10' text='转化条件' /&gt;&lt;Button index='11' text='转化多条件' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' visible='false' /&gt;&lt;Button index='14' visible='false' /&gt;&lt;Button index='15' text='转换条件' /&gt;&lt;Button index='16' text='转换条件' /&gt;&lt;Button index='17' text='转换多条件' /&gt;&lt;Button index='18' visible='false' /&gt;&lt;Button index='19' visible='false' /&gt;&lt;Button index='20' visible='false' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='Operators' text='运算符' offset='-30' line='4'&gt;&lt;Button index='0' text='等于' /&gt;&lt;Button index='1' visible='false' /&gt;&lt;Button index='2' visible='false' /&gt;&lt;Button index='3' visible='false' /&gt;&lt;Button index='4' visible='false' /&gt;&lt;Button index='5' text='定值' /&gt;&lt;Button index='6' visible='false' /&gt;&lt;Button index='7' visible='false' /&gt;&lt;Button index='8' visible='false' /&gt;&lt;Button index='9' visible='false' /&gt;&lt;Button index='10' text='约等于' /&gt;&lt;Button index='11' visible='false' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' text='加' /&gt;&lt;Button index='14' text='正负' /&gt;&lt;Button index='15' visible='false' /&gt;&lt;Button index='16' visible='false' /&gt;&lt;Button index='17' text='减' /&gt;&lt;Button index='18' visible='false' /&gt;&lt;Button index='19' visible='false' /&gt;&lt;Button index='20' visible='false' /&gt;&lt;Button index='21' text='点' visible='false' /&gt;&lt;Button index='22' text='乘' /&gt;&lt;Button index='23' visible='false' /&gt;&lt;Button index='24' visible='false' /&gt;&lt;Button index='25' text='除' /&gt;&lt;Button index='26' text='除' /&gt;&lt;Button index='27' visible='false' /&gt;&lt;Button index='28' text='向下' /&gt;&lt;Button index='29' visible='false' /&gt;&lt;Button index='30' visible='false' /&gt;&lt;Button index='31' text='向上' /&gt;&lt;Button index='32' visible='false' /&gt;&lt;Button index='33' visible='false' /&gt;&lt;Button index='34' visible='false' /&gt;&lt;Button index='35' visible='false' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='Relations' text='关系' offset='414' line='1'&gt;&lt;Button index='0' text='小于' /&gt;&lt;Button index='1' text='小于等于' /&gt;&lt;Button index='2' visible='false' /&gt;&lt;Button index='3' visible='false' /&gt;&lt;Button index='4' text='远小于' /&gt;&lt;Button index='5' visible='false' /&gt;&lt;Button index='6' visible='false' /&gt;&lt;Button index='7' visible='false' /&gt;&lt;Button index='8' visible='false' /&gt;&lt;Button index='9' visible='false' /&gt;&lt;Button index='10' text='大于等于' /&gt;&lt;Button index='11' visible='false' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' text='远大于' /&gt;&lt;Button index='14' visible='false' /&gt;&lt;Button index='15' visible='false' /&gt;&lt;Button index='16' visible='false' /&gt;&lt;Button index='17' visible='false' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='NegatedRelations' text='否定逻辑' offset='-27' line='2'&gt;&lt;Button index='0' text='不等于' /&gt;&lt;Button index='1' visible='false' /&gt;&lt;Button index='2' visible='false' /&gt;&lt;Button index='3' visible='false' /&gt;&lt;Button index='4' text='不约等于' /&gt;&lt;Button index='5' visible='false' /&gt;&lt;Button index='6' visible='false' /&gt;&lt;Button index='7' text='不小于' /&gt;&lt;Button index='8' text='不小于等于' /&gt;&lt;Button index='9' visible='false' /&gt;&lt;Button index='10' text='不大于' /&gt;&lt;Button index='11' text='不大于等于' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' visible='false' /&gt;&lt;Button index='14' visible='false' /&gt;&lt;Button index='15' visible='false' /&gt;&lt;Button index='16' visible='false' /&gt;&lt;Button index='17' visible='false' /&gt;&lt;Button index='18' visible='false' /&gt;&lt;Button index='19' visible='false' /&gt;&lt;Button index='20' visible='false' /&gt;&lt;Button index='21' visible='false' /&gt;&lt;Button index='22' visible='false' /&gt;&lt;Button index='23' text='不包含' /&gt;&lt;Button index='24' text='不真包含' /&gt;&lt;Button index='25' text='不包含于' /&gt;&lt;Button index='26' text='不真包含于' /&gt;&lt;Button index='27' visible='false' /&gt;&lt;Button index='28' visible='false' /&gt;&lt;Button index='29' visible='false' /&gt;&lt;Button index='30' visible='false' /&gt;&lt;Button index='31' visible='false' /&gt;&lt;Button index='32' visible='false' /&gt;&lt;Button index='33' text='不存在' /&gt;&lt;Button index='34' text='不属于' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='Brackets' text='括号' offset='264' line='2'&gt;&lt;Button index='0' text='小括号' /&gt;&lt;Button index='1' text='中括号' /&gt;&lt;Button index='2' text='大括号' /&gt;&lt;Button index='3' text='绝对值' /&gt;&lt;Button index='4' visible='false' /&gt;&lt;Button index='5' text='尖括号' /&gt;&lt;Button index='6' text='下限' /&gt;&lt;Button index='7' text='上限' /&gt;&lt;Button index='8' visible='false' /&gt;&lt;Button index='9' visible='false' /&gt;&lt;Button index='10' visible='false' /&gt;&lt;Button index='11' visible='false' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' visible='false' /&gt;&lt;Button index='14' visible='false' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='Matrices' visible='false' line='0' /&gt;&lt;Toolbar name='MiscellaneousSymbols' text='逻辑' offset='38' line='0'&gt;&lt;Button index='0' text='任意' /&gt;&lt;Button index='1' text='存在' /&gt;&lt;Button index='2' text='所以' /&gt;&lt;Button index='3' text='因为' /&gt;&lt;Button index='4' visible='false' /&gt;&lt;Button index='5' visible='false' /&gt;&lt;Button index='6' visible='false' /&gt;&lt;Button index='7' visible='false' /&gt;&lt;Button index='8' text='百分号' /&gt;&lt;Button index='9' text='属于' /&gt;&lt;Button index='10' text='不属于' /&gt;&lt;Button index='11' text='空' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' text='无限' /&gt;&lt;Button index='14' text='交' /&gt;&lt;Button index='15' text='并' /&gt;&lt;Button index='16' text='包含' /&gt;&lt;Button index='17' text='被包含' /&gt;&lt;Button index='18' visible='false' /&gt;&lt;Button index='19' visible='false' /&gt;&lt;Button index='20' text='不包含' visible='false' /&gt;&lt;Button index='21' text='且' /&gt;&lt;Button index='22' text='或' /&gt;&lt;Button index='23' text='非' /&gt;&lt;Button index='24' text='角' /&gt;&lt;Button index='25' visible='false' /&gt;&lt;Button index='26' visible='false' /&gt;&lt;Button index='27' text='或' /&gt;&lt;Button index='28' text='垂直' /&gt;&lt;Button index='29' visible='false' /&gt;&lt;Button index='30' visible='false' /&gt;&lt;Button index='31' visible='false' /&gt;&lt;Button index='32' visible='false' /&gt;&lt;Button index='33' visible='false' /&gt;&lt;Button index='34' visible='false' /&gt;&lt;Button index='35' visible='false' /&gt;&lt;/Toolbar&gt;&lt;Toolbar name='MathTemplates' text='数学模板' offset='-4' line='3'&gt;&lt;Button index='0' text='分号 Ctrl+F' /&gt;&lt;Button index='1' text='分号' /&gt;&lt;Button index='2' text='根号 Ctrl+R' /&gt;&lt;Button index='3' text='根号' /&gt;&lt;Button index='4' text='上标' /&gt;&lt;Button index='5' text='下标' /&gt;&lt;Button index='6' text='上标和下标' /&gt;&lt;Button index='7' text='设置上标 Ctrl+H' /&gt;&lt;Button index='8' text='设置下标 Ctrl+L' /&gt;&lt;Button index='9' text='设置上标和下标' /&gt;&lt;Button index='10' visible='false' /&gt;&lt;Button index='11' visible='false' /&gt;&lt;Button index='12' visible='false' /&gt;&lt;Button index='13' visible='false' /&gt;&lt;Button index='14' visible='false' /&gt;&lt;Button index='15' visible='false' /&gt;&lt;/Toolbar&gt;&lt;/ToolbarLayout&gt;</value>
+  </data>
+</root>

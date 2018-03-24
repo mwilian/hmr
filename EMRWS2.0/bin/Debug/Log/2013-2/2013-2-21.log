@@ -1,0 +1,146 @@
+10:38:54	[日志记录开始] 123456789
+10:40:30	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:41:24	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:41:46	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:42:32	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:43:59	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6169
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:46:03	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6172
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6172
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:47:31	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.ArgumentException: 列“zyh”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6180
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.ArgumentException: 列“zyh”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6180
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:49:00	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.ArgumentException: 列“zyh”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6180
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.ArgumentException: 列“zyh”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 e:\电子病历各系统\emrService\emrService2012-11-16\App_Code\emrPatients.cs:行号 6180
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+10:52:05	[日志记录开始] 123456789
+10:54:08	[EX961052979] 操作超时>>System.Net.WebException: 操作超时
+   在 System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID) 位置 E:\61\EMR\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2208
+   在 EMR.CSelectP.GetDataNew() 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 95
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2773
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2552
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 140
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+11:02:49	[日志记录开始] 123456789
+11:10:29	[日志记录开始] 123456789
+11:16:21	[日志记录开始] 123456789
+13:07:35	[日志记录开始] 123456789

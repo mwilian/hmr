@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EMR.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EMR_gjtEmrOrder_EmrOrder" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7349/emrService2013-06-14/EmrOrder.asmx</Value>
+    </Setting>
+    <Setting Name="EMR_gjtEmrService_emrServiceXml" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7349/emrService2013-06-14/emrServiceXml.asmx</Value>
+    </Setting>
+    <Setting Name="EMR_gjtEmrPatients_emrPatients" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7349/emrService2013-06-14/emrPatients.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

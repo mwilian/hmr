@@ -1,0 +1,98 @@
+11:07:15	[日志记录开始] 123456789
+11:07:18	[EX97894563852] 系统未找到指定的资源。
+>>System.IO.FileNotFoundException: 系统未找到指定的资源。
+
+   在 MSXML2.XMLHTTPClass.send(Object varBody)
+   在 EMR.ThisAddIn.IsOkWebService(String url) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\ThisAddIn.cs:行号 1343
+11:10:54	[日志记录开始] 123456789
+11:11:54	[现在时间] 12013-06-03 11:09
+11:11:54	[现在时间] 22013-06-03 11:09
+11:11:54	[现在时间] 4:2013-06-03 11:09
+11:11:55	[现在时间] 5:OK
+11:11:58	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:13:29	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:13:29	[现在时间] 12013-06-03 11:10
+11:13:29	[现在时间] 22013-06-03 11:10
+11:13:29	[现在时间] 4:2013-06-03 11:10
+11:13:29	[现在时间] 5:OK
+11:13:30	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:14:46	[setDBError checkSeries(int series)] setDBError:11#76d920a0-60c1-404b-a861-99f17e9525b2
+11:27:54	[日志记录开始] 123456789
+11:28:33	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:28:33	[现在时间] 12013-06-03 11:26
+11:28:33	[现在时间] 22013-06-03 11:26
+11:28:33	[现在时间] 4:2013-06-03 11:26
+11:28:33	[现在时间] 5:OK
+11:28:35	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:31:11	[日志记录开始] 123456789
+11:31:42	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:31:42	[现在时间] 12013-06-03 11:29
+11:31:42	[现在时间] 22013-06-03 11:29
+11:31:42	[现在时间] 4:2013-06-03 11:29
+11:31:43	[现在时间] 5:OK
+11:31:44	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:32:53	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+11:32:54	[现在时间] 12013-06-03 11:30
+11:32:54	[现在时间] 22013-06-03 11:30
+11:32:54	[现在时间] 4:2013-06-03 11:30
+11:32:54	[现在时间] 5:OK
+11:32:55	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:36:25	[现在时间] 12013-06-03 11:33
+11:36:25	[现在时间] 22013-06-03 11:33
+11:36:25	[现在时间] 4:2013-06-03 11:33
+11:36:25	[现在时间] 5:OK
+11:36:26	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:38:31	[现在时间] 12013-06-03 11:36
+11:38:31	[现在时间] 22013-06-03 11:36
+11:38:31	[现在时间] 4:2013-06-03 11:36
+11:38:31	[现在时间] 5:OK
+11:38:31	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:44:45	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:47:40	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+11:48:10	[EmrDocInfo checkSeries(int series)] iSeries检测错误EmrDocInfo.iSeries:-1,series:5;EmrDocInfo.NoteID:03,EmrDocInfo.bIsNewForCheck:False;EmrDocInfo.bIsNew:True,EmrDocInfo.strNoteIDForCheck:03#0ccfae32-d74f-4b4b-9677-c80eb8e9b069
+12:02:20	[日志记录开始] 123456789
+12:04:05	[现在时间] 12013-06-03 12:01
+12:04:05	[现在时间] 22013-06-03 12:01
+12:04:05	[现在时间] 4:2013-06-03 12:01
+12:04:06	[现在时间] 5:OK
+12:04:06	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+12:05:18	[setDBError checkSeries(int series)] setDBError:11#27b3311e-254b-4e57-ad1a-b0273c2f0968
+12:22:52	[日志记录开始] 123456789
+12:24:06	[现在时间] 12013-06-03 12:21
+12:24:06	[现在时间] 22013-06-03 12:21
+12:24:06	[现在时间] 4:2013-06-03 12:21
+12:24:06	[现在时间] 5:OK
+12:24:07	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336
+12:25:13	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1336

@@ -1,0 +1,267 @@
+E:\61\EMR\EMRWS2.0\obj\Release\ResolveAssemblyReference.cache
+E:\61\EMR\EMRWS2.0\obj\Release\Interop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\obj\Release\AxInterop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.csproj.ResolveComReference.cache
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Area.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.DataSet2.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.BA.Form1.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.MainForm.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.ValuateNow.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Password.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.PrintForm.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Prints.ContiPrint.resources
+E:\61\EMR\EMRWS2.0\obj\Release\UserInterface.PrintError.resources
+E:\61\EMR\EMRWS2.0\obj\Release\UserInterface.PrintSetup.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.BlockName.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Blocks.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.DoctorOrders.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.EmrTemplate.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.OpenDoc.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.frmEquation.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Logon.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.NoteRef.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.PicGallery.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Properties.Resources.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.ArchiveEmr.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.ConsentForm.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.DocTransfer.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.UnlockEmr.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.ValuateScore.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.SaveTemplate.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.CSelectEndP.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.CSelectP.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Flaw.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.QCReport.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.FilingSetup.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.FilingUC.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.IndividualOptions.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.SetIndividualOptions.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Trust.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.SolidTextChange.resources
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Welcome.resources
+E:\61\EMR\EMRWS2.0\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\61\EMR\EMRWS2.0\obj\Release\GenerateResource-ResGen.read.4.tlog
+E:\61\EMR\EMRWS2.0\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\61\EMR\EMRWS2.0\obj\Release\RdlCompile.cache
+E:\61\EMR\EMRWS2.0\obj\Release\RdlCompile.compiled
+E:\61\EMR\EMRWS2.0\bin\Release\EMR.exe.config
+E:\61\EMR\EMRWS2.0\bin\Release\EMR.exe
+E:\61\EMR\EMRWS2.0\bin\Release\EMR.XmlSerializers.dll
+E:\61\EMR\EMRWS2.0\bin\Release\Aspose.Words.dll
+E:\61\EMR\EMRWS2.0\bin\Release\CommonLib.dll
+E:\61\EMR\EMRWS2.0\bin\Release\DevComponents.DotNetBar2.dll
+E:\61\EMR\EMRWS2.0\bin\Release\HuronControl.dll
+E:\61\EMR\EMRWS2.0\bin\Release\Interop.MSXML2.dll
+E:\61\EMR\EMRWS2.0\bin\Release\iTrusDotNetCertAPI.dll
+E:\61\EMR\EMRWS2.0\bin\Release\MathMLControl.dll
+E:\61\EMR\EMRWS2.0\bin\Release\Microsoft.Office.Interop.Word.dll
+E:\61\EMR\EMRWS2.0\bin\Release\Microsoft.Vbe.Interop.dll
+E:\61\EMR\EMRWS2.0\bin\Release\Office.dll
+E:\61\EMR\EMRWS2.0\bin\Release\UserInterface.dll
+E:\61\EMR\EMRWS2.0\bin\Release\SevenZipSharp.dll
+E:\61\EMR\EMRWS2.0\bin\Release\CommonLib.pdb
+E:\61\EMR\EMRWS2.0\bin\Release\HuronControl.xml
+E:\61\EMR\EMRWS2.0\bin\Release\Interop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\bin\Release\AxInterop.SHDocVw.dll
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.exe
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.XmlSerializers.dll
+E:\61\EMR\EMRWS2.0\obj\Release\EMR.Qualityks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\EMR.exe.config
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.exe
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.XmlSerializers.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\EMR.exe
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\EMR.XmlSerializers.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\Aspose.Words.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\CommonLib.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\HuronControl.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\Interop.MSXML2.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\iTrusDotNetCertAPI.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\MathMLControl.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\Office.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\UserInterface.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\CommonLib.pdb
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\HuronControl.xml
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\bin\Release\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Area.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.DataSet2.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.BA.Form1.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.MainForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.ValuateNow.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Password.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.PrintForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Prints.ContiPrint.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\UserInterface.PrintError.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\UserInterface.PrintSetup.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.BlockName.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Blocks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.DoctorOrders.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.EmrTemplate.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.OpenDoc.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.frmEquation.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Logon.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.NoteRef.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.PicGallery.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Properties.Resources.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.ArchiveEmr.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.ConsentForm.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.DocTransfer.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.UnlockEmr.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.ValuateScore.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.SaveTemplate.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.CSelectEndP.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.CSelectP.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Flaw.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.QCReport.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Qualityks.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.FilingSetup.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.FilingUC.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.IndividualOptions.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.SetIndividualOptions.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Trust.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.SolidTextChange.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\EMR.Welcome.resources
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\RdlCompile.cache
+C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\obj\Release\RdlCompile.compiled
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\EMR.exe.config
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.exe
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.XmlSerializers.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\EMR.exe
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\EMR.XmlSerializers.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\Aspose.Words.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\CommonLib.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\HuronControl.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\Interop.MSXML2.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\iTrusDotNetCertAPI.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\MathMLControl.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\Office.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\UserInterface.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\SevenZipSharp.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\CommonLib.pdb
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\HuronControl.xml
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\bin\Release\AxInterop.SHDocVw.dll
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Area.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.DataSet2.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.BA.Form1.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.MainForm.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.ValuateNow.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Password.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.PrintForm.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Prints.ContiPrint.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\UserInterface.PrintError.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\UserInterface.PrintSetup.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.BlockName.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Blocks.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.DoctorOrders.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.EmrTemplate.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.OpenDoc.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.frmEquation.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Logon.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.NoteRef.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.PicGallery.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Properties.Resources.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.ArchiveEmr.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.ConsentForm.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.DocTransfer.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.UnlockEmr.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.ValuateScore.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.SaveTemplate.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.CSelectEndP.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.CSelectP.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Flaw.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.QCReport.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Qualityks.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.FilingSetup.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.FilingUC.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.IndividualOptions.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.SetIndividualOptions.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Trust.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.SolidTextChange.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\EMR.Welcome.resources
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\RdlCompile.cache
+C:\Users\Administrator\Desktop\emr 静海\EMRWS2.0\obj\Release\RdlCompile.compiled
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\EMR.exe.config
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\EMR.exe
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\EMR.XmlSerializers.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\Aspose.Words.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\CommonLib.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\DevComponents.DotNetBar2.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\HuronControl.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\Interop.MSXML2.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\iTrusDotNetCertAPI.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\MathMLControl.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\Microsoft.Office.Interop.Word.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\Microsoft.Vbe.Interop.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\Office.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\UserInterface.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\SevenZipSharp.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\CommonLib.pdb
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\HuronControl.xml
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\Interop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\bin\Release\AxInterop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\ResolveAssemblyReference.cache
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\Interop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\AxInterop.SHDocVw.dll
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.csproj.ResolveComReference.cache
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Area.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.DataSet2.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.BA.Form1.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.MainForm.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.ValuateNow.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Password.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.PrintForm.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Prints.ContiPrint.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\UserInterface.PrintError.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\UserInterface.PrintSetup.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.BlockName.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Blocks.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.DoctorOrders.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.EmrTemplate.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.OpenDoc.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.frmEquation.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Logon.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.NoteRef.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.PicGallery.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Properties.Resources.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.ArchiveEmr.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.ConsentForm.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.DocTransfer.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.UnlockEmr.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.ValuateScore.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.SaveTemplate.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.CSelectEndP.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.CSelectP.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Flaw.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.QCReport.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Qualityks.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.FilingSetup.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.FilingUC.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.IndividualOptions.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.SetIndividualOptions.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Trust.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.SolidTextChange.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.Welcome.resources
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\RdlCompile.cache
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\RdlCompile.compiled
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.exe
+E:\other\20150129 程序\emr 静海\EMRWS2.0\obj\Release\EMR.XmlSerializers.dll

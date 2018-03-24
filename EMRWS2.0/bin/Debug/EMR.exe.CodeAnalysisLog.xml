@@ -1,0 +1,1590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\bin\Debug\EMR.exe">
+   <Modules>
+    <Module Name="emr.exe">
+     <Namespaces>
+      <Namespace Name="CommonLib">
+       <Types>
+        <Type Name="udt" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#EncodeEmrDocument(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="265">在方法 'udt.EncodeEmrDocument(string)' 中，'old' 对象未按所有异常路径释放。请在对 'old' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="266">在方法 'udt.EncodeEmrDocument(string)' 中，'tmp' 对象未按所有异常路径释放。请在对 'tmp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaDecoder()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="201">在方法 'udt.SaDecoder()' 中，请在对 'sa' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaEncoder()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="208">在方法 'udt.SaEncoder()' 中，请在对 'sa' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#StringToWordDocument(System.String,System.Xml.XmlNode)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="133">在方法 'udt.StringToWordDocument(string, XmlNode)' 中，请在对 'noteStream' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WordDocumentToString(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="162">在方法 'udt.WordDocumentToString(string)' 中，'docContent' 对象未按所有异常路径释放。请在对 'docContent' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="udt+jj" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DecodeEmrDocument(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="514">在方法 'udt.jj.DecodeEmrDocument(string, string)' 中，请在对 'old' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="515">在方法 'udt.jj.DecodeEmrDocument(string, string)' 中，请在对 'tmp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EncodeEmrDocument(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="480">在方法 'udt.jj.EncodeEmrDocument(string)' 中，'old' 对象未按所有异常路径释放。请在对 'old' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="481">在方法 'udt.jj.EncodeEmrDocument(string)' 中，'tmp' 对象未按所有异常路径释放。请在对 'tmp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDepartmentNameFromCode(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="995">可以在方法 'udt.jj.GetDepartmentNameFromCode(string, string)' 中多次释放对象 'reader'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 995, 996</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadTreeviewWithPatients(System.Windows.Forms.TreeView,System.String,System.Boolean,System.Boolean)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="710">可以在方法 'udt.jj.LoadTreeviewWithPatients(TreeView, string, bool, bool)' 中多次释放对象 'reader'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 710</Issue>
+            </Message>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="610">在方法 'udt.jj.LoadTreeviewWithPatients(TreeView, string, bool, bool)' 中，'reader1' 对象未按所有异常路径释放。请在对 'reader1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadTreeviewWithPatients(System.Windows.Forms.TreeView,System.String,System.String,System.Boolean,System.Boolean,EmrConstant.DeIsValuate)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="970">可以在方法 'udt.jj.LoadTreeviewWithPatients(TreeView, string, string, bool, bool, DeIsValuate)' 中多次释放对象 'reader'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 970</Issue>
+            </Message>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="849">在方法 'udt.jj.LoadTreeviewWithPatients(TreeView, string, string, bool, bool, DeIsValuate)' 中，'reader1' 对象未按所有异常路径释放。请在对 'reader1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaDecoder()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="416">在方法 'udt.jj.SaDecoder()' 中，请在对 'sa' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaEncoder()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="423">在方法 'udt.jj.SaEncoder()' 中，请在对 'sa' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#StringToWordDocument(System.String,System.Xml.XmlNode)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="308">在方法 'udt.jj.StringToWordDocument(string, XmlNode)' 中，请在对 'noteStream' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WordDocumentToString(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="udt.cs" Line="340">在方法 'udt.jj.WordDocumentToString(string)' 中，请在对 'docContent' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="EMR">
+       <Types>
+        <Type Name="Blocks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Blocks.designer.cs" Line="30">'Blocks.InitializeComponent()' 调入具有 LinkDemand 的 'AxHost.Enabled.set(bool)'。通过此调用，'AxHost.Enabled.set(bool)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Blocks.InitializeComponent()'&#xD;&#xA;   -&gt;'Blocks.InitializeComponent()'&#xD;&#xA;   -&gt;'Blocks.Blocks()'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Blocks.designer.cs" Line="30">'Blocks.InitializeComponent()' 调入具有 LinkDemand 的 'AxHost.OcxState.set(AxHost.State)'。通过此调用，'AxHost.OcxState.set(AxHost.State)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Blocks.InitializeComponent()'&#xD;&#xA;   -&gt;'Blocks.InitializeComponent()'&#xD;&#xA;   -&gt;'Blocks.Blocks()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CheckVersion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FileFromComponentInDatabase(System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="CheckVersion.cs" Line="75">在方法 'CheckVersion.FileFromComponentInDatabase(string, string)' 中，请在对 'es' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsThereHigherVersion(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="CheckVersion.cs" Line="51">在方法 'CheckVersion.IsThereHigherVersion(string)' 中，'reader' 对象未按所有异常路径释放。请在对 'reader' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="clsIme" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ImmGetContext(System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'clsIme.ImmGetContext(IntPtr)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'clsIme.ImmGetContext(IntPtr)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImmGetConversionStatus(System.IntPtr,System.Int32&amp;,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'clsIme.ImmGetConversionStatus(IntPtr, ref int, ref int)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'clsIme.ImmGetConversionStatus(IntPtr, ref int, ref int)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImmGetOpenStatus(System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'clsIme.ImmGetOpenStatus(IntPtr)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'clsIme.ImmGetOpenStatus(IntPtr)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImmSetOpenStatus(System.IntPtr,System.Boolean)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'clsIme.ImmSetOpenStatus(IntPtr, bool)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'clsIme.ImmSetOpenStatus(IntPtr, bool)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImmSimulateHotKey(System.IntPtr,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'clsIme.ImmSimulateHotKey(IntPtr, int)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'clsIme.ImmSimulateHotKey(IntPtr, int)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CSelectEndP" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetDataNew()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="CSelectEndP.cs" Line="45">在方法 'CSelectEndP.GetDataNew()' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="CSelectEndP.cs" Line="43">在方法 'CSelectEndP.GetDataNew()' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CSelectP" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetDataNew()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="CSelectP.cs" Line="87">在方法 'CSelectP.GetDataNew()' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DataSet2" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'DataSet2' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet2+BA2DataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'DataSet2.BA2DataTable' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DataSet2+BADataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'DataSet2.BADataTable' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DGVPrinter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">在 'DGVPrinter' 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: 'PrintDocument', 'PageSetupDialog', 'PrintPreviewDialog', 'PrintDialog'。如果以前提供过 'DGVPrinter'，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#printDoc_PrintPage(System.Object,System.Drawing.Printing.PrintPageEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="82">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'mainTitleFont' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="74">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'myPen' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="82">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'new FontFamily("宋体")' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="94">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'new FontFamily("宋体")' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="152">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'new FontFamily("宋体")' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="94">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'subTitleFont' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DgvPrinter.cs" Line="152">在方法 'DGVPrinter.printDoc_PrintPage(object, PrintPageEventArgs)' 中，请在对 'subTitleFont' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DocTransfer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnOK_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="DocTransfer.cs" Line="225">在方法 'DocTransfer.btnOK_Click(object, EventArgs)' 中，请在对 'op' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnRefer_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="DocTransfer.cs" Line="257">在方法 'DocTransfer.btnRefer_Click(object, EventArgs)' 中，请在对 'op' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDocInfo(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="DocTransfer.cs" Line="68">在方法 'DocTransfer.GetDocInfo(string)' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="DocTransfer.cs" Line="92">在方法 'DocTransfer.GetDocInfo(string)' 中，请在对 'dtN' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDocInfoFinal(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="DocTransfer.cs" Line="37">在方法 'DocTransfer.GetDocInfoFinal(string)' 中，'dtN' 对象未按所有异常路径释放。请在对 'dtN' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="DocTransfer.cs" Line="35">在方法 'DocTransfer.GetDocInfoFinal(string)' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DocumentInstanceException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">将 [Serializable] 添加到 'DocumentInstanceException'，原因是此类型实现了 ISerializable。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="EmrDocument" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#UpdateEmrNote(System.Int32,EmrConstant.NoteStatus,EmrConstant.NoteStatus&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrDocument.cs" Line="943">在方法 'EmrDocument.UpdateEmrNote(int, NoteStatus, ref NoteStatus)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateEmrNote(System.Int32,EmrConstant.NoteStatus,EmrConstant.NoteStatus&amp;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrDocument.cs" Line="616">在方法 'EmrDocument.UpdateEmrNote(int, NoteStatus, ref NoteStatus, bool)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EmrNote" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AsTemplateOld(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrNote.cs" Line="293">在方法 'EmrNote.AsTemplateOld(string, string)' 中，请在对 'tempName' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EmrTemplate" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LoadDepartmentTemplate()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="291">在方法 'EmrTemplate.LoadDepartmentTemplate()' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="289">在方法 'EmrTemplate.LoadDepartmentTemplate()' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="223">在方法 'EmrTemplate.LoadDepartmentTemplate()' 中，请在对 'dtType' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="342">在方法 'EmrTemplate.LoadDepartmentTemplate()' 中，请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadHospitalTemplate()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="99">在方法 'EmrTemplate.LoadHospitalTemplate()' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="97">在方法 'EmrTemplate.LoadHospitalTemplate()' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="42">在方法 'EmrTemplate.LoadHospitalTemplate()' 中，请在对 'dtType' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="148">在方法 'EmrTemplate.LoadHospitalTemplate()' 中，请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadPersonTemplate()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="585">在方法 'EmrTemplate.LoadPersonTemplate()' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="560">在方法 'EmrTemplate.LoadPersonTemplate()' 中，请在对 'dtType' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTemplate.cs" Line="638">在方法 'EmrTemplate.LoadPersonTemplate()' 中，请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Logon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnLogin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="244">在方法 'Logon.btnLogin_Click(object, EventArgs)' 中，请在对 'm' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Logon_Paint(System.Object,System.Windows.Forms.PaintEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="315">在方法 'Logon.Logon_Paint(object, PaintEventArgs)' 中，请在对 'new Font("微软雅黑", 12F)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="316">在方法 'Logon.Logon_Paint(object, PaintEventArgs)' 中，请在对 'new Font("微软雅黑", 12F)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="315">在方法 'Logon.Logon_Paint(object, PaintEventArgs)' 中，请在对 'new SolidBrush(Color.Black)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="316">在方法 'Logon.Logon_Paint(object, PaintEventArgs)' 中，请在对 'new SolidBrush(Color.Black)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WndProc(System.Windows.Forms.Message&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="28">'Logon.WndProc(ref Message)' 调入具有 LinkDemand 的 'Form.WndProc(ref Message)'。通过此调用，'Form.WndProc(ref Message)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="28">'Logon.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.LParam.get()'。通过此调用，'Message.LParam.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="28">'Logon.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.Msg.get()'。通过此调用，'Message.Msg.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="28">'Logon.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.Result.get()'。通过此调用，'Message.Result.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="28">'Logon.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.Result.set(IntPtr)'。通过此调用，'Message.Result.set(IntPtr)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Logon.WndProc(ref Message)'</Issue>
+            </Message>
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Name="BaseOnly" Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Logon.cs" Line="28">向 'Logon.WndProc(ref Message)' 添加下列安全特性以匹配基方法 'Form.WndProc(ref Message)' 上的 LinkDemand: [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#_CreateCon()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1251">在方法 'MainForm._CreateCon()' 中，请在对 'cf' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Archieve_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1366">在方法 'MainForm.Archieve_Click(object, EventArgs)' 中，请在对 'oEmr' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#barPicture_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2577">在方法 'MainForm.barPicture_Click(object, EventArgs)' 中，请在对 'ofd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#barSign_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2554">在方法 'MainForm.barSign_Click(object, EventArgs)' 中，请在对 'ti' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnArchiveSettings_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2942">在方法 'MainForm.btnArchiveSettings_Click(object, EventArgs)' 中，请在对 'FS' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnArea_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="2048">在方法 'MainForm.btnArea_Click(object, EventArgs)' 中，请在对 'area' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnBlockWin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2999">在方法 'MainForm.btnBlockWin_Click(object, EventArgs)' 中，请在对 'sbs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnNoteValuate_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3848">在方法 'MainForm.btnNoteValuate_Click(object, EventArgs)' 中，请在对 'vn' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnQualityQuery_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2859">在方法 'MainForm.btnQualityQuery_Click(object, EventArgs)' 中，请在对 'quality' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnUnProtect_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1647">在方法 'MainForm.btnUnProtect_Click(object, EventArgs)' 中，请在对 'password' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonX1_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3373">在方法 'MainForm.buttonX1_Click_1(object, EventArgs)' 中，'p' 对象未按所有异常路径释放。请在对 'p' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3371">在方法 'MainForm.buttonX1_Click_1(object, EventArgs)' 中，请在对 'bmp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ChangeRanges(Microsoft.Office.Interop.Word.XMLNode,System.Data.DataSet,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="983">在方法 'MainForm.ChangeRanges(XMLNode, DataSet, string)' 中，请在对 'ep' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ChooseCommitTime(System.Xml.XmlNode,System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="27">在方法 'MainForm.ChooseCommitTime(XmlNode, string, int)' 中，请在对 'getTime' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DocConvert()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3475">在方法 'MainForm.DocConvert()' 中，请在对 'p' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3489">在方法 'MainForm.DocConvert()' 中，请在对 'p' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DocPrint_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3181">在方法 'MainForm.DocPrint_Click(object, EventArgs)' 中，请在对 'pm' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3322">在方法 'MainForm.DocPrint_Click(object, EventArgs)' 中，请在对 'ps' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EditImage(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="314">在方法 'MainForm.EditImage(object, EventArgs)' 中，请在对 'bmp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="315">在方法 'MainForm.EditImage(object, EventArgs)' 中，请在对 'p' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmrPhrase_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2789">在方法 'MainForm.EmrPhrase_Click_1(object, EventArgs)' 中，请在对 'phr' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FilingSetup()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1327">在方法 'MainForm.FilingSetup()' 中，请在对 'FS' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FillWriterWithImage(Microsoft.Office.Interop.Word.XMLNode)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane2.cs" Line="1038">在方法 'MainForm.FillWriterWithImage(XMLNode)' 中，请在对 'mem' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FontSet_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2314">在方法 'MainForm.FontSet_Click(object, EventArgs)' 中，请在对 'fs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPatientInfo(System.Windows.Forms.TreeNode)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="739">可以在方法 'MainForm.GetPatientInfo(TreeNode)' 中多次释放对象 'reader'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 739</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Icd10_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2488">在方法 'MainForm.Icd10_Click(object, EventArgs)' 中，请在对 'icd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#JudgeNoteFilingSetup(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1377">在方法 'MainForm.JudgeNoteFilingSetup(string)' 中，请在对 'notes' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadPatientList(System.Xml.XmlNode)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="746">在方法 'MainForm.LoadPatientList(XmlNode)' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LogonOut_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="541">在方法 'MainForm.LogonOut_Click(object, EventArgs)' 中，请在对 'oLogOn' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MyPic_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2772">在方法 'MainForm.MyPic_Click(object, EventArgs)' 中，请在对 'pic' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MyPicture_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="1983">在方法 'MainForm.MyPicture_Click(object, EventArgs)' 中，请在对 'pic' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newNote_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane.cs" Line="459">在方法 'MainForm.newNote_Click(object, EventArgs)' 中，请在对 'pl' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#noteInfo_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane.cs" Line="1100">在方法 'MainForm.noteInfo_Click(object, EventArgs)' 中，请在对 'eni' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#noteSave_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="1505">在方法 'MainForm.noteSave_Click(object, EventArgs)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="1546">在方法 'MainForm.noteSave_Click(object, EventArgs)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnQCTimeOutDepart_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3931">在方法 'MainForm.OnQCTimeOutDepart_Click(object, EventArgs)' 中，请在对 'qk' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OpenMedical()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="842">在方法 'MainForm.OpenMedical()' 中，请在对 'f1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OpenWordDoc(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="344">'MainForm.OpenWordDoc(string)' 调入具有 LinkDemand 的 'Process.GetProcesses()'。通过此调用，'Process.GetProcesses()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'&#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="344">'MainForm.OpenWordDoc(string)' 调入具有 LinkDemand 的 'Process.Id.get()'。通过此调用，'Process.Id.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'&#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="344">'MainForm.OpenWordDoc(string)' 调入具有 LinkDemand 的 'Process.Kill()'。通过此调用，'Process.Kill()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'&#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="344">'MainForm.OpenWordDoc(string)' 调入具有 LinkDemand 的 'Process.Modules.get()'。通过此调用，'Process.Modules.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'&#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="344">'MainForm.OpenWordDoc(string)' 调入具有 LinkDemand 的 'ProcessModule.ModuleName.get()'。通过此调用，'ProcessModule.ModuleName.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'&#xD;&#xA;   -&gt;'MainForm.OpenWordDoc(string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PatientSearch_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2724">在方法 'MainForm.PatientSearch_Click_1(object, EventArgs)' 中，请在对 'qp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PrintInfo()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="782">在方法 'MainForm.PrintInfo()' 中，请在对 'sd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#referOrder_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2005">在方法 'MainForm.referOrder_Click(object, EventArgs)' 中，请在对 'orders' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#referPhrase_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2511">在方法 'MainForm.referPhrase_Click(object, EventArgs)' 中，请在对 'phr' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaveNewEmrBlock()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="455">在方法 'MainForm.SaveNewEmrBlock()' 中，请在对 'blockNames' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaveTemplate(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="328">在方法 'MainForm.SaveTemplate(string)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#saveTemplate_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3668">在方法 'MainForm.saveTemplate_Click(object, EventArgs)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetRange(System.Data.DataSet,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="817">在方法 'MainForm.SetRange(DataSet, string)' 中，请在对 'dst1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetRequiedNotes_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1463">在方法 'MainForm.SetRequiedNotes_Click(object, EventArgs)' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TabelSet_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="2528">在方法 'MainForm.TabelSet_Click(object, EventArgs)' 中，请在对 'ti' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TBDocPrint_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="MainForm.cs" Line="3900">在方法 'MainForm.TBDocPrint_Click(object, EventArgs)' 中，请在对 'ps' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tvPatientsNoteAdd(System.String,EmrConstant.NoteStatus,EmrConstant.Button)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane.cs" Line="1339">在方法 'MainForm.tvPatientsNoteAdd(string, NoteStatus, Button)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane.cs" Line="1343">在方法 'MainForm.tvPatientsNoteAdd(string, NoteStatus, Button)' 中，请在对 'opDone' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#uncommit_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane.cs" Line="1033">在方法 'MainForm.uncommit_Click(object, EventArgs)' 中，请在对 'opd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane.cs" Line="1006">在方法 'MainForm.uncommit_Click(object, EventArgs)' 中，请在对 'uc' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#unlockEmr_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1517">在方法 'MainForm.unlockEmr_Click(object, EventArgs)' 中，请在对 'opd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="EmrTaskPane3.cs" Line="1505">在方法 'MainForm.unlockEmr_Click(object, EventArgs)' 中，请在对 'ue' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UnZipTo(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'MainForm.UnZipTo(string, string)'。</Issue>
+            </Message>
+            <Message TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning">更正 'MainForm.UnZipTo(string, string)' 的声明，使它正确地指向 'zip.dll' 中的现有入口点。当前链接到的非托管入口点的名称是 UnZipTo。</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">更改 P/Invoke 'MainForm.UnZipTo(string, string)' 的可访问性，使它在自己的程序集外部不再是可见的。</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'strZipFileName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+            <Message Id="1" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'strDirectoryPath' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NoteRef" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="NoteRef.designer.cs" Line="30">'NoteRef.InitializeComponent()' 调入具有 LinkDemand 的 'AxHost.Enabled.set(bool)'。通过此调用，'AxHost.Enabled.set(bool)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'NoteRef.InitializeComponent()'&#xD;&#xA;   -&gt;'NoteRef.InitializeComponent()'&#xD;&#xA;   -&gt;'NoteRef.NoteRef(TreeNode, MainForm)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="NoteRef.designer.cs" Line="30">'NoteRef.InitializeComponent()' 调入具有 LinkDemand 的 'AxHost.OcxState.set(AxHost.State)'。通过此调用，'AxHost.OcxState.set(AxHost.State)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'NoteRef.InitializeComponent()'&#xD;&#xA;   -&gt;'NoteRef.InitializeComponent()'&#xD;&#xA;   -&gt;'NoteRef.NoteRef(TreeNode, MainForm)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PicGallery" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#addPicture_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="PicGallery.cs" Line="116">在方法 'PicGallery.addPicture_Click(object, EventArgs)' 中，请在对 'ofd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertPicture(System.String,System.Drawing.Image)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="PicGallery.cs" Line="73">在方法 'PicGallery.InsertPicture(string, Image)' 中，'lb' 对象未按所有异常路径释放。请在对 'lb' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="PicGallery.cs" Line="64">在方法 'PicGallery.InsertPicture(string, Image)' 中，'pb' 对象未按所有异常路径释放。请在对 'pb' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadPicture(System.Xml.XmlNode)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="PicGallery.cs" Line="51">在方法 'PicGallery.LoadPicture(XmlNode)' 中，请在对 'mem' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SavePicture(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="PicGallery.cs" Line="186">在方法 'PicGallery.SavePicture(string)' 中，请在对 'bmp' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="PicGallery.cs" Line="187">在方法 'PicGallery.SavePicture(string)' 中，请在对 'mem' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Program" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Main()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Program.cs" Line="30">在方法 'Program.Main()' 中，请在对 'instance' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetForegroundWindow(System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'Program.SetForegroundWindow(IntPtr)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ShowWindowAsync(System.IntPtr,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'Program.ShowWindowAsync(IntPtr, int)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Qualityks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cboDepart_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="439">在方法 'Qualityks.cboDepart_SelectedIndexChanged(object, EventArgs)' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="437">在方法 'Qualityks.cboDepart_SelectedIndexChanged(object, EventArgs)' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadDepart()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="188">在方法 'Qualityks.LoadDepart()' 中，'dc' 对象未按所有异常路径释放。请在对 'dc' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="189">在方法 'Qualityks.LoadDepart()' 中，'dc2' 对象未按所有异常路径释放。请在对 'dc2' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="186">在方法 'Qualityks.LoadDepart()' 中，请在对 'departs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="187">在方法 'Qualityks.LoadDepart()' 中，请在对 'dtDeparts' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadPattern()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="211">在方法 'Qualityks.LoadPattern()' 中，'dc1' 对象未按所有异常路径释放。请在对 'dc1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="212">在方法 'Qualityks.LoadPattern()' 中，'dc2' 对象未按所有异常路径释放。请在对 'dc2' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Select" File="QualityKs.cs" Line="210">在方法 'Qualityks.LoadPattern()' 中，'dtPatt' 对象未按所有异常路径释放。请在对 'dtPatt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SendMessageToMonitor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sendToMonitor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="SendMessageToMonitor.cs" Line="29">在方法 'SendMessageToMonitor.sendToMonitor()' 中，请在对 'tcpClient' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SolidTextChange" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cboInfo_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="SolidText.cs" Line="37">可以在方法 'SolidTextChange.cboInfo_SelectedIndexChanged(object, EventArgs)' 中多次释放对象 'this'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 37</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SolidTextChange_Deactivate(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="SolidText.cs" Line="50">可以在方法 'SolidTextChange.SolidTextChange_Deactivate(object, EventArgs)' 中多次释放对象 'this'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 50</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ThisAddIn" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CheckOffline()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1354">在方法 'ThisAddIn.CheckOffline()' 中，请在对 'addinConfigReader' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Deputed()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn3.cs" Line="282">在方法 'ThisAddIn.Deputed()' 中，请在对 'trust' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Deputing()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn3.cs" Line="288">在方法 'ThisAddIn.Deputing()' 中，请在对 'trust' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetData(System.String,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="728">在方法 'ThisAddIn.GetData(string, string, string, string)' 中，请在对 'dt' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetEmrBlock(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1267">在方法 'ThisAddIn.GetEmrBlock(string)' 中，'dc1' 对象未按所有异常路径释放。请在对 'dc1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1268">在方法 'ThisAddIn.GetEmrBlock(string)' 中，'dc2' 对象未按所有异常路径释放。请在对 'dc2' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1269">在方法 'ThisAddIn.GetEmrBlock(string)' 中，'dc3' 对象未按所有异常路径释放。请在对 'dc3' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1270">在方法 'ThisAddIn.GetEmrBlock(string)' 中，'dc4' 对象未按所有异常路径释放。请在对 'dc4' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetInf(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="896">在方法 'ThisAddIn.GetInf(string)' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="897">在方法 'ThisAddIn.GetInf(string)' 中，请在对 'dst1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPatientData(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="608">在方法 'ThisAddIn.GetPatientData(string)' 中，请在对 'dst' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#killWordProcess()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1738">'ThisAddIn.killWordProcess()' 调入具有 LinkDemand 的 'Process.GetProcesses()'。通过此调用，'Process.GetProcesses()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'&#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1738">'ThisAddIn.killWordProcess()' 调入具有 LinkDemand 的 'Process.Id.get()'。通过此调用，'Process.Id.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'&#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1738">'ThisAddIn.killWordProcess()' 调入具有 LinkDemand 的 'Process.Kill()'。通过此调用，'Process.Kill()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'&#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1738">'ThisAddIn.killWordProcess()' 调入具有 LinkDemand 的 'Process.Modules.get()'。通过此调用，'Process.Modules.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'&#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1738">'ThisAddIn.killWordProcess()' 调入具有 LinkDemand 的 'ProcessModule.ModuleName.get()'。通过此调用，'ProcessModule.ModuleName.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'&#xD;&#xA;   -&gt;'ThisAddIn.killWordProcess()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ShowMessage(System.String,System.Double,EmrConstant.MsgTpe)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1193">在方法 'ThisAddIn.ShowMessage(string, double, MsgTpe)' 中，请在对 'emsg' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WebError(System.Exception)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1256">在方法 'ThisAddIn.WebError(Exception)' 中，请在对 'msg' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlDepartWriter()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1524">在方法 'ThisAddIn.xmlDepartWriter()' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlDoctorNameWriter()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1504">在方法 'ThisAddIn.xmlDoctorNameWriter()' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlDoctorWriter()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1491">在方法 'ThisAddIn.xmlDoctorWriter()' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlPatientWriter(System.String,System.Windows.Forms.TreeView,System.Int32,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="95">在方法 'ThisAddIn.xmlPatientWriter(string, TreeView, int, string)' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlPatientWriterQL(System.String,System.Int32,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="113">在方法 'ThisAddIn.xmlPatientWriterQL(string, int, string)' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlPatternWriter()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1534">在方法 'ThisAddIn.xmlPatternWriter()' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1538">在方法 'ThisAddIn.xmlPatternWriter()' 中，'writers' 对象未按所有异常路径释放。请在对 'writers' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#xmlPicGalleryWriter()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="ThisAddIn.cs" Line="1564">在方法 'ThisAddIn.xmlPicGalleryWriter()' 中，'writer' 对象未按所有异常路径释放。请在对 'writer' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Trust" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LoadDoctorList()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Set" File="Trust.cs" Line="51">可以在方法 'Trust.LoadDoctorList()' 中多次释放对象 'reader'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 51</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ValidDocumentException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">将 [Serializable] 添加到 'ValidDocumentException'，原因是此类型实现了 ISerializable。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ValuateNow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ValuateNow_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="291">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，'Content' 对象未按所有异常路径释放。请在对 'Content' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="293">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，'GLMC' 对象未按所有异常路径释放。请在对 'GLMC' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="284">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，'KF' 对象未按所有异常路径释放。请在对 'KF' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="286">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，'MC' 对象未按所有异常路径释放。请在对 'MC' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="289">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，'SZF' 对象未按所有异常路径释放。请在对 'SZF' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="281">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，'dgvComboBoxColumn' 对象未按所有异常路径释放。请在对 'dgvComboBoxColumn' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\NewQC" File="ValuateNow.cs" Line="274">在方法 'ValuateNow.ValuateNow_Load(object, EventArgs)' 中，请在对 'dt1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ValuateScore" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AbsenceNotes(System.Xml.XmlNode,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="ValuateScore.cs" Line="640">在方法 'ValuateScore.AbsenceNotes(XmlNode, string)' 中，请在对 'absenceNotes' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AbsenceNotes(System.Xml.XmlNode,System.Xml.XmlNode)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="ValuateScore.cs" Line="265">在方法 'ValuateScore.AbsenceNotes(XmlNode, XmlNode)' 中，请在对 'absenceNotes' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnSave_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="ValuateScore.cs" Line="458">在方法 'ValuateScore.btnSave_Click(object, EventArgs)' 中，请在对 'opd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="ValuateScore.cs" Line="818">在方法 'ValuateScore.button2_Click(object, EventArgs)' 中，请在对 'opd' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetData(System.Boolean,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="ValuateScore.cs" Line="673">在方法 'ValuateScore.GetData(bool, string)' 中，'dtScore' 对象未按所有异常路径释放。请在对 'dtScore' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Right" File="ValuateScore.cs" Line="669">在方法 'ValuateScore.GetData(bool, string)' 中，请在对 'oService' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Welcome" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.GetCurrentProcess()'。通过此调用，'Process.GetCurrentProcess()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.GetProcesses()'。通过此调用，'Process.GetProcesses()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.Id.get()'。通过此调用，'Process.Id.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.Kill()'。通过此调用，'Process.Kill()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.MainModule.get()'。通过此调用，'Process.MainModule.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.Modules.get()'。通过此调用，'Process.Modules.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.Start()'。通过此调用，'Process.Start()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'Process.StartInfo.get()'。通过此调用，'Process.StartInfo.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'ProcessModule.FileName.get()'。通过此调用，'ProcessModule.FileName.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'ProcessModule.ModuleName.get()'。通过此调用，'ProcessModule.ModuleName.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'ProcessStartInfo.Arguments.set(string)'。通过此调用，'ProcessStartInfo.Arguments.set(string)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="25">'Welcome.Welcome(bool)' 调入具有 LinkDemand 的 'ProcessStartInfo.FileName.set(string)'。通过此调用，'ProcessStartInfo.FileName.set(string)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckClient()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="110">'Welcome.CheckClient()' 调入具有 LinkDemand 的 'Process.GetCurrentProcess()'。通过此调用，'Process.GetCurrentProcess()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.CheckClient()'&#xD;&#xA;   -&gt;'Welcome.CheckClient()'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="110">'Welcome.CheckClient()' 调入具有 LinkDemand 的 'Process.Kill()'。通过此调用，'Process.Kill()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.CheckClient()'&#xD;&#xA;   -&gt;'Welcome.CheckClient()'&#xD;&#xA;   -&gt;'Welcome.Welcome(bool)'</Issue>
+            </Message>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="130">可以在方法 'Welcome.CheckClient()' 中多次释放对象 'conn'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 130</Issue>
+            </Message>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="120">在方法 'Welcome.CheckClient()' 中，请在对 'dtPermission' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="118">传递给 'Welcome.CheckClient()' 中的 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' 的查询字符串可能包含以下变量 'this.ini.ReadValue("Permission", "SubSystemID")', 'ClientIP'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Connect(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="102">在方法 'Welcome.Connect(string)' 中，'conn' 对象未按所有异常路径释放。请在对 'conn' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadData()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="398">可以在方法 'Welcome.LoadData()' 中多次释放对象 'this'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 398</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnPaint(System.Windows.Forms.PaintEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="190">在方法 'Welcome.OnPaint(PaintEventArgs)' 中，请在对 'new Font("宋体", 9F)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WndProc(System.Windows.Forms.Message&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="137">'Welcome.WndProc(ref Message)' 调入具有 LinkDemand 的 'Form.WndProc(ref Message)'。通过此调用，'Form.WndProc(ref Message)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="137">'Welcome.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.LParam.get()'。通过此调用，'Message.LParam.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="137">'Welcome.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.Msg.get()'。通过此调用，'Message.Msg.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="137">'Welcome.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.Result.get()'。通过此调用，'Message.Result.get()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="137">'Welcome.WndProc(ref Message)' 调入具有 LinkDemand 的 'Message.Result.set(IntPtr)'。通过此调用，'Message.Result.set(IntPtr)' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'&#xD;&#xA;   -&gt;'Welcome.WndProc(ref Message)'</Issue>
+            </Message>
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Name="BaseOnly" Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="Welcome.cs" Line="137">向 'Welcome.WndProc(ref Message)' 添加下列安全特性以匹配基方法 'Form.WndProc(ref Message)' 上的 LinkDemand: [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WordContainer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#DrawMenuBar(System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.DrawMenuBar(int)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">如代码中所声明的，P/Invoke 'WordContainer.DrawMenuBar(int)' 的参数 'hWnd' 在 64 位 平台上的字节宽度将为 4。这是不正确的，因为此 API 的实际本机声明表明该参数在 64 位 平台上的字节宽度应为 8。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 'int'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindWindow(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.FindWindow(string, string)'。</Issue>
+            </Message>
+            <Message Id="return" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="Return" Certainty="95" Level="Error">如代码中所声明的，P/Invoke 'WordContainer.FindWindow(string, string)' 的返回类型在 64 位 平台上的字节宽度将为 4。这是不正确的，因为此 API 的实际本机声明表明该返回类型在 64 位 平台上的字节宽度应为 8。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 'int'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'strclassName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+            <Message Id="1" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="ParameterImplicitAnsi" Certainty="75" Level="Error">为了降低安全风险，请将参数 'strWindowName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetMenuItemCount(System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.GetMenuItemCount(int)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">如代码中所声明的，P/Invoke 'WordContainer.GetMenuItemCount(int)' 的参数 'hMenu' 在 64 位 平台上的字节宽度将为 4。这是不正确的，因为此 API 的实际本机声明表明该参数在 64 位 平台上的字节宽度应为 8。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 'int'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetSystemMenu(System.Int32,System.Boolean)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.GetSystemMenu(int, bool)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MoveWindow(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.MoveWindow(int, int, int, int, int, bool)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RemoveMenu(System.Int32,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.RemoveMenu(int, int, int)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetParent(System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.SetParent(int, int)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetWindowPos(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'WordContainer.SetWindowPos(int, int, int, int, int, int, uint)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WordInstanceException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">将 [Serializable] 添加到 'WordInstanceException'，原因是此类型实现了 ISerializable。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WordToHTML" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#removeMSTarget(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="WordToHTML.cs" Line="114">可以在方法 'WordToHTML.removeMSTarget(string)' 中多次释放对象 'fs'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 114</Issue>
+             <Issue Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="WordToHTML.cs" Line="133">可以在方法 'WordToHTML.removeMSTarget(string)' 中多次释放对象 'fs'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 133</Issue>
+            </Message>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="WordToHTML.cs" Line="110">在方法 'WordToHTML.removeMSTarget(string)' 中，请在对 'fs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0" File="WordToHTML.cs" Line="128">在方法 'WordToHTML.removeMSTarget(string)' 中，请在对 'fs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="EMR.BA">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LoadFlaws(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\BA" File="Form1.cs" Line="25">在方法 'Form1.LoadFlaws(string)' 中，请在对 'ds1' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\BA" File="Form1.cs" Line="26">在方法 'Form1.LoadFlaws(string)' 中，请在对 'ds2' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\BA" File="Form1.cs" Line="27">在方法 'Form1.LoadFlaws(string)' 中，请在对 'ds3' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\BA" File="Form1.cs" Line="28">在方法 'Form1.LoadFlaws(string)' 中，请在对 'ds4' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\BA" File="Form1.cs" Line="29">在方法 'Form1.LoadFlaws(string)' 中，请在对 'ds5' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="EMR.Prints">
+       <Types>
+        <Type Name="ContiPrint" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitPrint()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="ContiPrint.cs" Line="374">在方法 'ContiPrint.InitPrint()' 中，请在对 'pc' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DocPrintHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#moveTIF(System.String,System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DocPrintHelper.cs" Line="484">在方法 'DocPrintHelper.moveTIF(string, string, int)' 中，'fs' 对象未按所有异常路径释放。请在对 'fs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="DocPrintHelper.cs" Line="501">在方法 'DocPrintHelper.moveTIF(string, string, int)' 中，'fs' 对象未按所有异常路径释放。请在对 'fs' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UserInterface">
+       <Types>
+        <Type Name="PrintSetup" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnOn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="204">在方法 'PrintSetup.btnOn_Click(object, EventArgs)' 中，请在对 'pr' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="212">在方法 'PrintSetup.btnOn_Click(object, EventArgs)' 中，请在对 'pr' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="221">在方法 'PrintSetup.btnOn_Click(object, EventArgs)' 中，请在对 'pr' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDefaultPrinter()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="CallGetLastErrorImmediatelyAfterPInvoke" Category="Microsoft.Interoperability" CheckId="CA1404" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="64">方法 'PrintSetup.GetDefaultPrinter()' 调用了 GetLastWin32Error，但位于 'Marshal.GetLastWin32Error()' 紧前面的调用不是 P/Invoke 语句。请移动对 GetLastWin32Error 的调用，使它紧接在相关的平台 invoke 调用之后。</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="58">方法 'PrintSetup.GetDefaultPrinter()' 调用了 GetLastWin32Error，但位于 'object.ToString()' 紧前面的调用不是 P/Invoke 语句。请移动对 GetLastWin32Error 的调用，使它紧接在相关的平台 invoke 调用之后。</Issue>
+            </Message>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="41">'PrintSetup.GetDefaultPrinter()' 调入具有 LinkDemand 的 'Marshal.GetLastWin32Error()'。通过此调用，'Marshal.GetLastWin32Error()' 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: &#xD;&#xA;   -&gt;'PrintSetup.GetDefaultPrinter()'&#xD;&#xA;   -&gt;'PrintSetup.GetDefaultPrinter()'&#xD;&#xA;   -&gt;'PrintSetup.GetPrintName()'&#xD;&#xA;   -&gt;'PrintSetup.PrintSetup(Application)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDefaultPrinter(System.Text.StringBuilder,System.Int32&amp;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'PrintSetup.GetDefaultPrinter(StringBuilder, ref int)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="75" Level="Error">为了降低安全风险，请将参数 'pszBuffer' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode 或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或与系统相关的编码，请设置 BestFitMapping=false；为了提高安全性，还可以设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPrinterInfo(System.String,System.String&amp;,System.String&amp;,System.String&amp;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="116">在方法 'PrintSetup.getPrinterInfo(string, ref string, ref string, ref string)' 中，请在对 'searchPrinters' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LQInitPrint()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\CSharp\emr 静海\emr 静海\EMRWS2.0\Prints" File="PrintSetup.cs" Line="287">在方法 'PrintSetup.LQInitPrint()' 中，请在对 'pc' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetDefaultPrinter(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 'PrintSetup.SetDefaultPrinter(string)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2018-03-22 18:34:42Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="75" Level="Error">为了降低安全风险，请将参数 'printerName' 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode 或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或与系统相关的编码，请设置 BestFitMapping=false；为了提高安全性，还可以设置 ThrowOnUnmappableChar=true。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="CallGetLastErrorImmediatelyAfterPInvoke" Category="Microsoft.Interoperability" CheckId="CA1404">
+   <Name>紧接在 P/Invoke 之后调用 GetLastError</Name>
+   <Description>由于运行时本身调用了 P/Invoke，因此，通过托管调用可以重置上一个 Win32 错误。为了确保 GetLastWin32Error 返回正确的值，请将对它的调用放在代码中相关的平台 invoke 调用的紧后面。</Description>
+   <Resolution Name="Default">方法 {0} 调用了 GetLastWin32Error，但位于 {1} 紧前面的调用不是 P/Invoke 语句。请移动对 GetLastWin32Error 的调用，使它紧接在相关的平台 invoke 调用之后。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182199(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>不要使用链接请求间接公开方法</Name>
+   <Description>不要使用不执行安全性检查的方法来包装受 LinkDemand 保护的方法。LinkDemand 检查直接调用方的权限而不是调用堆栈中所有调用方的权限。在这种情况下，将检查包装方法的权限。如果包装方法本身不检查调用堆栈中位置较高的调用方的权限，则尽管恶意代码没有足够的权限，但它仍可能能够执行被包装的函数。</Description>
+   <Resolution Name="Default">{0} 调入具有 LinkDemand 的 {1}。通过此调用，{1} 被间接公开给用户代码。检查以下可能公开避开安全保护的方法的调用堆栈: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>正确实现 ISerializable</Name>
+   <Description>如果可将类型赋给 ISerializable，则它应实现 GetObjectData。对于非密封类型，其派生类型应可以调用和重写 GetObjectData 方法。</Description>
+   <Resolution Name="Default">向类型 {0} 中添加对 GetObjectData 的实现。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>用 SerializableAttribute 标记 ISerializable 类型</Name>
+   <Description>System.Runtime.Serialization.ISerializable 接口允许该类型自定义自身的序列化，而 Serializable 特性使运行时能够将该类型识别为可序列化的类型。</Description>
+   <Resolution Name="Default">将 [Serializable] 添加到 {0}，原因是此类型实现了 ISerializable。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>将 P/Invoke 移动到 NativeMethods 类</Name>
+   <Description>此类型包含具有 DllImport 特性的成员。具有 DllImport 特性的成员应包含在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中。</Description>
+   <Resolution Name="Default">由于是 P/Invoke 方法，因此，应在名为 NativeMethods、SafeNativeMethods 或 UnsafeNativeMethods 的类中定义 {0}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123">
+   <Name>重写链接请求应与基相同</Name>
+   <Description>在很多情况下，如果一个虚方法具有 LinkDemand，则它的任何重写方法都应具有 LinkDemand，同样，如果一个重写方法具有 LinkDemand，则被重写的虚方法也应具有 LinkDemand。由于调用方可能显式调用虚方法的任何重写方法，因此这些方法应具有相同的 LinkDemand 状态，否则应检查它们。由于调用方可能使用接口类型的引用来访问方法，因此上述规则也适用于对属于接口实现的方法进行的 LinkDemand 安全性检查。</Description>
+   <Resolution Name="BaseOnly">向 {0} 添加下列安全特性以匹配基方法 {1} 上的 LinkDemand: {2}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182305(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901">
+   <Name>P/Invoke 声明应为可移植声明</Name>
+   <Description>.</Description>
+   <Resolution Name="Parameter">如代码中所声明的，P/Invoke {1} 的参数 {0} 在 {3} 平台上的字节宽度将为 {2}。这是不正确的，因为此 API 的实际本机声明表明该参数在 {3} 平台上的字节宽度应为 {4}。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 {5}。</Resolution>
+   <Resolution Name="Return">如代码中所声明的，P/Invoke {0} 的返回类型在 {2} 平台上的字节宽度将为 {1}。这是不正确的，因为此 API 的实际本机声明表明该返回类型在 {2} 平台上的字节宽度应为 {3}。请参考 MSDN Platform SDK 文档来获取帮助，确定应使用哪种数据类型来代替 {4}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182284(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="portabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400">
+   <Name>P/Invoke 入口点应该存在</Name>
+   <Description>使用 DLLImport 特性修饰的方法应指向现有的非托管入口点。任何编译时检查都无法确保那些使用 DLLImportAttribute 特性修饰的方法在所引用的非托管 dll 中实际存在。如果入口点不存在或指定的参数列表不正确，则会生成运行时异常。</Description>
+   <Resolution Name="Default">更正 {0} 的声明，使它正确地指向 {1} 中的现有入口点。当前链接到的非托管入口点的名称是 {2}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182208(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalWarning</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401">
+   <Name>P/Invokes 应该是不可见的</Name>
+   <Description>互操作层不应该是公共的。DllImport 特性不应该应用于可公开访问的成员(公共成员或受保护的成员)。</Description>
+   <Resolution Name="Default">更改 P/Invoke {0} 的可访问性，使它在自己的程序集外部不再是可见的。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182209(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101">
+   <Name>指定对 P/Invoke 字符串参数进行封送处理</Name>
+   <Description>在将字符串封送为 ANSI (在 Win9x 上为 Auto)时，某些字符可能会改变。如果启用了最佳匹配映射，则采用 Unicode 编码时显示样式不同的字符串将封送到相同的 ANSI 字符串，这可能会导致错误的安全决策。禁用最佳匹配映射会降低此风险，因为所有没有等效项的字符都将映射到“?”。另外，请注意，CharSet.Ansi 是所有字符串的默认封送设置；Unicode 封送必须显式指定为 DllImport 或 StructLayout 的 CharSet 设置，或者指定为具有 Unicode (或与系统相关的) UnmanagedType 的 MarshalAs 特性。</Description>
+   <Resolution Name="Parameter">为了降低安全风险，请将参数 {0} 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode 或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或与系统相关的编码，请设置 BestFitMapping=false；为了提高安全性，还可以设置 ThrowOnUnmappableChar=true。</Resolution>
+   <Resolution Name="ParameterImplicitAnsi">为了降低安全风险，请将参数 {0} 封送为 Unicode，方法是将 DllImport.CharSet 设置为 CharSet.Unicode，或者将该参数显式封送为 UnmanagedType.LPWStr。如果您需要将该字符串封送为 ANSI 或者与系统相关的编码，请显式指定 MarshalAs，并设置 BestFitMapping=false；为了提高安全性，还应设置 ThrowOnUnmappableChar=true。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182319(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>具有可释放字段的类型应该是可释放的</Name>
+   <Description>声明可释放成员的类型也应实现 IDisposable。如果该类型没有任何非托管资源，请不要在其上实现终结器。</Description>
+   <Resolution Name="DependsOnFix">在 {0} 上实现 IDisposable，因为它创建下列 IDisposable 类型的成员: {1}。如果以前提供过 {0}，对于现有使用者来说，向此类型添加用于实现 IDisposable 的新成员属于重大更改。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>不要多次释放对象</Name>
+   <Description>可以多次调用正确实现的 Dispose 方法，而不会引发异常。但是，并不保证所有情况下都会如此。若要避免生成 System.ObjectDisposedException，您不应对一个对象多次调用 Dispose。</Description>
+   <Resolution Name="Default">可以在方法 {1} 中多次释放对象 {0}。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 51</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>丢失范围之前释放对象</Name>
+   <Description>如果在对某个可释放对象的所有引用超出范围之前未显式释放该对象，则当垃圾回收器运行该对象的终结器时，会在某个不确定时间释放该对象。由于可能会发生阻止该对象的终结器运行的意外事件，因此应改为显式释放该对象。</Description>
+   <Resolution Name="ExceptionEdge">在方法 {0} 中，{1} 对象未按所有异常路径释放。请在对 {1} 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Resolution>
+   <Resolution Name="NonExceptionEdge">在方法 {0} 中，请在对 {1} 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>检查 SQL 查询是否存在安全漏洞</Name>
+   <Description>通过用户输入生成的 SQL 命令字符串容易受到 SQL 注入式攻击。Microsoft SQL Server 和其他数据库服务器支持存储过程和参数化 SQL 查询，这将降低受到注入式攻击的风险。</Description>
+   <Resolution Name="WithNonLiterals">传递给 {1} 中的 {0} 的查询字符串可能包含以下变量 {2}。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+ <Exceptions>
+  <Exception Keyword="CA0060" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>未能找到间接引用的程序集“log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821”。此程序集不是分析所必需的，但是分析结果可能不完整。此程序集已由 E:\CSharp\emr 静海\emr 静海\Libraries\iTrusDotNetCertAPI.dll 引用。</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0060" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>未能找到间接引用的程序集“Novell.Directory.Ldap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1b2a2a081313eb22”。此程序集不是分析所必需的，但是分析结果可能不完整。此程序集已由 E:\CSharp\emr 静海\emr 静海\Libraries\iTrusDotNetCertAPI.dll 引用。</ExceptionMessage>
+  </Exception>
+  <Exception Keyword="CA0060" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>未能找到间接引用的程序集“BouncyCastle.Crypto, Version=1.2.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942”。此程序集不是分析所必需的，但是分析结果可能不完整。此程序集已由 E:\CSharp\emr 静海\emr 静海\Libraries\iTrusDotNetCertAPI.dll 引用。</ExceptionMessage>
+  </Exception>
+ </Exceptions>
+</FxCopReport>

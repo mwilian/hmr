@@ -1,0 +1,52 @@
+16:19:07	[日志记录开始] 123456789
+16:30:46	[日志记录开始] 123456789
+16:38:25	[日志记录开始] 123456789
+16:44:54	[日志记录开始] 123456789
+16:47:44	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1334
+16:49:06	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1334
+16:50:58	[EX9134474888] Protect 方法或属性无效因为文档已受保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为文档已受保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1334
+17:02:04	[日志记录开始] 123456789
+17:03:07	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 1334
+17:16:33	[日志记录开始] 123456789
+17:23:42	[日志记录开始] 123456789
+17:32:30	[日志记录开始] 123456789
+17:45:19	[日志记录开始] 123456789
+17:46:43	[EX961052979] 列“病历率”不属于表 Table。>>System.ArgumentException: 列“病历率”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 EMR.CSelectP.GetNewReport(DataTable dt) 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 247
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2754
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2534
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 138
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+17:47:35	[日志记录开始] 123456789
+17:50:09	[日志记录开始] 123456789
+17:50:34	[EX961052979] 集合所要求的成员不存在。>>System.Runtime.InteropServices.COMException (0x800A1735): 集合所要求的成员不存在。
+   在 Microsoft.Office.Interop.Word.Table.Cell(Int32 Row, Int32 Column)
+   在 EMR.CSelectP.GetNewReport(DataTable dt) 位置 E:\61\EMR\EMRWS2.0\Select\CSelectP.cs:行号 156
+   在 EMR.MainForm._Cselect() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2754
+   在 EMR.MainForm._EditDoc() 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 2534
+   在 EMR.MainForm.loadFileFinished(Document doc) 位置 E:\61\EMR\EMRWS2.0\MainForm.cs:行号 138
+   在 EMR.WordContainer.Navigate(String filename) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 526
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4) 位置 E:\61\EMR\EMRWS2.0\WordContainer.cs:行号 472
+   在 EMR.MainForm.NewWordDoc() 位置 E:\61\EMR\EMRWS2.0\EmrTaskPane3.cs:行号 418
+17:58:42	[日志记录开始] 123456789
+18:07:26	[日志记录开始] 123456789
+18:09:19	[日志记录开始] 123456789
+18:10:10	[EX99852674456] 未将对象引用设置到对象的实例。>>System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EMR.ThisAddIn.OptionValue(XmlNode options, String optionName) 位置 E:\61\EMR\EMRWS2.0\ThisAddIn.cs:行号 716
+   在 EMR.ThisAddIn.CanOption(String ElementNames) 位置 E:\61\EMR\EMRWS2.0\ThisAddIn3.cs:行号 485
+   在 EMR.ThisAddIn.GetDoctors() 位置 E:\61\EMR\EMRWS2.0\ThisAddIn.cs:行号 972
+18:16:22	[日志记录开始] 123456789
+18:29:23	[日志记录开始] 123456789
+18:40:32	[日志记录开始] 123456789

@@ -1,0 +1,74 @@
+10:57:32	[日志记录开始] 123456789
+12:36:39	[EX9225145659827] System.Web.Services.Protocols.SoapException: 服务器无法读取请求。 ---> System.InvalidOperationException: XML 文档(1, 304)中有错误。 ---> System.InvalidOperationException: 实例验证错误:“AllPatientName”不是 QueryMode 的有效值。
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read2_QueryMode(String s)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read155_QueryPatientList()
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer300.Deserialize(XmlSerializationReader reader)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   在 System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()>>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法读取请求。 ---> System.InvalidOperationException: XML 文档(1, 304)中有错误。 ---> System.InvalidOperationException: 实例验证错误:“AllPatientName”不是 QueryMode 的有效值。
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read2_QueryMode(String s)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read155_QueryPatientList()
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer300.Deserialize(XmlSerializationReader reader)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   在 System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.QueryPatientList(QueryMode mode, String criteria, Boolean inStyle) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2948
+   在 EMR.ThisAddIn.GetPatientsList(QueryMode mode, String criteria) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\ThisAddIn.cs:行号 679
+12:36:51	[EX9225145659827] System.Web.Services.Protocols.SoapException: 服务器无法读取请求。 ---> System.InvalidOperationException: XML 文档(1, 304)中有错误。 ---> System.InvalidOperationException: 实例验证错误:“AllPatientName”不是 QueryMode 的有效值。
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read2_QueryMode(String s)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read155_QueryPatientList()
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer300.Deserialize(XmlSerializationReader reader)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   在 System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()>>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法读取请求。 ---> System.InvalidOperationException: XML 文档(1, 304)中有错误。 ---> System.InvalidOperationException: 实例验证错误:“AllPatientName”不是 QueryMode 的有效值。
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read2_QueryMode(String s)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read155_QueryPatientList()
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer300.Deserialize(XmlSerializationReader reader)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   在 System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   在 System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.QueryPatientList(QueryMode mode, String criteria, Boolean inStyle) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2948
+   在 EMR.ThisAddIn.GetPatientsList(QueryMode mode, String criteria) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\ThisAddIn.cs:行号 679
+12:42:39	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.DocProtectManager.protect(Document myDoc) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\DocProtectManager.cs:行号 32
+   在 EMR.DocProtectManager.protectSave(Document myDoc) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\DocProtectManager.cs:行号 39
+12:49:34	[EX9134474788] Unprotect 方法或属性无效因为已解除文档保护>>System.Runtime.InteropServices.COMException (0x800A11FD): Unprotect 方法或属性无效因为已解除文档保护
+   在 Microsoft.Office.Interop.Word.DocumentClass.Unprotect(Object& Password)
+   在 EMR.MainForm.UnProtectDoc() 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\MainForm.cs:行号 1349
+12:50:08	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.DocProtectManager.protect(Document myDoc) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\DocProtectManager.cs:行号 32
+   在 EMR.DocProtectManager.protectSave(Document myDoc) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\DocProtectManager.cs:行号 39
+12:54:19	[日志记录开始] 123456789
+14:11:41	[日志记录开始] 123456789
+14:19:11	[EX9225145659827] 操作超时>>System.Net.WebException: 操作超时
+   在 System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.QueryPatientList(QueryMode mode, String criteria, Boolean inStyle) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\Web References\gjtEmrPatients\Reference.cs:行号 2948
+   在 EMR.ThisAddIn.GetPatientsList(QueryMode mode, String criteria) 位置 C:\Users\Administrator\Desktop\静海20130517\emr\EMRWS2.0\ThisAddIn.cs:行号 679

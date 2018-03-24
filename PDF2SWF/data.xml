@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data count="1" textcount="25">
+    <language nametext="Chinese">
+	<str>上一页 - PageUp键</str>
+	<str>下一页 - PageDown键</str>
+	<str>首页 - Home键</str>
+	<str>最后一页 - End键</str>
+	<str>放大</str>
+	<str>缩小</str>
+	<str>初始大小</str>
+	<str>打印</str>
+	<str>关于...</str>
+	<str>声音 关</str>
+	<str>声音 开</str>
+	<str>全屏</str>
+	<str>退出全屏</str>
+	<str>Flash Player 在全屏模式下不支持键盘输入。</str>
+	<str>缩略图</str>
+	<str>共享</str>
+	<str>标题:</str>
+	<str>作者:</str>
+	<str>Copy URL</str>
+	<str>超酷的翻页FLASH, 要和大家分享.</str>
+	<str>各位, 看看这个超酷的翻页Flash电子书吧.</str>
+	<str>让您的生活变得低碳, 放弃纸质书,享受在线阅读的的乐趣.</str>
+	<str>您可能会对这个Flash翻页电子书感兴趣 </str>
+	<str>下载 PDF</str>
+	<str>目录</str>
+    </language>
+</data>

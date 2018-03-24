@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{617323B0-CDD6-4488-A53D-66FD85AB5220}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserInterface</RootNamespace>
+    <AssemblyName>UserInterface</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\Libraries\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="HuronControl">
+      <HintPath>..\Libraries\HuronControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSXML2">
+      <HintPath>..\Libraries\Interop.MSXML2.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmrNoteInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmrNoteInfo.designer.cs">
+      <DependentUpon>EmrNoteInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emr_Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emr_Message.designer.cs">
+      <DependentUpon>Emr_Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindPatient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FindPatient.designer.cs">
+      <DependentUpon>FindPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FontSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FontSetting.designer.cs">
+      <DependentUpon>FontSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetTime.designer.cs">
+      <DependentUpon>GetTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="icd10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="icd10.designer.cs">
+      <DependentUpon>icd10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MergeNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MergeNotes.designer.cs">
+      <DependentUpon>MergeNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpDone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpDone.designer.cs">
+      <DependentUpon>OpDone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patient.designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInfo.designer.cs">
+      <DependentUpon>PatientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatternList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatternList.designer.cs">
+      <DependentUpon>PatternList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrase.designer.cs">
+      <DependentUpon>Phrase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrinterManager.cs" />
+    <Compile Include="PrintInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintInfo.designer.cs">
+      <DependentUpon>PrintInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryPatient.designer.cs">
+      <DependentUpon>QueryPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDepartment.designer.cs">
+      <DependentUpon>SelectDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetBlocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetBlocks.designer.cs">
+      <DependentUpon>SetBlocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetPhrase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPhrase.designer.cs">
+      <DependentUpon>SetPhrase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Symbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Symbol.designer.cs">
+      <DependentUpon>Symbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableInfo.designer.cs">
+      <DependentUpon>TableInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateName.designer.cs">
+      <DependentUpon>TemplateName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uncommit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uncommit.designer.cs">
+      <DependentUpon>Uncommit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EmrNoteInfo.resx">
+      <DependentUpon>EmrNoteInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emr_Message.resx">
+      <DependentUpon>Emr_Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindPatient.resx">
+      <DependentUpon>FindPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontSetting.resx">
+      <DependentUpon>FontSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetTime.resx">
+      <DependentUpon>GetTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icd10.resx">
+      <DependentUpon>icd10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MergeNotes.resx">
+      <DependentUpon>MergeNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpDone.resx">
+      <DependentUpon>OpDone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInfo.resx">
+      <DependentUpon>PatientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatternList.resx">
+      <DependentUpon>PatternList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrase.resx">
+      <DependentUpon>Phrase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintInfo.resx">
+      <DependentUpon>PrintInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QueryPatient.resx">
+      <DependentUpon>QueryPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDepartment.resx">
+      <DependentUpon>SelectDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetBlocks.resx">
+      <DependentUpon>SetBlocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPhrase.resx">
+      <DependentUpon>SetPhrase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Symbol.resx">
+      <DependentUpon>Symbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableInfo.resx">
+      <DependentUpon>TableInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateName.resx">
+      <DependentUpon>TemplateName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uncommit.resx">
+      <DependentUpon>Uncommit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLib\CommonLib.csproj">
+      <Project>{B2B1DA4D-6C61-4A36-B0B8-A22180F8A208}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YES.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

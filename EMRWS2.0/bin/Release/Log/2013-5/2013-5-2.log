@@ -1,0 +1,69 @@
+13:28:21	[日志记录开始] 123456789
+13:34:29	[EX961052979] System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write107_ValuateNowPSSelectKsResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer205.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 --->>System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无法序列化 DataTable。未设置 DataTable 名称。
+   在 System.Data.DataTable.WriteXmlSchema(XmlWriter writer, Boolean writeHierarchy)
+   在 System.Data.DataTable.System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer)
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteSerializable(IXmlSerializable serializable, String name, String ns, Boolean isNullable, Boolean wrapped)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriter1.Write107_ValuateNowPSSelectKsResponse(Object[] p)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer205.Serialize(Object objectToSerialize, XmlSerializationWriter writer)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle)
+   在 System.Web.Services.Protocols.SoapServerProtocol.WriteReturns(Object[] returnValues, Stream outputStream)
+   在 System.Web.Services.Protocols.WebServiceHandler.WriteReturns(Object[] returnValues)
+   在 System.Web.Services.Protocols.WebServiceHandler.Invoke()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 EMR.gjtEmrPatients.emrPatients.ValuateNowPSSelectKs(String item1, String item2, String departID)
+   在 EMR.CSelectP.GetDataNew()
+   在 EMR.MainForm._Cselect()
+   在 EMR.MainForm._EditDoc()
+   在 EMR.MainForm.loadFileFinished(Document doc)
+   在 EMR.WordContainer.Navigate(String filename)
+   在 EMR.WordContainer.Navigate(String filename, Object& obj1, Object& obj2, Object& obj3, Object& obj4)
+   在 EMR.MainForm.NewWordDoc()
+13:37:12	[日志记录开始] 123456789
+17:15:29	[日志记录开始] 123456789
+17:18:35	[日志记录开始] 123456789
+17:19:03	[现在时间] 12013-05-02 17:17
+17:19:03	[现在时间] 22013-05-02 17:17
+17:19:03	[现在时间] 4:2013-05-02 17:17
+17:19:03	[现在时间] 5:OK
+17:19:04	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+17:24:46	[现在时间] 12013-05-02 17:23
+17:24:46	[现在时间] 22013-05-02 17:23
+17:24:46	[现在时间] 4:2013-05-02 17:23
+17:24:46	[现在时间] 5:OK
+17:24:47	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+17:25:12	[现在时间] 12013-05-02 17:23
+17:25:12	[现在时间] 22013-05-02 17:23
+17:25:12	[现在时间] 4:2013-05-02 17:23
+17:25:12	[现在时间] 5:OK
+17:25:12	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
+17:25:24	[现在时间] 12013-05-02 17:23
+17:25:24	[现在时间] 22013-05-02 17:23
+17:25:24	[现在时间] 4:2013-05-02 17:23
+17:25:24	[现在时间] 5:OK
+17:25:24	[EX9134474888] Protect 方法或属性无效因为该文档被锁定，无法编辑。>>System.Runtime.InteropServices.COMException (0x800A11FD): Protect 方法或属性无效因为该文档被锁定，无法编辑。
+   在 Microsoft.Office.Interop.Word.DocumentClass.Protect(WdProtectionType Type, Object& NoReset, Object& Password, Object& UseIRM, Object& EnforceStyleLock)
+   在 EMR.MainForm.ProtectDoc()
